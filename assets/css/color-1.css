@@ -1,0 +1,180 @@
+/*------------------------------
+    01. START FONT COLOR
+------------------------------*/
+
+body {
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.section-title h3,
+.why-us h3,
+.main-features .one-feature h5,
+.recent-news .recent-news-slider .item h3,
+.download-app h2,
+.git-in-touch .contact-info .info-box h5,
+.git-in-touch .contact-info .info-box a,
+.blog-page .blog-box .blog-details h3 a,
+aside.sidebar .categories ul li a,
+aside.sidebar .recent-post .post h4 a,
+aside.sidebar .tags ul li a,
+.single-blog-page .blog-box .blog-details h3 {
+    color: #303952;
+}
+
+/*------------------------------
+    01. END FONT COLOR
+------------------------------*/
+
+/*------------------------------
+    02. START MAIN COLOR
+------------------------------*/
+.themes-colors span,
+.preloader,
+.btn-theme.btn-colord:before,
+.background-withcolor,
+.foxapp-header.sticky,
+.foxapp-header .dropdown-menu .dropdown-item:hover,
+.foxapp-header .dropdown-menu .dropdown-item.active,
+.clients-testimonial .testimonial-slider .item .client-testimonial,
+.clients-testimonial .testimonial-slider .slick-dots li.slick-active button,
+.prices .price-table .bottom,
+.prices .price-table .top .offer,
+.our-team .team-slider .slick-dots li.slick-active button,
+.recent-news .recent-news-slider .slick-dots li.slick-active button,
+.faq .accordion .card .card-header h5 .btn.collapsed,
+nav .pagination .page-item.active .page-link,
+aside.sidebar .gray-panel h3:after {
+    background: #04264F;
+}
+
+@media (max-width: 992px) {
+    .foxapp-header {
+        background: #04264F;
+    }
+}
+
+.foxapp-header.sticky{
+    background: #ffffff;
+}
+
+.text-custom-primary{
+    color:#2EAF7D!important;
+}
+
+.text-gradient{
+    background: linear-gradient(180deg, #1773D1 8%, #04264F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding-bottom: 5px;
+}
+
+a,
+.btn-white,
+.lnr,
+.section-title h3 span,
+.other-features .other-features-slider .item h4,
+.clients-testimonial .testimonial-slider .item .client-info h3,
+.fun-facts .fact-box h5,
+.fun-facts .fact-box h6,
+.prices .price-table .top h4,
+.prices .price-table .top h3,
+.prices .price-table .top h5,
+.our-team .team-slider .person h3,
+footer .subscribe .subscribe-form h4,
+.blog-page .blog-box:hover .blog-details h3 a,
+.single-blog-page .blog-box .post-tag-area ul li a:hover,
+.comments-container .comments-list li .reply:hover {
+    color: #04264F;
+}
+
+.main-features .features-circle:before,
+.clients-testimonial .testimonial-slider .item .client-info figure,
+.faq .accordion,
+.faq .accordion .card .card-header h5:after,
+.git-in-touch .form-group .form-control,
+footer .subscribe .subscribe-form .form-group .form-control,
+aside.sidebar .search .form-group .form-control,
+.single-blog-page .blog-box .blog-details blockquote,
+.comments-form .form-group .form-control {
+    border-color: #04264F;
+}
+
+.bg-go-green{
+    background-color: #2EAF7D;
+    padding: 100px;
+}
+
+.bg-my-techanic {
+    background-color: #0A396F;
+    padding: 100px;
+}
+
+.bg-techanic-business {
+    background-color: #04264F;
+    padding: 100px;
+}
+
+.clients-testimonial .testimonial-slider .item .client-testimonial:after {
+    border-top-color: #04264F;
+}
+
+.features-circle svg circle {
+    stroke: #04264F;
+}
+
+.text-mytehcanic{
+    color: #1064bc;
+}
+
+.text-techanicbusiness{
+    color: #04264f;
+}
+
+.lity,
+.watch-video .video:before {
+    /* background: rgba(0, 205, 205, 0.7); */
+}
+
+.watch-video .video {
+    /* background-color: #2EAF7D; */
+}
+
+.watch-video .video.bg-none {
+    background-color: unset;
+}
+/*------------------------------
+    02. END MAIN COLOR
+------------------------------*/
+
+/*------------------------------
+    03. START SECOND COLOR
+------------------------------*/
+.btn-theme,
+.btn-theme:hover,
+.boxes .box:after,
+.git-in-touch .form-group .form-control~.focus-border,
+aside.sidebar .search .form-group .form-control~.focus-border,
+.comments-form .form-group .form-control~.focus-border {
+    background: #202327;
+}
+.our-team .team-slider .person:hover h3,
+.our-team .team-slider .person ul li a,
+.boxes .box:hover .lnr,
+footer .copyright a:hover {
+    color: #202327;
+}
+
+.bg-blue{
+    background-color: #1064BC;
+}
+/*------------------------------
+    03. END SECOND COLOR
+------------------------------*/

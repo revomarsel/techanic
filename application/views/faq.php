@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <section id="main-bg" class="watch-video padding-100 potition-relative" style="background: url(assets/img/bg.png);">
         <div class="container video mx-5">
-            <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+            <a href="http://www.youtube.com/watch?v=XSGBVzeBUbk" data-lity></a>
             <div class="section-title text-white" data-aos="fade-zoom-in">
                 <div class="space-25"></div>
                 <span class="badge badge-light mb-2">Tujuan Kita</span>

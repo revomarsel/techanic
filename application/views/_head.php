@@ -10,7 +10,7 @@
     <title>My TECHANIC Platform pencarian tempat reparasi / service mudah & terpercaya | TECHANIC Business Platform manajemen transaksi untuk alat elektronik   </title>
 
     <!-- Favicon -->
-    <link rel="icon" href="<?= base_url() ?>assets/img/my-techanic-logo-hitam.png">
+    <link rel="icon" href="<?= base_url() ?>assets/img/favicon.png">
     <!-- Bootstrap CSS -->
     <link href="<?= base_url() ?>assets/css/bootstrap.min.css" rel="stylesheet">
 
@@ -53,9 +53,22 @@
     <header class="foxapp-header">
         <nav class="navbar navbar-expand-lg navbar-light" id="foxapp_menu">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="<?= base_url() ?>assets/img/my-techanic-logo-putih.png" class="white img-fluid" alt="">
-                    <img src="<?= base_url() ?>assets/img/my-techanic-logo-hitam.png" class="black img-fluid" alt="">
+                <?php
+                    $logoBlack = 'logo-techanic-general-black.png';
+                    $logoWhite = 'logo-techanic-general.png';
+                    if($this->input->get('title',true) == 'my-techanic'){
+                        $logoBlack = 'my-techanic-logo-hitam.png';
+                        $logoWhite = 'my-techanic-logo-putih.png';
+                    }
+
+                    if($this->input->get('title',true) == 'techanic-business'){
+                        $logoBlack = 'techanic-business-logo-hitam.png';
+                        $logoWhite = 'techanic-business-logo-putih.png';
+                    }
+                ?>
+                <a class="navbar-brand" href="<?= site_url() ?>">
+                    <img src="assets/img/<?= $logoWhite ?>" class="white img-fluid" alt="">
+                    <img src="assets/img/<?= $logoBlack ?>" class="black img-fluid" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_menu"
                     aria-controls="main_menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,32 +77,39 @@
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto navbar-nav col-md-10 justify-content-end" id="main_menu">
                         <li class="nav-item">
-                            <a class="nav-link anchor active" href="https://pikaler.id/demo-techanic/index.html">Home
+                            <a class="nav-link anchor active" href="<?= site_url() ?>">Home
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link anchor active" href="https://pikaler.id/demo-techanic/index.html">Product
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Product
                             </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item anchor" href="<?= site_url().'product?title=my-techanic' ?>">My TECHANIC</a>
+                                <a class="dropdown-item anchor" href="<?= site_url().'product?title=techanic-business' ?>">TECHANIC Business</a>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link anchor" href="https://pikaler.id/demo-techanic/about.html">About Us</a>
+                            <a class="nav-link anchor" href="<?= site_url().'about-us' ?>">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link anchor" href="https://pikaler.id/demo-techanic/join-a-team.html">Join a Team</a>
+                            <a class="nav-link anchor" href="<?= site_url().'join-a-team' ?>">Join a Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link anchor" href="https://pikaler.id/demo-techanic/faq.html">FAQ ?</a>
+                            <a class="nav-link anchor" href="<?= site_url().'faq' ?>">FAQ ?</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-globe mr-2"></i>ID
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item anchor" href="<?= site_url().'?lang=id-id' ?>">Bahasa Indonesia</a>
+                                <a class="dropdown-item anchor" href="<?= site_url().'?lang=en-id' ?>">English</a>
+                            </div>
                         </li>
                     </ul>
-                    <div class="collapse navbar-collapse" id="lang">
-                        <a href="#" class="switch-button mr-2 active" id="indo">
-                            <span>ID</span>
-                            <img src="<?= base_url() ?>assets/img/indo-square.png" class="img-fluid d-block mx-auto" alt="">
-                        </a>
-                        <a href="#" class="switch-button" id="eng">
-                            <span>EN</span>
-                        </a>
-                    </div>
                 </div>
             </div>
         </nav>

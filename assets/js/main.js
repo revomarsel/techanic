@@ -281,8 +281,12 @@
                 slidesToShow: 2,
                 dots: false,
                 infinite: true,
-                arrows: true,
+                arrows: false,
                 variableWidth: true,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                cssEase: 'linear',
                 centerPadding: '0',
                 responsive: [{
                         breakpoint: 1200,

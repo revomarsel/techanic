@@ -16,4 +16,42 @@ class Index extends CI_Controller {
 		$this->load->view('index');
 		$this->load->view('_footer');
 	}
+
+	public function product(){
+		$get = $this->input->get('title',true);
+		
+		$data['title'] = $this->title;
+
+		$this->load->view('_head',$data);
+		if($get === 'my-techanic'){
+			$this->load->view('my_techanic');
+		}else{
+			$this->load->view('techanic_business');
+		}
+		$this->load->view('_footer');
+	}
+
+	public function join_team(){
+		$data['title'] = $this->title;
+
+		$this->load->view('_head',$data);
+		$this->load->view('join_team');
+		$this->load->view('_footer');
+	}
+
+	public function about_us(){
+		$data['title'] = $this->title;
+
+		$this->load->view('_head',$data);
+		$this->load->view('about');
+		$this->load->view('_footer');
+	}
+
+	public function faq(){
+		$data['title'] = $this->title;
+
+		$this->load->view('_head',$data);
+		$this->load->view('faq');
+		$this->load->view('_footer');
+	}
 }

@@ -179,6 +179,10 @@ footer .copyright a:hover {
 .bg-dark-blue{
     background-color: #042143;
 }
+
+.bg-dark{
+    background-color: #101820!important;
+}
 /*------------------------------
     03. END SECOND COLOR
 ------------------------------*/

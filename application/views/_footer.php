@@ -20,9 +20,8 @@
                                     <img src="<?= base_url() ?>assets/img/alamat techanic.png" class="img-icon" alt="">
                                 </div>
                                 <p>
-                                    Epicentrum Walk Lt. 3 Unit A3060307,
-                                    Kawasan Rasyna Karet Kuningan, Setia Budi,
-                                    Jakarta Selatan, DKI Jakarta
+                                Epicentrum Walk Lt. 3 Unit A306-307,
+                                Kawasan Rasuna Karet Kuningan, Setia Budi, Jakarta Selatan, DKI Jakarta.
                                 </p>
                             </div>
                             <div class="row mt-2">
@@ -103,6 +102,19 @@
             position: "right",
         });
       });
+        $( document ).ready(function() {
+            setTimeout(function() { 
+                $('#showInformation').modal('show');
+            }, 5000);
+        });
+        $(document).scroll(function() {
+            var y = $(this).scrollTop();
+            if (y > 300) {
+                $('#Whatsapp').fadeIn();
+            } else {
+                $('#Whatsapp').fadeOut();
+            }
+        });
     </script>
     
     <!-- Bootstrap JS -->

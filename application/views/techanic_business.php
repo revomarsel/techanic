@@ -1,30 +1,20 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-
-<style>
-        .bg-primary-pengusaha{
-            background: url('assets/img/bg-techanic business.png') no-repeat center center/cover!important;
-            background-size: 100% 100%!important;
-            margin: 20px;
-        }
-        .bg-primary-pengusaha .content-bottom {
-            padding-top: 160px;
-            position: relative;
-            z-index: 1;
-            height: 700px;
-            /* height: 850px; */
-            /* height: 790px; */
+    <style>
+        .slide-user > div {
+            opacity: 0;
+            visibility: hidden;
         }
     </style>
-
+    <?php $this->load->view('_modal'); ?>
     <!-- Start Header -->
     <section id="slide" class="slide background-withcolor bg-primary-pengusaha">
         <div class="content-bottom">
             <div class="container potition-relative">
                 <div class="row mx-0">
                     <div class="col-md-10 mt-4 pl-0 slide-user">
-                        <div id="pengusaha" class="row mx-0">
+                        <div id="pengusaha" class="row mx-0 active">
                             <div class="col-md-8 pl-0 section-title">
                                 <h3 class="text-white">Kita Pionir ! Mengembangkan <br>
                                     Industri Reparasi Indonesia</h3>
@@ -37,29 +27,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     <div class="col-md-5">
                                         <p data-aos="zoom-in" data-aos-delay="100" class="icon-pengusaha mb-3 line-height-0 d-flex text-white">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17">Kelola Banyak Cabang</span>
+                                            <span class="mt-11px d-block font-size-17 text-white">Kelola Banyak Cabang</span>
                                         </p>
                                         <p data-aos="zoom-in" data-aos-delay="200" class="icon-pengusaha mb-3 line-height-0 d-flex text-white">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17">Dashboard Owner</span>
+                                            <span class="mt-11px d-block font-size-17 text-white">Dashboard Owner</span>
                                         </p>
                                         <p data-aos="zoom-in" data-aos-delay="300" class="icon-pengusaha mb-3 line-height-0 d-flex text-white">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17">QR Smart System</span>
+                                            <span class="mt-11px d-block font-size-17 text-white">QR Smart System</span>
                                         </p>
                                     </div>
                                     <div class="col-md-5">
                                         <p data-aos="zoom-in" data-aos-delay="100" class="icon-pengusaha mb-3 line-height-0 d-flex text-white">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17">Kelola Karyawan</span>
+                                            <span class="mt-11px d-block font-size-17 text-white">Kelola Karyawan</span>
                                         </p>
                                         <p data-aos="zoom-in" data-aos-delay="200" class="icon-pengusaha mb-3 line-height-0 d-flex text-white">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17">Cek Prestasi Karyawan</span>
+                                            <span class="mt-11px d-block font-size-17 text-white">Cek Prestasi Karyawan</span>
                                         </p>
                                         <p data-aos="zoom-in" data-aos-delay="300" class="icon-pengusaha mb-3 line-height-0 d-flex text-white">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17">Analisa Performa Usaha</span>
+                                            <span class="mt-11px d-block font-size-17 text-white">Analisa Performa Usaha</span>
                                         </p>
                                     </div>
                                 </div>
@@ -77,6 +67,70 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="col-md-4 pr-0">
                                 <img data-aos="fade-right"  data-aos-delay="100" src="assets/img/user-techanic-business.png" class="img-fluid d-block mx-auto img-pengusaha" alt="">
+                            </div>
+                        </div>
+                        <div id="teknisi" class="row mx-0">
+                            <div class="col-md-8 pl-0">
+                                <h2>Pembaruan Platform Teknisi <br>
+                                    Kerja Tim Lebih Rapi & Solid</h2>
+                                <div class="row mt-4">
+                                    <div class="col-md-3">
+                                        <p data-aos-delay="100" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
+                                            <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
+                                            <span class="mt-11px d-block font-size-17 text-white">Checklist QC</span>
+                                        </p>
+                                        <p data-aos-delay="200" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
+                                            <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
+                                            <span class="mt-11px d-block font-size-17 text-white">Service Order</span>
+                                        </p>
+                                        <p data-aos-delay="300" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
+                                            <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
+                                            <span class="mt-11px d-block font-size-17 text-white">Kolaborasi</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p data-aos-delay="300" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
+                                            <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
+                                            <span class="mt-11px d-block font-size-17 text-white">QR Invoice</span>
+                                        </p>
+                                        <p data-aos-delay="500" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
+                                            <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
+                                            <span class="mt-11px d-block font-size-17 text-white">Split Pembayaran</span>
+                                        </p>
+                                        <p data-aos-delay="700" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
+                                            <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
+                                            <span class="mt-11px d-block font-size-17 text-white">SSO (Single Sign On)</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p data-aos-delay="300" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
+                                            <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
+                                            <span class="mt-11px d-block font-size-17 text-white">Catat Garansi</span>
+                                        </p>
+                                        <p data-aos-delay="500" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
+                                            <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
+                                            <span class="mt-11px d-block font-size-17 text-white">Notifikasi By Wa</span>
+                                        </p>
+                                        <p data-aos-delay="700" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
+                                            <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
+                                            <span class="mt-11px d-block font-size-17 text-white">Notifikasi By Email</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="mb-2 mt-2 potition-relative text-white">Dan fitur unggulan lainya...</p>
+                                <div class="d-flex align-items-center mt-5 mb-2">
+                                    <div class="icon-group">
+                                        <img src="assets/img/UserGroups.png" class="img-fluid" style="width: 25px;">
+                                    </div>
+                                    <p class="mb-0 text-white">
+                                        <b>1000+ Teknisi Sudah</b> <br>
+                                        Go digital bersama TECHANIC Business
+                                    </p>
+                                </div>
+                                <a href="#" class="btn btn-primary  mt-4 shadow font-size-13"><span>Minta Demo Aplikasi </span></a>
+                            </div>
+                            <div class="col-md-4 pl-0 pr-0">
+                                <img data-aos="flip-right"  data-aos-anchor-placement="center-center" src="assets/img/ilustration-side-teknisi.png" class="remove-class img-fluid d-block img-teknisi mx-auto" alt="">
                             </div>
                         </div>
                     </div>

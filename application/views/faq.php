@@ -2,138 +2,229 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
-<!-- Start Header -->
-<section id="slide" class="slide background-withcolor bg-primary-customer">    
-    </section>
-    <!-- End Header -->
-
-    <section id="main-bg" class="watch-video padding-100 potition-relative" style="background: url(assets/img/bg.png);">
-        <div class="container video mx-5">
-            <a href="http://www.youtube.com/watch?v=XSGBVzeBUbk" data-lity></a>
-            <div class="section-title text-white" data-aos="fade-zoom-in">
-                <div class="space-25"></div>
-                <span class="badge badge-light mb-2">Tujuan Kita</span>
-                <h3 class="text-white">
-                    Membangun Pembiasaan Kecil <br>
-                    Berdampak Positif Untuk<br>
-                    Generasi Anak Cucu Kita 
-                </h3>
-                <div class="space-25"></div>
-                <p><b>Techanic</b> berkomitmen memberikan solusi dan kontribusi <br>
-                    terhadap isu krisis sampah elektronik
-                </p>
-                <p>Mari ambil bagian dalam proses pemulihan & pembaruan.</p>
-            </div>
-        </div>
-        <img src="assets/img/right-slider.png" class="img-fluid" style="width: 650px;height: 100%;object-fit: cover;position: absolute;right: 0;top: 0;">
-    </section>
-
-    <div class="space-50"></div>
-    <section id="cara-kerja" class="boxes padding-100">
+<section id="about" class="why-us padding-100 background-fullwidth"
+        style="background-image: url(assets/img/bg-faq.png);height: 700px;align-items: center;display: flex;">
         <div class="container">
-            <div class="text-center section-title">
-                <h3>Bersama Techanic <br>
-                    Membangun Solusi Jangka Panjang</h3>
-                    <div class="space-25"></div>
-                <img src="assets/img/icon-r3.png" class="img-fluid" alt="">
-            </div>
-            <div class="space-100"></div>
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-4 col-12">
-                    <div class="box" data-aos="fade-up">
-                        <div class="space-20"></div>
-                        <img src="assets/img/ilustrasi-edukasi.png" class="img-fluid width-img-md" alt="">
-                        <div class="space-20"></div>
-                        <h3>Edukasi Pengguna <br> Teknologi</h3>
-                        <p>
-                            Pentingnya Sustainability. membeli perangkat sesuai kebutuhan sesuai masa pakai yang dianjurkan. <br><br>
-                            jika bermasalah prioritaskan memperbaiki dari pada beli perangkat baru
-                        </p>
-                    </div>
+                <div class="col-md-12 text-center" data-aos="fade-zoom-in" data-aos-delay="200">
+                    <h3 class="text-white">Cari Tau Apa Yang Menjadi <br> Kesulitan anda</h3>
+                    <div class="space-50"></div>
+                    <form class="subscribe-form row m-0">
+                        <div class="col-lg-5 col-md-8 offset-md-3 text-left">
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control form-faq" placeholder="Ketik disini">
+                            </div>
+                            <a href="#" class="btn w-auto font-size-12 btn-mytechanic">
+                                <img src="assets/img/my-techanic-logo-putih.png" class="white img-fluid" alt="">
+                            </a>
+                            <a href="#" class="btn font-size-12 btn-techanic-business active">TECHANIC Business</a>
+                        </div>
+                        <div class="col-md-2 text-left pl-0">
+                            <a href="#" class="btn btn-primary shadow">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-md-4 col-12">
-                    <div class="box" data-aos="fade-up">
-                        <div class="space-20"></div>
-                        <img src="assets/img/ilustrasi-traking-order.png" class="img-fluid width-img-md" alt="">
-                        <div class="space-20"></div>
-                        <h3>Cari Tempat Service di My TECHANIC</h3>
-                        <p>
-                            Platform ini memudahkan customer dalam menemukan tempat service terpercaya. <br><br> serta menyediakan dashbord eksklusif untuk tracking order, claim garansi & histori transaksi
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-2"></div>
-                <div class="col-md-4 col-12">
-                    <div class="box" data-aos="fade-up">
-                        <div class="space-20"></div>
-                        <img src="assets/img/ilustrasi-smart-qr.png" class="img-fluid width-img-md" alt="">
-                        <div class="space-20"></div>
-                        <h3>Transaksi Masa Depan <br> dengan SmartQR</h3>
-                        <p>
-                            Rekanan usaha reparasi <br> yang sudah terdaftar dalam <br> <b>TECHANIC Business.</b> <br>  menjalankan proses transaksi tanpa menggunakan kertas, <br> dan 
-                            melayani dengan metode terbaru
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12">
-                    <div class="box" data-aos="fade-up">
-                        <div class="space-20"></div>
-                        <img src="assets/img/ilustrasi-win.png" class="img-fluid width-img-md" alt="">
-                        <div class="space-20"></div>
-                        <h3>Yes, Kita Berhasil</h3>
-                        <p>
-                            Anda, teknisi & toko reparasi <br> sudah melalui transaksi masa depan. <br> mengurangi penggunaan kertas sebagai <br> dukungan program GO Green. <br> serta efesiensi dalam melakukan transaksi offline
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-2"></div>
             </div>
         </div>
     </section>
     
-    <section id="manfaat-mytechanic" class="padding-150 background-fullwidth background-fixed bg-blue" >
+    <section id="faq" class="faq padding-100">
         <div class="container">
-            <div class="row">
-                <div class="col-md-5 aos-init aos-animate" data-aos="fade-up">
-                    <div class="section-title" style="position: -webkit-sticky; /* Safari */position: sticky;top: 200px">
-                        <span class="badge badge-light">Produk</span>
-                        <h3 class="text-white mt-3">
-                            Membagikan manfaat <br> dalam platform unggulan.
-                        </h3>
-                    </div>
-                </div>
-                <div class="col-md-7 section-title aos-init aos-animate" data-aos="fade-zoom-in">
-                    <div class="row produk-info bg-white mb-4">
-                        <div class="col-md-6">
-                            <img src="assets/img/my-techanic-logo-hitam.png" class="logo img-fluid" alt="">
-                            <p class="font-weight-normal">
-                                Produk Unggulan Untuk Customer
-                                Memudahkan pencarian tempat raparasi, Tracking Order, Hingga menyimpan histori transaksi.untuk saat ini platform My TECHANIC Hanya tersedia untuk web
-                            </p>
-                            <a href="#" class="btn btn-primary">Kunjungi Halaman</a>
+            <div class="row align-items-center">
+                <!--align-items-center-->
+                <div class="col-md-12 col-12" data-aos="fade-right">
+                    <h3 class=" text-center title">Paling Sering Ditanya <br> Client Techanic Business</h3>
+                    <div class="space-50"></div>
+                    <div class="accordion" id="faqAccordion">
+                        <div class="card shadow">
+                            <div class="card-header" id="heading_1">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        data-target="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
+                                        Bagaimana cara mendaftar akun ke Techanic Business ?
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapse_1" class="collapse show" aria-labelledby="heading_1"
+                                data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
+                                    commodi, totam atque fugit ut magnam laboriosam
+                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
+                                    accusamus!
+                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
+                                    dicta
+                                    commodi,
+                                    totam atque fugit ut magnam.
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <img src="assets/img/my-techanic-ilustration.png" class="right img-fluid" alt="">
+                        <div class="card shadow">
+                            <div class="card-header" id="heading_2">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">
+                                        Data apa saja yang perlu diisi di setting awal?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapse_2" class="collapse" aria-labelledby="heading_2"
+                                data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
+                                    commodi, totam atque fugit ut magnam laboriosam
+                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
+                                    accusamus!
+                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
+                                    dicta
+                                    commodi,
+                                    totam atque fugit ut magnam.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row produk-info bg-white">
-                        <div class="col-md-6">
-                            <img src="assets/img/techanic-business-logo-hitam.png" class="logo img-fluid" alt="">
-                            <p class="font-weight-normal">
-                                Membantu Pengusaha dan Teknisi dalam Pelayanan Profesional
-                                Melalui TECHANIC Business, Kita berkomitmen menciptakan cara kerja yang effesien dan membantu dalam pengembangan usaha.
-                            </p>
-                            <a href="#" class="btn btn-primary">Kunjungi Halaman</a>
+                        <div class="card shadow">
+                            <div class="card-header" id="heading_3">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapse_3" aria-expanded="false" aria-controls="collapse_3">
+                                        Bagaimana Cara Menambahkan Cabang Usaha ?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapse_3" class="collapse" aria-labelledby="heading_3"
+                                data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
+                                    commodi, totam atque fugit ut magnam laboriosam
+                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
+                                    accusamus!
+                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
+                                    dicta
+                                    commodi,
+                                    totam atque fugit ut magnam.
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <img src="assets/img/techanic-business-ilustration.png" class="right img-fluid" alt="">
+                        <div class="card shadow">
+                            <div class="card-header" id="heading_4">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapse_4" aria-expanded="false" aria-controls="collapse_4">
+                                        Bagaimana cara melihat performa karyawan ?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapse_4" class="collapse" aria-labelledby="heading_4"
+                                data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
+                                    commodi, totam atque fugit ut magnam laboriosam
+                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
+                                    accusamus!
+                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
+                                    dicta
+                                    commodi,
+                                    totam atque fugit ut magnam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <div class="card-header" id="heading_5">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapse_5" aria-expanded="false" aria-controls="collapse_5">
+                                        Bagaimana cara membuat transaksi ?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapse_5" class="collapse" aria-labelledby="heading_5"
+                                data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
+                                    commodi, totam atque fugit ut magnam laboriosam
+                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
+                                    accusamus!
+                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
+                                    dicta
+                                    commodi,
+                                    totam atque fugit ut magnam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <div class="card-header" id="heading_6">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapse_6" aria-expanded="false" aria-controls="collapse_6">
+                                        Bagaimana cara export laporan kedalam excel ?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapse_6" class="collapse" aria-labelledby="heading_6"
+                                data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
+                                    commodi, totam atque fugit ut magnam laboriosam
+                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
+                                    accusamus!
+                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
+                                    dicta
+                                    commodi,
+                                    totam atque fugit ut magnam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <div class="card-header" id="heading_7">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapse_7" aria-expanded="false" aria-controls="collapse_7">
+                                        Apakah pemilik usaha dapat mengambil alih order dari teknisi yang tidak masuk ?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapse_7" class="collapse" aria-labelledby="heading_7"
+                                data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
+                                    commodi, totam atque fugit ut magnam laboriosam
+                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
+                                    accusamus!
+                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
+                                    dicta
+                                    commodi,
+                                    totam atque fugit ut magnam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <div class="card-header" id="heading_8">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapse_9" aria-expanded="false" aria-controls="collapse_9">
+                                        Siapa pemilik data pelanggan yang terdaftar di Techanic Business ?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapse_9" class="collapse" aria-labelledby="heading_8"
+                                data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
+                                    commodi, totam atque fugit ut magnam laboriosam
+                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
+                                    accusamus!
+                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
+                                    dicta
+                                    commodi,
+                                    totam atque fugit ut magnam.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <div class="space-100"></div>

@@ -1,15 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-
-<style>
-        .bg-primary-customer{
-            background: url('assets/img/bg-mytechanic.png') no-repeat center center/cover!important;
-            background-size: 100% 100%!important;
-            margin: 20px;
-        }
-    </style>
-
     <!-- Start Header -->
     <section id="slide" class="slide background-withcolor bg-primary-customer">
         <div class="content-bottom">

@@ -2,11 +2,6 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
-<!-- Start Header -->
-<section id="slide" class="slide background-withcolor bg-primary-customer">    
-    </section>
-    <!-- End Header -->
-
     <section id="main-bg" class="watch-video padding-100 potition-relative" style="background: url(assets/img/bg.png);">
         <div class="container video mx-5">
             <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
@@ -26,6 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </div>
         <img src="assets/img/right-slider.png" class="img-fluid" style="width: 650px;height: 100%;object-fit: cover;position: absolute;right: 0;top: 0;">
+        <a class="text-white" style="position: absolute;right: 80px;bottom: 30px;" data-toggle="modal" data-target="#showBlog" href="#">CARI TAU APA YANG TERJADI PADA BUMI KITA ? <img src="assets/img/right.png" class="img-fluid small-icon ml-2"></a>
     </section>
 
     <div class="space-50"></div>
@@ -82,9 +78,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="space-20"></div>
                         <img src="assets/img/ilustrasi-win.png" class="img-fluid width-img-md" alt="">
                         <div class="space-20"></div>
-                        <h3>Yes, Kita Berhasil</h3>
+                        <h3>Yess, Kita Berhasil !</h3>
                         <p>
-                            Anda, teknisi & toko reparasi <br> sudah melalui transaksi masa depan. <br> mengurangi penggunaan kertas sebagai <br> dukungan program GO Green. <br> serta efesiensi dalam melakukan transaksi offline
+                            Anda, teknisi & toko reparasi <br> sudah melalui transaksi masa depan. <br> mengurangi penggunaan kertas sebagai <br> dukungan program <b class="text-green">GO Green.</b> <br> serta efesiensi dalam melakukan transaksi offline
                         </p>
                     </div>
                 </div>
@@ -105,30 +101,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="col-md-7 section-title aos-init aos-animate" data-aos="fade-zoom-in">
-                    <div class="row produk-info bg-white mb-4">
+                    <div class="mx-0 row produk-info bg-white mb-4">
                         <div class="col-md-6">
-                            <img src="assets/img/my-techanic-logo-hitam.png" class="logo img-fluid" alt="">
-                            <p class="font-weight-normal">
-                                Produk Unggulan Untuk Customer
-                                Memudahkan pencarian tempat raparasi, Tracking Order, Hingga menyimpan histori transaksi.untuk saat ini platform My TECHANIC Hanya tersedia untuk web
-                            </p>
-                            <a href="#" class="btn btn-primary">Kunjungi Halaman</a>
+                            <div class="d-flex align-items-start flex-column" style="height: 355px;">
+                                <div class="mb-auto">
+                                    <img src="assets/img/my-techanic-logo-hitam.png" class="logo img-fluid mt-3" alt="">
+                                    <p class="font-weight-normal">
+                                        Produk Unggulan Untuk Customer
+                                        Memudahkan pencarian tempat raparasi, Tracking Order, Hingga menyimpan histori transaksi.untuk saat ini platform My TECHANIC Hanya tersedia untuk web
+                                    </p>
+                                </div>
+                                <a href="#" class="btn btn-primary">Kunjungi Halaman</a>
+                            </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="assets/img/my-techanic-ilustration.png" class="right img-fluid" alt="">
+                            <img src="assets/img/my-techanic-home.png" class="right img-fluid" alt="">
                         </div>
                     </div>
-                    <div class="row produk-info bg-white">
+                    <div class="mx-0 row produk-info bg-white">
                         <div class="col-md-6">
-                            <img src="assets/img/techanic-business-logo-hitam.png" class="logo img-fluid" alt="">
-                            <p class="font-weight-normal">
-                                Membantu Pengusaha dan Teknisi dalam Pelayanan Profesional
-                                Melalui TECHANIC Business, Kita berkomitmen menciptakan cara kerja yang effesien dan membantu dalam pengembangan usaha.
-                            </p>
-                            <a href="#" class="btn btn-primary">Kunjungi Halaman</a>
+                            <div class="d-flex align-items-start flex-column" style="height: 355px;">
+                                <div class="mb-auto">
+                                    <img src="assets/img/techanic-business-logo-hitam.png" class="logo img-fluid mt-3" alt="">
+                                    <p class="font-weight-normal">
+                                        Membantu Pengusaha dan Teknisi dalam Pelayanan Profesional
+                                        Melalui TECHANIC Business, Kita berkomitmen menciptakan cara kerja yang effesien dan membantu dalam pengembangan usaha.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn btn-primary">Kunjungi Halaman</a>
+                            </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="assets/img/techanic-business-ilustration.png" class="right img-fluid" alt="">
+                            <img src="assets/img/techanic-business-home.png" class="right img-fluid" alt="">
+
                         </div>
                     </div>
                 </div>
@@ -137,3 +142,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section>
 
     <div class="space-100"></div>
+
+    <?php $this->load->view('_modal_blog'); ?>

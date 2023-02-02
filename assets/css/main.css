@@ -455,7 +455,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 
 .btn-switch-user.active , .btn-switch-user:hover{
     background: #F5F5F5;
-    color: black;
+    color: black!important;
     font-weight: bold;
     padding: 0.875rem 0.85rem;
     -webkit-transition: all 0.3s ease;
@@ -478,7 +478,7 @@ footer .subscribe .subscribe-form-2 .form-group {
     margin-bottom: 10px;
     width: 100%;
     background: unset;
-    color: white;
+    color:white!important;
 }
 
 .img-slide-customer{
@@ -983,8 +983,21 @@ footer .subscribe .subscribe-form-2 .form-group {
 }
 
 .img-teknisi{
-    margin-top: -20px;
-    margin-left: -15px!important;
+    margin-top: -50px;
+    margin-left: 30px!important;
+    width: 75%;
+}
+
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.icon{
+    width: 50px;
+    margin-top: 20px;
 }
 
 .icon-group{
@@ -1019,6 +1032,10 @@ footer .subscribe .subscribe-form-2 .form-group {
     border-radius: 50%;
     font-size: 13px;
     margin-right: 9px;
+}
+
+.text-green{
+    color: #2EAF7D;
 }
 
 .img-pengusaha{
@@ -1371,8 +1388,53 @@ footer .subscribe .subscribe-form-2 .form-group {
 }
 
 .produk-info{
-    padding: 30px;
+    padding: 15px 5px;
     border-radius: 10px;
+}
+
+.floating-wpp{
+    display: none;
+    animation-duration: 2s;
+    animation-name: bounce-7;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: 5s;
+    animation-iteration-count: 2;
+}
+@keyframes bounce-7 {
+    0%   { transform: scale(1,1)      translateY(0); }
+    10%  { transform: scale(1.1,.9)   translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-70px); }
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    57%  { transform: scale(1,1)      translateY(-7px); }
+    64%  { transform: scale(1,1)      translateY(0); }
+    100% { transform: scale(1,1)      translateY(0); }
+}
+
+@media (min-width: 992px){
+    .modal-lg {
+        max-width: 1020px;
+    }
+}
+
+.modal-body > .close{
+    position: absolute;
+    right: -10px;
+    top: -15px;
+    color: black;
+    opacity: 1;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.modal-content {
+    border-radius: 1rem;
+}
+
+.small-icon{
+    width: 25px;
 }
 
 .produk-info a {
@@ -1950,6 +2012,37 @@ footer .subscribe .subscribe-form-2 .form-group {
 
 .my-techanic{
     background-color: white;
+}
+
+.arrow-animation{
+    animation: jumpInfinite 3.5s infinite;
+    position: absolute;
+}
+
+@keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 30px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+
+.rounded-30{
+    border-radius: 30px;
+}
+
+.rounded-30-top{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.rounded-30-bottom{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .card-join-us > .card-body{

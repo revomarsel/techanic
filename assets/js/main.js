@@ -73,12 +73,11 @@
                 $("#manfaat-techanic-business").css("display", "none");
                 $("#download-techanic-business").css("display", "none");
             }else{
-                $('#slide').removeClass('bg-primary-customer');
+                // $('#slide').removeClass('bg-primary-customer');
                 $("#manfaat-techanic-business").css("display", "block");
                 $("#download-techanic-business").css("display", "block");
                 $('.remove-class').removeClass('aos-animate');
                 $('.remove-class').removeClass('aos-init');
-                setTimeout(function() { AOS.refresh(); }, 500);
                 if(type === 'pengusaha'){
                     $('.img-bottom').removeClass('teknisi');
                     $('.img-pengusaha').addClass('aos-animate');
@@ -92,6 +91,7 @@
                 $('.navbar-brand > .white').attr('src','assets/img/techanic-business-logo-putih.png');
                 $('.img-bottom').addClass(type);
                 $('.slide-user').addClass(type);
+                setTimeout(function() { AOS.refresh(); }, 500);
             }
         });
 

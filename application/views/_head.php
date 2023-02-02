@@ -37,6 +37,26 @@
     <link href="<?= base_url() ?>assets/css/main.css" rel="stylesheet">
 
     <link id="themes_colors" href="<?= base_url() ?>assets/css/color-1.css" rel="stylesheet">
+    <style>
+        .bg-primary-customer{
+            background: url('assets/img/bg-mytechanic.png') no-repeat center center/cover!important;
+            background-size: 100% 100%!important;
+            margin: 20px;
+        }
+        .bg-primary-pengusaha{
+            background: url('assets/img/bg-techanic business.png') no-repeat center center/cover!important;
+            background-size: 100% 100%!important;
+            margin: 20px;
+        }
+        .bg-primary-pengusaha .content-bottom {
+            padding-top: 160px;
+            position: relative;
+            z-index: 1;
+            height: 700px;
+            /* height: 850px; */
+            /* height: 790px; */
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#main_menu" data-offset="70">
@@ -56,12 +76,14 @@
                 <?php
                     $logoBlack = 'logo-techanic-general-black.png';
                     $logoWhite = 'logo-techanic-general.png';
-                    if($this->input->get('title',true) == 'my-techanic'){
+                    $url = $this->uri->segment(1);
+                    $title_produk = $this->input->get('title',true);
+                    if($title_produk == 'my-techanic'){
                         $logoBlack = 'my-techanic-logo-hitam.png';
                         $logoWhite = 'my-techanic-logo-putih.png';
                     }
 
-                    if($this->input->get('title',true) == 'techanic-business'){
+                    if($title_produk == 'techanic-business'){
                         $logoBlack = 'techanic-business-logo-hitam.png';
                         $logoWhite = 'techanic-business-logo-putih.png';
                     }
@@ -77,11 +99,11 @@
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto navbar-nav col-md-10 justify-content-end" id="main_menu">
                         <li class="nav-item">
-                            <a class="nav-link anchor active" href="<?= site_url() ?>">Home
+                            <a class="nav-link anchor <?= $url == '' ? 'active': '' ?>" href="<?= site_url() ?>">Home
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggle <?= $url == 'product' ? 'active': '' ?>" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Product
                             </a>
@@ -91,13 +113,13 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link anchor" href="<?= site_url().'about-us' ?>">About Us</a>
+                            <a class="nav-link anchor <?= $url == 'about-us' ? 'active': '' ?>" href="<?= site_url().'about-us' ?>">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link anchor" href="<?= site_url().'join-a-team' ?>">Join a Team</a>
+                            <a class="nav-link anchor <?= $url == 'join-a-team' ? 'active': '' ?>" href="<?= site_url().'join-a-team' ?>">Join a Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link anchor" href="<?= site_url().'faq' ?>">FAQ ?</a>
+                            <a class="nav-link anchor <?= $url == 'faq' ? 'active': '' ?>" href="<?= site_url().'faq' ?>">FAQ ?</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"

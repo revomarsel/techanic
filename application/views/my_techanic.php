@@ -14,7 +14,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     Cari Tempat Service Terpercaya !
                                 </h2>
                                 <p data-aos="fade-right" data-aos-delay="200" class="font-size-17 text-white remove-class">
-                                   My TECHANIC, Platform mudah mencari lokasi <br> tempat reparasi dengan standar pekerjaan <br>
+                                   MyTechanic, Platform mudah mencari lokasi <br> tempat reparasi dengan standar pekerjaan <br>
                                    profesional dan bergaransi 👍
                                 </p>
                             </div>
@@ -96,7 +96,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </h3>
                         <div class="space-25"></div>
                         <p class="text-center font-weight-normal">
-                            Segala jenis tempat reparasi dapat di cari di aplikasi <br> <b>My Techanic</b>. pasti dikerjakan tenaga ahli dan berpengalaman.
+                            Segala jenis tempat reparasi dapat di cari di aplikasi <br> <b>MyTechanic</b>. pasti dikerjakan tenaga ahli dan berpengalaman.
                         </p>
                     </div>
                     <div class="col-md-12 aos-init aos-animate" data-aos="fade-up">
@@ -184,14 +184,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="text-center col-12 section-title-custom" data-aos="fade-zoom-in">
                     <p class="font-size-20">APA YANG MEREKA KATAKAN</p>
                     <h3>Client puas dengan layanan <br>
-                        My Techanic & Techanic Business</h3>
+                        MyTechanic & Techanic Business</h3>
                     <div class="space-50"></div>
                 </div>
                 <div class="col-12">
                     <div class="testimonial-slider" data-aos="fade-up">
                         <div class="item">
                                 <div>
-                                    <span class="badge badge-client">Profesional Services</span>
+                                    <span class="badge badge-client">Usaha Service </span>
                                 </div>
                                 <div class="px-md-5">
                                     <p class="text-center font-size-20 font-weight-400 mb-0 mt-2">“Tim semakin solid setelah pakai aplikasi Techanic 👏”</p>
@@ -234,7 +234,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="bg-preview-apps">
             <div class="row align-items-center mx-0">
                 <div class="col-md-5 pl-0 offset-md-1 text-white remove-class" data-aos="fade-zoom-in" data-aos-delay="500">
-                    <h3 class="text-white">Unduh TECHANIC Business Untuk Pelayanan Yang Lebih Profesional</h3>
+                    <h3 class="text-white">Unduh Techanic Business Untuk Pelayanan Yang Lebih Profesional</h3>
                         <p class="mt-5">Aplikasi bisa didapatkan melalui :</p>
                         <div class="row mx-0">
                             <div class="col-md-4 px-0">

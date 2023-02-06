@@ -15,12 +15,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-md-5 offset-md-1">
                     <div class="card card-join-us my-techanic">
                         <div class="card-body text-center">
-                            <img src="assets/img/my-techanic-logo-hitam.png" class="img-fluid" alt="">
+                            <img src="assets/img/my-techanic-logo-blue.png" class="img-fluid mytechanic" alt="">
                         </div>
                         <div class="card-hover">
                             <h3 class="text-white">Produk Unggulan Untuk Customer</h3>
                             <p class="text-white">
-                                Memudahkan pencarian tempat raparasi, Tracking Order, Hingga menyimpan histori transaksi. <br> untuk saat ini platform My TECHANIC Hanya tersedia untuk web
+                                Memudahkan pencarian tempat raparasi, Tracking Order, Hingga menyimpan histori transaksi. <br> untuk saat ini platform MyTechanic Hanya tersedia untuk web
                             </p>
                         </div>
                     </div>
@@ -28,12 +28,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-md-5">
                     <div class="card card-join-us business">
                         <div class="card-body text-center">
-                            <img src="assets/img/techanic-business-logo-hitam.png" class="img-fluid" alt="">
+                            <img src="assets/img/techanic-business-logo-blue.png" class="img-fluid techanic-business" alt="">
                         </div>
                         <div class="card-hover">
                             <h3 class="text-white">Membantu Pengusaha dan Teknisi dalam Pelayanan Profesional</h3>
                             <p class="text-white">
-                                Melalui TECHANIC Business, Kita berkomitmen menciptakan cara kerja yang effesien dan membantu dalam pengembangan usaha.
+                                Melalui Techanic Business, Kita berkomitmen menciptakan cara kerja yang effesien dan membantu dalam pengembangan usaha.
                             </p>
                         </div>
                     </div>

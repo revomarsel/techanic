@@ -6,9 +6,9 @@ class Index extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();		
-		$this->title = 'TECHANIC Start-up dari Indonesia yang mengembangkan platform My TECHANIC & TECHANIC Business guna mengembangkan ekosistem perbaikan yang lebih baik';
-		$this->titleMyTechanic = 'My TECHANIC Platform pencarian tempat reparasi / service mudah & terpercaya';
-		$this->titleTechanicBusiness = 'TECHANIC Business Platform manajemen transaksi untuk alat elektronik';
+		$this->title = 'Techanic | Recycle - Repair - Reuse';
+		$this->titleMyTechanic = 'MyTechanic Platform pencarian tempat reparasi / service mudah & terpercaya';
+		$this->titleTechanicBusiness = 'Techanic Business Platform manajemen transaksi jasa reparasi berbasis mobile';
 	}
 
 	public function index(){

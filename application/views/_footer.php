@@ -5,9 +5,9 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-12 pr-0">
                         <div class="widget">
-                            <img src="<?= base_url() ?>assets/img/logo-techanic-general.png" class="img-fluid" alt="">
+                            <img src="<?= base_url() ?>assets/img/logo-techanic-general-white.png" class="img-fluid" alt="">
                             <p class="font-size-16 mt-2 lh-30">
-                                TECHANIC adalah start-up dari Indonesia yang mengembangkan platform <b>My TECHANIC & TECHANIC Business</b> guna 
+                                Techanic adalah start-up dari Indonesia yang mengembangkan platform <b>MyTechanic & Techanic Business</b> guna 
                                 mengembangkan ekosistem perbaikan yang lebih baik
                             </p>
                         </div>
@@ -20,8 +20,9 @@
                                     <img src="<?= base_url() ?>assets/img/alamat techanic.png" class="img-icon" alt="">
                                 </div>
                                 <p>
-                                Epicentrum Walk Lt. 3 Unit A306-307,
-                                Kawasan Rasuna Karet Kuningan, Setia Budi, Jakarta Selatan, DKI Jakarta.
+                                    Epicentrum Walk Lt. 3 Unit A306-307, <br>
+                                    Kawasan Rasuna Karet Kuningan, Setiabudi <br>
+                                    Jakarta Selatan, DKI Jakarta
                                 </p>
                             </div>
                             <div class="row mt-md-2">
@@ -66,7 +67,7 @@
                 </div>
             </div>
         </div>
-        <div class="space-50"></div>
+        <div class="space-50 d-none-mobile"></div>
         <div class="copyright">
             <div class="container">
                 <div class="row align-items-center">

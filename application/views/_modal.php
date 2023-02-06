@@ -5,7 +5,7 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-        <img src="assets/img/popup.png" class="img-fluid">
+        <img src="assets/img/popup-new.png" class="img-fluid">
       </div>
     </div>
   </div>

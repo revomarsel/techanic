@@ -60,7 +60,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </div>
                                     <p class="mb-0 text-white font-size-15">
                                         <b>1000+ Usaha Reparasi</b> <br>
-                                        Mudah Ditemukan Customer My TECHANIC
+                                        Mudah Ditemukan Customer MyTechanic
                                     </p>
                                 </div>
                                 <a data-aos="zoom-in" data-aos-delay="400" href="#" class="btn btn-primary  mt-4 shadow font-size-13 btn-daftar"><span>Daftarkan Usaha Saya </span></a>
@@ -124,7 +124,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </div>
                                     <p class="mb-0 text-white">
                                         <b>1000+ Teknisi Sudah</b> <br>
-                                        Go digital bersama TECHANIC Business
+                                        Go digital bersama Techanic Business
                                     </p>
                                 </div>
                                 <a href="#" class="btn btn-primary  mt-4 shadow font-size-13"><span>Minta Demo Aplikasi </span></a>
@@ -149,12 +149,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row">
                 <div class="col-md-12 pl-md-5 section-title aos-init aos-animate" data-aos="fade-zoom-in">
                     <h3 class="text-center">
-                        My Techanic Platform Customer
+                        MyTechanic Platform Customer
                     </h3>
                     <div class="space-25"></div>
                     <p class="text-center font-weight-normal">
                         Buat customer lebih mudah mencari toko reparasi anda <br>
-                        dalam fitur <b>Marketplace My TECHANIC.</b> <br> 
+                        dalam fitur <b>Marketplace MyTechanic.</b> <br> 
                         fitur tracking order juga melengkapi aplikasi ini
                     </p>
                     <div class="w-100 text-center">
@@ -270,7 +270,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container">
             <div class="row">
                 <div class="col-md-12" data-aos="fade-zoom-in">
-                    <img src="assets/img/mini-banner.png" class="img-fluid img-indonesia" alt="">
+                    <img src="assets/img/mini-banner-new.png" class="img-fluid img-indonesia" alt="">
                 </div>
             </div>
         </div>
@@ -283,14 +283,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="text-center col-12 section-title-custom" data-aos="fade-zoom-in">
                     <p class="font-size-20">APA YANG MEREKA KATAKAN</p>
                     <h3>Client puas dengan layanan <br>
-                        My Techanic & Techanic Business</h3>
+                        MyTechanic & Techanic Business</h3>
                     <div class="space-50"></div>
                 </div>
                 <div class="col-12">
                     <div class="testimonial-slider" data-aos="fade-up">
                         <div class="item">
                                 <div>
-                                    <span class="badge badge-client">Profesional Services</span>
+                                    <span class="badge badge-client">Usaha Service</span>
                                 </div>
                                 <div class="px-md-5">
                                     <p class="text-center font-size-20 font-weight-400 mb-0 mt-2">“Tim semakin solid setelah pakai aplikasi Techanic 👏”</p>
@@ -333,7 +333,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="bg-preview-apps" style="background: url('assets/img/bgdownload.png') no-repeat center center/cover!important;">
             <div class="row align-items-center mx-0">
                 <div class="col-md-5 pl-0 offset-md-1 text-white order-xs-last" data-aos="fade-zoom-in" data-aos-delay="300">
-                    <h3 class="text-white">Unduh TECHANIC Business Untuk Pelayanan Yang Lebih Profesional</h3>
+                    <h3 class="text-white">Unduh Techanic Business Untuk Pelayanan Yang Lebih Profesional</h3>
                         <p class="mt-md-5 mt-2">Aplikasi bisa didapatkan melalui :</p>
                         <div class="row mx-0">
                             <div class="col-md-3 col-4 px-0">

@@ -53,7 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="space-20"></div>
                         <img src="assets/img/ilustrasi-traking-order.png" class="img-fluid width-img-md" alt="">
                         <div class="space-20"></div>
-                        <h3>Cari Tempat Service di My TECHANIC</h3>
+                        <h3>Cari Tempat Service di MyTechanic</h3>
                         <p>
                             Platform ini memudahkan customer dalam menemukan tempat service terpercaya. <br><br> serta menyediakan dashbord eksklusif untuk tracking order, claim garansi & histori transaksi
                         </p>
@@ -68,7 +68,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="space-20"></div>
                         <h3>Transaksi Masa Depan <br> dengan SmartQR</h3>
                         <p>
-                            Rekanan usaha reparasi <br> yang sudah terdaftar dalam <br> <b>TECHANIC Business.</b> <br>  menjalankan proses transaksi tanpa menggunakan kertas, <br> dan 
+                            Rekanan usaha reparasi <br> yang sudah terdaftar dalam <br> <b>Techanic Business.</b> <br>  menjalankan proses transaksi tanpa menggunakan kertas, <br> dan 
                             melayani dengan metode terbaru
                         </p>
                     </div>
@@ -105,10 +105,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="col-md-6">
                             <div class="d-flex align-items-start flex-column h-card">
                                 <div class="mb-auto">
-                                    <img src="assets/img/my-techanic-logo-hitam.png" class="logo img-fluid mt-3" alt="">
+                                    <img src="assets/img/my-techanic-logo-blue.png" class="logo img-fluid mt-3" alt="">
                                     <p class="font-weight-normal">
                                         Produk Unggulan Untuk Customer
-                                        Memudahkan pencarian tempat raparasi, Tracking Order, Hingga menyimpan histori transaksi.untuk saat ini platform My TECHANIC Hanya tersedia untuk web
+                                        Memudahkan pencarian tempat raparasi, Tracking Order, Hingga menyimpan histori transaksi.untuk saat ini platform MyTechanic Hanya tersedia untuk web
                                     </p>
                                 </div>
                                 <a href="#" class="btn btn-primary">Kunjungi Halaman</a>
@@ -122,10 +122,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="col-md-6">
                             <div class="d-flex align-items-start flex-column h-card">
                                 <div class="mb-auto">
-                                    <img src="assets/img/techanic-business-logo-hitam.png" class="logo img-fluid mt-3" alt="">
+                                    <img src="assets/img/techanic-business-logo-blue.png" class="logo techanic-business img-fluid mt-3" alt="">
                                     <p class="font-weight-normal">
                                         Membantu Pengusaha dan Teknisi dalam Pelayanan Profesional
-                                        Melalui TECHANIC Business, Kita berkomitmen menciptakan cara kerja yang effesien dan membantu dalam pengembangan usaha.
+                                        Melalui Techanic Business, Kita berkomitmen menciptakan cara kerja yang effesien dan membantu dalam pengembangan usaha.
                                     </p>
                                 </div>
                                 <a href="#" class="btn btn-primary">Kunjungi Halaman</a>

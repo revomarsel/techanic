@@ -478,6 +478,18 @@ footer .subscribe .subscribe-form-2 .form-group {
     margin-right: 10px;
 }
 
+.produk-info img.logo.techanic-business{
+    width: 150px;
+}
+
+.btn-switch-user.customer.active > img, .btn-switch-user.customer:hover > img {
+    background-color: #1064bc!important;
+}
+
+.btn-switch-user.active > img , .btn-switch-user:hover > img{
+    background-color: #04244b;
+}
+
 .btn-switch-user{
     border-radius: 10px;
     display: flex;
@@ -2011,15 +2023,21 @@ footer .subscribe .subscribe-form-2 .form-group {
 }
 
 .bg-techanic-business > div > img{
-    width: 250px;
+    width: 200px;
 }
 .card-join-us{
     height: 250px;
 }
 
-.card-join-us > .card-body > img{
+
+.card-join-us > .card-body > img.mytechanic{
     height: auto;
-    width: 230px;
+    width: 250px;
+}
+
+.card-join-us > .card-body > img.techanic-business{
+    height: auto;
+    width: 200px;
 }
 
 .card-join-us.business{
@@ -3393,7 +3411,7 @@ aside.sidebar .tags ul li {
     padding: 3rem;
 }
 .stiky-left{
-    position: -webkit-sticky; /* Safari */position: sticky;top: 200px
+    position: -webkit-sticky; /* Safari */position: sticky;top: 90px
 }
 .d-none-mobile{
     display: block;
@@ -3406,6 +3424,11 @@ aside.sidebar .tags ul li {
 }
 .business-right-img > img{
     width: 650px;height: 622px;object-fit: cover;border-radius: 0px 30px 30px 0px;
+}
+
+.floating-wpp .floating-wpp-button {
+    width: 55px!important;
+    height: 55px!important;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -3736,7 +3759,7 @@ aside.sidebar .tags ul li {
         padding: 25px 15px
     }
     .bg-techanic-business > div > img {
-        width: 180px;
+        width: 140px;
         margin-bottom: 25px;
     }
     .bg-my-techanic > div > img {
@@ -3872,8 +3895,8 @@ aside.sidebar .tags ul li {
         height: 20px;
     }
     .floating-wpp .floating-wpp-button{
-        width: 55px!important;
-        height: 55px!important;
+        width: 40px!important;
+        height: 40px!important;
     }
     #main-bg > a > img{
         width: 20px!important;
@@ -3955,6 +3978,16 @@ aside.sidebar .tags ul li {
     .foxapp-header .navbar .navbar-nav .nav-item>.nav-link:before {
         left: 15%;
         transform: translateX(-50%);
+    }
+    footer .footer-widgets .widget {
+        color: #fff;
+        margin-bottom: 1em;
+        margin-bottom: 5px;
+        margin-top: 30px;
+    }
+    footer .footer-widgets .widget ul {
+        display: flex;
+        text-align: center;
     }
 }
 

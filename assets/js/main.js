@@ -68,8 +68,8 @@
                 $('#slide').addClass('bg-primary-customer');
                 $('.img-bottom').removeClass('teknisi');
                 $('.img-bottom').removeClass('pengusaha');
-                $('.navbar-brand > .black').attr('src','assets/img/my-techanic-logo-hitam.png');
-                $('.navbar-brand > .white').attr('src','assets/img/my-techanic-logo-putih.png');
+                $('.navbar-brand > .black').attr('src','assets/img/my-techanic-logo-blue.png');
+                $('.navbar-brand > .white').attr('src','assets/img/my-techanic-logo-white.png');
                 $("#manfaat-techanic-business").css("display", "none");
                 $("#download-techanic-business").css("display", "none");
             }else{
@@ -87,8 +87,8 @@
                     $('.img-bottom').removeClass('pengusaha');
                     $('.icon-teknisi').addClass('aos-animate');
                 }
-                $('.navbar-brand > .black').attr('src','assets/img/techanic-business-logo-hitam.png');
-                $('.navbar-brand > .white').attr('src','assets/img/techanic-business-logo-putih.png');
+                $('.navbar-brand > .black').attr('src','assets/img/techanic-business-logo-blue.png');
+                $('.navbar-brand > .white').attr('src','assets/img/techanic-business-logo-white.png');
                 $('.img-bottom').addClass(type);
                 $('.slide-user').addClass(type);
                 setTimeout(function() { AOS.refresh(); }, 500);

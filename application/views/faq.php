@@ -16,9 +16,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="d-flex">
                                 <a href="#" class="btn w-auto font-size-12 btn-mytechanic">
-                                    <img src="assets/img/my-techanic-logo-putih.png" class="white img-fluid" alt="">
+                                    <img src="assets/img/my-techanic-logo-white.png" class="white img-fluid" alt="">
                                 </a>
-                                <a href="#" class="btn font-size-12 btn-techanic-business active">TECHANIC Business</a>
+                                <a href="#" class="btn font-size-12 btn-techanic-business active">Techanic Business</a>
                             </div>
                         </div>
                         <div class="col-md-2 col-2 text-left pl-0">

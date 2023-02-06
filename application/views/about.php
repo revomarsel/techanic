@@ -124,10 +124,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="space-50"></div>
             <div class="row align-items-center bg-my-techanic rounded-30-top">
                 <div class="col-md-5 text-center" data-aos="fade-right">
-                    <img src="assets/img/my-techanic-logo-putih.png" class="img-fluid" alt="">
+                    <img src="assets/img/my-techanic-logo-white.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-7 text-white border-left-white" data-aos="fade-zoom-in" data-aos-delay="200">
-                    <h3 class="text-white">Melalui Platform My TECHANIC </h3>
+                    <h3 class="text-white">Melalui Platform MyTechanic </h3>
                     <div class="space-25"></div>
                     <div class="row">
                         <div class="col-md-12" data-aos="zoom-in" data-aos-delay="400">
@@ -161,7 +161,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="row align-items-center bg-techanic-business rounded-30-bottom">
                 <div class="col-md-5 text-center" data-aos="fade-right">
-                    <img src="assets/img/techanic-business-logo-putih.png" class="img-fluid" alt="">
+                    <img src="assets/img/techanic-business-logo-white.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-7 text-white border-left-white" data-aos="fade-zoom-in" data-aos-delay="200">
                     <h3 class="text-white">
@@ -203,7 +203,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section class="padding-100 container">
         <div class="row mx-0 align-items-center">
             <div class="col-md-5 text-center" data-aos="fade-right">
-                <img src="assets/img/logo-techanic-general-black.png" class="img-fluid img-owner" alt="">
+                <img src="assets/img/logo-techanic-general-blue.png" class="img-fluid img-owner" alt="">
             </div>
             <div class="col-md-6" data-aos="fade-zoom-in" data-aos-delay="200">
                 <div class="row">

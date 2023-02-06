@@ -73,18 +73,18 @@
         <nav class="navbar navbar-expand-lg navbar-light" id="foxapp_menu">
             <div class="container">
                 <?php
-                    $logoBlack = 'logo-techanic-general-black.png';
-                    $logoWhite = 'logo-techanic-general.png';
+                    $logoBlack = 'logo-techanic-general-blue.png';
+                    $logoWhite = 'logo-techanic-general-white.png';
                     $url = $this->uri->segment(1);
                     $title_produk = $this->input->get('title',true);
                     if($title_produk == 'my-techanic'){
-                        $logoBlack = 'my-techanic-logo-hitam.png';
-                        $logoWhite = 'my-techanic-logo-putih.png';
+                        $logoBlack = 'my-techanic-logo-blue.png';
+                        $logoWhite = 'my-techanic-logo-white.png';
                     }
 
                     if($title_produk == 'techanic-business'){
-                        $logoBlack = 'techanic-business-logo-hitam.png';
-                        $logoWhite = 'techanic-business-logo-putih.png';
+                        $logoBlack = 'techanic-business-logo-blue.png';
+                        $logoWhite = 'techanic-business-logo-white.png';
                     }
                 ?>
                 <a class="navbar-brand" href="<?= site_url() ?>">
@@ -107,8 +107,8 @@
                                 Product
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item anchor" href="<?= site_url().'product?title=my-techanic' ?>">My TECHANIC</a>
-                                <a class="dropdown-item anchor" href="<?= site_url().'product?title=techanic-business' ?>">TECHANIC Business</a>
+                                <a class="dropdown-item anchor" href="<?= site_url().'product?title=my-techanic' ?>">MyTechanic</a>
+                                <a class="dropdown-item anchor" href="<?= site_url().'product?title=techanic-business' ?>">Techanic Business</a>
                             </div>
                         </li>
                         <li class="nav-item">

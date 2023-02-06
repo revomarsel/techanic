@@ -1109,6 +1109,10 @@ footer .subscribe .subscribe-form-2 .form-group {
     width: 150px;
 }
 
+.navbar-brand > img.logo-myTechanic{
+    width: 180px;
+}
+
 @media (min-width: 1200px){
     .container {
         max-width: 1300px;
@@ -3812,11 +3816,19 @@ aside.sidebar .tags ul li {
         font-weight: 900;
         line-height: 45px;
     }
+
+    #manfaat-mytechanic.padding-150{
+        padding: 30px 0px;
+    }
+
     .foxapp-header .navbar .navbar-nav .nav-item>.nav-link:hover:before {
         display: none;
     }
+    .h-card.mytechanic{
+        height: 210px;
+    }
     .h-card{
-        height: 280px;
+        height: 235px;
     }
     footer .footer-widgets .widget ul li {
         margin-bottom: 10px;
@@ -3988,6 +4000,9 @@ aside.sidebar .tags ul li {
     footer .footer-widgets .widget ul {
         display: flex;
         text-align: center;
+    }
+    .navbar-brand > img.logo-myTechanic {
+        width: 155px;
     }
 }
 

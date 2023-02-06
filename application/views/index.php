@@ -103,7 +103,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-md-7 section-title aos-init aos-animate" data-aos="fade-zoom-in">
                     <div class="mx-0 row produk-info bg-white mb-4">
                         <div class="col-md-6">
-                            <div class="d-flex align-items-start flex-column h-card">
+                            <div class="d-flex align-items-start flex-column h-card mytechanic">
                                 <div class="mb-auto">
                                     <img src="assets/img/my-techanic-logo-blue.png" class="logo img-fluid mt-3" alt="">
                                     <p class="font-weight-normal">
@@ -141,6 +141,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
     </section>
 
-    <div class="space-100"></div>
+    <div class="space-100 d-none-mobile"></div>
 
     <?php $this->load->view('_modal_blog'); ?>

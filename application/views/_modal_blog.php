@@ -6,6 +6,13 @@
           <span aria-hidden="true">&times;</span>
         </button>
         <div class="row align-items-center">
+          <div class="text-center col-12 section-title-custom aos-init aos-animate" data-aos="fade-zoom-in">
+              <p class="font-size-20">Sudah Saatnya Kita Bahas Dengan Serius</p>
+              <h3>Apa yang terjadi pada bumi saat ini ?</h3>
+              <div class="space-50"></div>
+          </div>
+        </div>
+        <div class="row align-items-center">
             <div class="col-md-12 col-12">
                 <img src="assets/img/blog-1.png" class="img-fluid" alt="">
             </div>
@@ -23,6 +30,23 @@
                 </p>
                 <div class="space-15"></div>
                 <a href="news-single.html" class="btn btn-primary shadow btn-colord btn-theme" tabindex="0"><span>Kunjungi Artikel</span></a>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-6 col-6">
+                <div class="bg-gray d-flex align-items-center" style="background: url('assets/img/blog-3.png') no-repeat center center/cover!important;background-size: 100% 100%!important;">
+                    <div>
+                      <h3>Indonesia Timbun 2 Juta Ton Sampah Elektronik Sepanjang Tahun</h3>
+                      <ul class="news-meta">
+                          <li>
+                              Datakata.id </li>
+                          <li>
+                              14 Oktober 2022</li>
+                      </ul>
+                      <div class="space-15"></div>
+                      <a href="news-single.html" class="btn btn-primary shadow btn-colord btn-theme" tabindex="0"><span>Kunjungi Artikel</span></a>
+                    </div>
+                </div>
             </div>
         </div>
       </div>

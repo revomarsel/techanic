@@ -77,9 +77,11 @@
                     $logoWhite = 'logo-techanic-general-white.png';
                     $url = $this->uri->segment(1);
                     $title_produk = $this->input->get('title',true);
+                    $class = "";
                     if($title_produk == 'my-techanic'){
                         $logoBlack = 'my-techanic-logo-blue.png';
                         $logoWhite = 'my-techanic-logo-white.png';
+                        $class = "logo-myTechanic";
                     }
 
                     if($title_produk == 'techanic-business'){
@@ -88,8 +90,8 @@
                     }
                 ?>
                 <a class="navbar-brand" href="<?= site_url() ?>">
-                    <img src="assets/img/<?= $logoWhite ?>" class="white img-fluid" alt="">
-                    <img src="assets/img/<?= $logoBlack ?>" class="black img-fluid" alt="">
+                    <img src="assets/img/<?= $logoWhite ?>" class="white img-fluid <?= $class ?>" alt="">
+                    <img src="assets/img/<?= $logoBlack ?>" class="black img-fluid <?= $class ?>" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_menu"
                     aria-controls="main_menu" aria-expanded="false" aria-label="Toggle navigation">

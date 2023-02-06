@@ -1521,6 +1521,7 @@ footer .subscribe .subscribe-form-2 .form-group {
     background-size: cover;
     border-radius: 40px;
     padding: 80px;
+    z-index: 100;
 }
 
 .img-owner{

@@ -34,8 +34,6 @@
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/linearicons.css">
 
     <!-- Our Min CSS -->
-    <link href="<?= base_url() ?>assets/css/main.css" rel="stylesheet">
-
     <link id="themes_colors" href="<?= base_url() ?>assets/css/color-1.css" rel="stylesheet">
     <style>
         .bg-primary-customer{
@@ -57,6 +55,7 @@
             /* height: 790px; */
         }
     </style>
+    <link href="<?= base_url() ?>assets/css/main.css" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target="#main_menu" data-offset="70">
@@ -96,7 +95,7 @@
                     aria-controls="main_menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="main_menu">
                     <ul class="navbar-nav ml-auto navbar-nav col-md-10 justify-content-end" id="main_menu">
                         <li class="nav-item">
                             <a class="nav-link anchor <?= $url == '' ? 'active': '' ?>" href="<?= site_url() ?>">Home

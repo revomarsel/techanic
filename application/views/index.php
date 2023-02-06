@@ -3,11 +3,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
     <section id="main-bg" class="watch-video padding-100 potition-relative" style="background: url(assets/img/bg.png);">
-        <div class="container video mx-5">
+        <div class="container video px-md-3">
             <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
             <div class="section-title text-white" data-aos="fade-zoom-in">
                 <div class="space-25"></div>
-                <span class="badge badge-light mb-2">Tujuan Kita</span>
+                <span class="badge badge-light mb-2">Visi Kita</span>
                 <h3 class="text-white">
                     Membangun Pembiasaan Kecil <br>
                     Berdampak Positif Untuk<br>
@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </div>
         <img src="assets/img/right-slider.png" class="img-fluid" style="width: 650px;height: 100%;object-fit: cover;position: absolute;right: 0;top: 0;">
-        <a class="text-white" style="position: absolute;right: 80px;bottom: 30px;" data-toggle="modal" data-target="#showBlog" href="#">CARI TAU APA YANG TERJADI PADA BUMI KITA ? <img src="assets/img/right.png" class="img-fluid small-icon ml-2"></a>
+        <a class="text-white" data-toggle="modal" data-target="#showBlog" href="#">CARI TAU APA YANG TERJADI PADA BUMI KITA ? <img src="assets/img/right.png" class="img-fluid small-icon ml-2"></a>
     </section>
 
     <div class="space-50"></div>
@@ -93,7 +93,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container">
             <div class="row">
                 <div class="col-md-5 aos-init aos-animate" data-aos="fade-up">
-                    <div class="section-title" style="position: -webkit-sticky; /* Safari */position: sticky;top: 200px">
+                    <div class="section-title stiky-left mb-3">
                         <span class="badge badge-light">Produk</span>
                         <h3 class="text-white mt-3">
                             Membagikan manfaat <br> dalam platform unggulan.
@@ -103,7 +103,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-md-7 section-title aos-init aos-animate" data-aos="fade-zoom-in">
                     <div class="mx-0 row produk-info bg-white mb-4">
                         <div class="col-md-6">
-                            <div class="d-flex align-items-start flex-column" style="height: 355px;">
+                            <div class="d-flex align-items-start flex-column h-card">
                                 <div class="mb-auto">
                                     <img src="assets/img/my-techanic-logo-hitam.png" class="logo img-fluid mt-3" alt="">
                                     <p class="font-weight-normal">
@@ -120,7 +120,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                     <div class="mx-0 row produk-info bg-white">
                         <div class="col-md-6">
-                            <div class="d-flex align-items-start flex-column" style="height: 355px;">
+                            <div class="d-flex align-items-start flex-column h-card">
                                 <div class="mb-auto">
                                     <img src="assets/img/techanic-business-logo-hitam.png" class="logo img-fluid mt-3" alt="">
                                     <p class="font-weight-normal">

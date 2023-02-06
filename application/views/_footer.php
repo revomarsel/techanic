@@ -7,8 +7,8 @@
                         <div class="widget">
                             <img src="<?= base_url() ?>assets/img/logo-techanic-general.png" class="img-fluid" alt="">
                             <p class="font-size-16 mt-2 lh-30">
-                                TECHANIC adalah start-up Indonesia yang mengembangkan <b>My TECHANIC & TECHANIC Business</b> guna membantu
-                                dalam mengembangkan bisnis reparasi
+                                TECHANIC adalah start-up dari Indonesia yang mengembangkan platform <b>My TECHANIC & TECHANIC Business</b> guna 
+                                mengembangkan ekosistem perbaikan yang lebih baik
                             </p>
                         </div>
                     </div>
@@ -24,7 +24,7 @@
                                 Kawasan Rasuna Karet Kuningan, Setia Budi, Jakarta Selatan, DKI Jakarta.
                                 </p>
                             </div>
-                            <div class="row mt-2">
+                            <div class="row mt-md-2">
                                 <div class="col-md-6">
                                     <a class="text-white" href="https://api.whatsapp.com/send?phone=6281233236569">
                                         <div class="d-flex">
@@ -53,13 +53,13 @@
                             <h6>Social Media</h6>
                             <ul>
                                 <li>
-                                    <a target="_blank" href="https://www.tiktok.com/@techanicid?is_from_webapp=1&sender_device=pc"><span class="mr-2"> <img src="<?= base_url() ?>assets/img/TikTok Techanic.png" class="img-icon" alt=""> </span>techanicid</a>
+                                    <a target="_blank" href="https://www.tiktok.com/@techanicid?is_from_webapp=1&sender_device=pc"><span class="mr-md-2 mr-1"> <img src="<?= base_url() ?>assets/img/TikTok Techanic.png" class="img-icon" alt=""> </span>techanicid</a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="https://www.instagram.com/techanicindonesia/?igshid=YmMyMTA2M2Y%3D"><span class="mr-2"> <img src="<?= base_url() ?>assets/img/Instagram Techanic.png" class="img-icon" alt=""> </span>
+                                    <a target="_blank" href="https://www.instagram.com/techanicindonesia/?igshid=YmMyMTA2M2Y%3D"><span class="mr-md-2 mr-1"> <img src="<?= base_url() ?>assets/img/Instagram Techanic.png" class="img-icon" alt=""> </span>
                                     techanicindonesia</a></li>
                                 <li>
-                                    <a target="_blank" href="https://www.facebook.com/techanicindonesia"><span class="mr-2"> <img src="<?= base_url() ?>assets/img/Facebook Techanic.png" class="img-icon" alt=""> </span>techanicindonesia</a></li>
+                                    <a target="_blank" href="https://www.facebook.com/techanicindonesia"><span class="mr-md-2 mr-1"> <img src="<?= base_url() ?>assets/img/Facebook Techanic.png" class="img-icon" alt=""> </span>techanicindonesia</a></li>
                             </ul>
                         </div>
                     </div>
@@ -70,11 +70,11 @@
         <div class="copyright">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-4">
+                    <div class="col-md-4 text-center-mobile">
                         <p>Ⓒ2022. Techanic All Right Reserved.</p>
                     </div>
                     <div class="offset-md-4 col-md-4">
-                        <ul class="nav justify-content-end">
+                        <ul class="nav justify-content-end justify-content-center-mobile">
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="https://www.mytechanic.com/privacy-policy">Terms and Conditions</a>
                             </li>

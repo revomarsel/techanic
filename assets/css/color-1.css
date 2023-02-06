@@ -53,11 +53,11 @@ aside.sidebar .gray-panel h3:after {
     background: #04264F;
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
     .foxapp-header {
         background: #04264F;
     }
-}
+} */
 
 .foxapp-header.sticky{
     background: #ffffff;

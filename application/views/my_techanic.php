@@ -27,16 +27,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2 pr-0 mt-md-5" data-aos="fade-left" data-aos-delay="1500">
+                    <div class="col-md-2 pr-0 mt-md-5 d-none-mobile" data-aos="fade-left" data-aos-delay="400">
                         <?php $this->load->view('_sub_menu'); ?>
                     </div>
                 </div>
                 <div data-aos="fade-right" data-aos-delay="400" class="row bg-kategori-slider mx-0">
-                    <div class="col-md-4 border-right">
+                    <div class="col-md-4 px-md-3 px-1 border-right">
                         <h4 class="font-weight-700 mb-1">1000+ Tempat Reparasi</h4>
-                        <p class="mb-0">Tersedia Banyak Kategori Reparasi !</p>
+                        <p class="mb-md-0 mb-2">Tersedia Banyak Kategori Reparasi !</p>
                     </div>
-                    <div class="col-md-7 pl-5">
+                    <div class="col-md-7 col-10 pl-md-5 pl-0">
                         <div class="kategori-slider">
                             <div class="item pr-2 w-slider">
                                 <div class="d-flex align-items-center">
@@ -76,7 +76,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-1 pr-2">
+                    <div class="col-md-1 col-2 pr-2">
                         <a href="#" class="btn btn-search"><i class="fa fa-search"></i></a>
                     </div>
                 </div>
@@ -85,33 +85,98 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
     </section>
     <!-- End Header -->
-    
-    <section id="manfaat-mytechanic" class="watch-video padding-150 background-fullwidth background-fixed" >
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 pl-md-5 section-title aos-init aos-animate" data-aos="fade-zoom-in">
-                    <h3 class="text-center">
-                        Jangan Ragu Untuk <br>  Mempertahankan Perangkat Lama
-                    </h3>
-                    <div class="space-25"></div>
-                    <p class="text-center font-weight-normal">
-                        Segala jenis tempat reparasi dapat di cari di aplikasi <br> <b>My Techanic</b>. pasti dikerjakan tenaga ahli dan berpengalaman.
-                    </p>
-                </div>
-                <div class="col-md-12 aos-init aos-animate" data-aos="fade-up">
-                    <div class="w-100 text-center mt-3">
-                        <a href="#" class="btn btn-primary">
-                            Cari Lokasi Terdekat
-                        </a>
+    <div class="space-50 d-none-pc"></div>
+    <div class="space-100"></div>
+        <section id="manfaat-mytechanic" class="watch-video padding-0 background-fullwidth background-fixed" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 pl-md-5 section-title aos-init aos-animate" data-aos="fade-zoom-in">
+                        <h3 class="text-center">
+                            Jangan Ragu Untuk <br>  Mempertahankan Perangkat Lama
+                        </h3>
+                        <div class="space-25"></div>
+                        <p class="text-center font-weight-normal">
+                            Segala jenis tempat reparasi dapat di cari di aplikasi <br> <b>My Techanic</b>. pasti dikerjakan tenaga ahli dan berpengalaman.
+                        </p>
                     </div>
-                    <div class="video bg-none p-0 pr-3">
-                        <img src="assets/img/laptop.png" class="img-fluid d-block mx-auto" alt="">
-                        <a href="http://www.youtube.com/watch?v=XSGBVzeBUbk" data-lity=""></a>
+                    <div class="col-md-12 aos-init aos-animate" data-aos="fade-up">
+                        <div class="w-100 text-center mt-3">
+                            <a href="#" class="btn btn-primary">
+                                Cari Lokasi Terdekat
+                            </a>
+                        </div>
+                        <div class="video bg-none p-0 pr-3">
+                            <img src="assets/img/laptop.png" class="img-fluid d-block mx-auto" alt="">
+                            <a href="http://www.youtube.com/watch?v=XSGBVzeBUbk" data-lity=""></a>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+    <div class="space-100 d-none-mobile"></div>
+    <div class="space-100"></div>
+    
+    <div class="container gallery">
+        <div class="mb-3 row">
+            <div class="col-md-6 px-2 text-left aos-init " data-aos="fade-right">
+                <div class="bg-gray d-flex align-items-center">
+                    <div class="section-title">
+                        <h3 class="text-left mb-md-3">
+                            <b>Gallery Bersama</b> 
+                        </h3>
+                        <p class="text-left font-weight-normal">
+                            Dokumentasi service center dan customer <br> yang telah menggunakan layanan Techanic
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-md-6 aos-init " data-aos="fade-zoom-in" data-aos-delay="200">
+                <div class="row">
+                    <div class="col-lg-6 px-2  aos-init text-right" data-aos="zoom-in" data-aos-delay="400">
+                        <img src="assets/img/gallery-0.png" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 px-2  aos-init " data-aos="zoom-in" data-aos-delay="600">
+                        <div class="w-100 mb-3">
+                            <img src="assets/img/gallery-2.png" class="img-fluid">
+                        </div>
+                        <div class="w-100">
+                            <img src="assets/img/gallery-3.png" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="space-25"></div>
+                </div>
+            </div>
         </div>
-    </section>
+        <div class="mb-3 row">
+            <div class="col-lg-3 px-2 aos-init " data-aos="zoom-in" data-aos-delay="600">
+                <img src="assets/img/gallery-5.png" class="img-fluid">
+            </div>
+            <div class="col-lg-3 px-2 aos-init " data-aos="zoom-in" data-aos-delay="600">
+                <img src="assets/img/gallery-6.png" class="img-fluid">
+            </div>
+            <div class="col-lg-3 px-2 aos-init " data-aos="zoom-in" data-aos-delay="600">
+                <img src="assets/img/gallery-7.png" class="img-fluid">
+            </div>
+            <div class="col-lg-3 px-2 aos-init " data-aos="zoom-in" data-aos-delay="600">
+                <img src="assets/img/gallery-8.png" class="img-fluid">
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <div class="col-lg-3 px-2 aos-init " data-aos="zoom-in" data-aos-delay="600">
+                <img src="assets/img/gallery-9.png" class="img-fluid">
+            </div>
+            <div class="col-lg-6 px-2 aos-init " data-aos="zoom-in" data-aos-delay="600">
+                <img src="assets/img/gallery-10.png" class="img-fluid">
+            </div>
+            <div class="col-lg-3 px-2 aos-init d-none-mobile" data-aos="zoom-in" data-aos-delay="600">
+              <div class="bg-blue"></div>  
+            </div>
+        </div>
+    </div>
+
+    <div class="space-100 d-none-mobile"></div>
+    <div class="space-50"></div>
 
     <section id="testimoni" class="clients-testimonial">
         <div class="container">
@@ -164,7 +229,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
     </section>
 
-    <div class="space-100"></div>
+    <div class="space-100 d-none-mobile"></div>
     <section style="display: none;"  id="download-techanic-business" >
         <div class="bg-preview-apps">
             <div class="row align-items-center mx-0">

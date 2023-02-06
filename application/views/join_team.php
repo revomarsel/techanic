@@ -3,16 +3,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
 <!-- Start Why Us -->
-<section id="about" class="why-us padding-100 background-fullwidth"
+<section id="about" class="potition-relative why-us padding-100 background-fullwidth h-bg join-us"
         style="background-image: url(assets/img/join-us-2.png);height: 500px;">
-        <div class="container">
+        <div class="container d-none-mobile">
             <div class="space-50"></div>
             <div class="row align-items-center" data-aos="fade-zoom-in" data-aos-delay="200">
                 <div class="col-md-11 offset-md-1">
                     <h3 class="text-white">Bergabunglah bersama Kami ! <br> Kita Kembangkan Produk Yang Bermanfaat</h3>
                     <div class="space-25"></div>
                 </div>
-                <div class="col-md-5 offset-1">
+                <div class="col-md-5 offset-md-1">
                     <div class="card card-join-us my-techanic">
                         <div class="card-body text-center">
                             <img src="assets/img/my-techanic-logo-hitam.png" class="img-fluid" alt="">
@@ -40,6 +40,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
         </div>
+        <h3 class="text-white d-none-pc">Bergabunglah bersama Kami ! <br> Kita Kembangkan Produk Yang Bermanfaat</h3>
     </section>
     <!-- End Why Us -->
 

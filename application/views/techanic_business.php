@@ -15,16 +15,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="row mx-0">
                     <div class="col-md-10 mt-4 pl-0 slide-user">
                         <div id="pengusaha" class="row mx-0 active">
-                            <div class="col-md-8 pl-0 section-title">
-                                <h3 class="text-white">Kita Pionir ! Mengembangkan <br>
+                            <div class="col-md-8 pl-0 section-title order-xs-last">
+                                <h3 class="text-white title-business">Kita Pionir ! Mengembangkan <br>
                                     Industri Reparasi Indonesia</h3>
-                                <div class="row mt-4 potition-relative">
+                                <div class="row mt-md-4 mt-3 potition-relative">
                                     <div class="col-md-12">
-                                        <p class="text-white font-size-17">
+                                        <p class="text-white font-size-18">
                                             Cek performa usaha tidak perlu datang ke toko setiap hari.
                                         </p>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 col-6">
                                         <p data-aos="zoom-in" data-aos-delay="100" class="icon-pengusaha mb-3 line-height-0 d-flex text-white">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
                                             <span class="mt-11px d-block font-size-17 text-white">Kelola Banyak Cabang</span>
@@ -38,7 +38,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <span class="mt-11px d-block font-size-17 text-white">QR Smart System</span>
                                         </p>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 col-6">
                                         <p data-aos="zoom-in" data-aos-delay="100" class="icon-pengusaha mb-3 line-height-0 d-flex text-white">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
                                             <span class="mt-11px d-block font-size-17 text-white">Kelola Karyawan</span>
@@ -63,10 +63,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         Mudah Ditemukan Customer My TECHANIC
                                     </p>
                                 </div>
-                                <a data-aos="zoom-in" data-aos-delay="400" href="#" class="btn btn-primary  mt-4 shadow font-size-13"><span>Daftarkan Usaha Saya </span></a>
+                                <a data-aos="zoom-in" data-aos-delay="400" href="#" class="btn btn-primary  mt-4 shadow font-size-13 btn-daftar"><span>Daftarkan Usaha Saya </span></a>
                             </div>
-                            <div class="col-md-4 pr-0">
-                                <img data-aos="fade-right"  data-aos-delay="100" src="assets/img/user-techanic-business.png" class="img-fluid d-block mx-auto img-pengusaha" alt="">
+                            <div class="col-md-4 pr-0 order-xs-first border-bottom-mobile">
+                                <img data-aos="fade-right"  data-aos-delay="100" src="assets/img/user-techanic-business.png" class="img-fluid d-block ml-auto mx-md-auto img-pengusaha" alt="">
                             </div>
                         </div>
                         <div id="teknisi" class="row mx-0">
@@ -134,7 +134,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2 pr-0 mt-md-5" data-aos="fade-left" data-aos-delay="1500">
+                    <div class="col-md-2 pr-0 mt-md-5 d-none-mobile" data-aos="fade-left" data-aos-delay="1500">
                         <?php $this->load->view('_sub_menu'); ?>
                     </div>
                 </div>
@@ -174,7 +174,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section>
     
     <section id="manfaat-techanic-business" class="py-5" style="background: url('assets/img/bg-white.png') no-repeat center center/cover!important;">
-        <div class="watch-video bg-dark-blue rounded-bg mx-3 potition-relative padding-150" >
+        <div class="watch-video bg-dark-blue rounded-bg mx-3 potition-relative padding-150 padding-10-xs" >
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 mt-4 section-title aos-init aos-animate" data-aos="fade-zoom-in">
@@ -190,8 +190,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
             </div>
-            <div class="video bg-none p-0" style="position: absolute;right: 0;top: -2px;">
-                <img src="assets/img/gallery-1.png" class="img-fluid d-block mx-auto" style="width: 650px;height: 622px;object-fit: cover;border-radius: 0px 30px 30px 0px;" alt="">
+            <div class="video bg-none p-0 business-right-img">
+                <img src="assets/img/gallery-1.png" class="img-fluid d-block mx-auto" alt="">
                 <a href="http://www.youtube.com/watch?v=XSGBVzeBUbk" data-lity=""></a>
             </div>
         </div>
@@ -332,16 +332,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section id="download-techanic-business">
         <div class="bg-preview-apps" style="background: url('assets/img/bgdownload.png') no-repeat center center/cover!important;">
             <div class="row align-items-center mx-0">
-                <div class="col-md-5 pl-0 offset-md-1 text-white" data-aos="fade-zoom-in" data-aos-delay="300">
+                <div class="col-md-5 pl-0 offset-md-1 text-white order-xs-last" data-aos="fade-zoom-in" data-aos-delay="300">
                     <h3 class="text-white">Unduh TECHANIC Business Untuk Pelayanan Yang Lebih Profesional</h3>
-                        <p class="mt-5">Aplikasi bisa didapatkan melalui :</p>
+                        <p class="mt-md-5 mt-2">Aplikasi bisa didapatkan melalui :</p>
                         <div class="row mx-0">
-                            <div class="col-md-3 px-0">
+                            <div class="col-md-3 col-4 px-0">
                                 <a class="img-download" href="#">
                                     <img src="assets/img/playstore.png" class="img-fluid" alt="">
                                 </a>
                             </div>
-                            <div class="col-md-4 pl-1 pr-0 mb-0">
+                            <div class="col-md-4 col-5 pl-1 pr-0 mb-0">
                                 <a class="img-download-appstore" href="#">
                                     <img src="assets/img/appstore.png" class="img-fluid" alt="">
                                 </a>
@@ -349,25 +349,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     <div class="space-50"></div>
                 </div>
-                <div class="col-md-6 text-right pr-0" data-aos="fade-right" data-aos-delay="200">
+                <div class="col-md-6 text-right pr-0 order-xs-first" data-aos="fade-right" data-aos-delay="200">
                     <img src="assets/img/preview-apps-techanic-business.png" class="img-fluid img-indonesia" alt="">
                 </div>
             </div>
         </div>
-        <div class="space-50"></div>
-        <div class="potition-relative padding-150">
-            <div class="row ">
-                <div class="col-md-6">
-                    <img src="assets/img/tim-techanic.png" class="img-fluid img-tim" alt="">
-                </div>
-                <div class="text-left col-md-6 section-title" data-aos-delay="200" data-aos="fade-zoom-in">
-                    <h3>
-                        Jadwalkan <br> Pelatihan Sekarang !
-                    </h3>
-                    <div class="space-25"></div>
-                    <a href="#" class="btn btn-primary font-weight-700">Hubungkan Ke Tim</a>
-                </div>
-            </div>
-        </div>
-        <div class="space-50"></div>
+        
+        <?php $this->load->view('_hubungkan_ke_tim',['text' => 'Jadwalkan Pelatihan <br>  Sekarang !']); ?>
+        
     </section>

@@ -2,24 +2,26 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
-<section id="about" class="why-us padding-100 background-fullwidth"
+<section id="about" class="why-us padding-100 background-fullwidth h-bg"
         style="background-image: url(assets/img/bg-faq.png);height: 700px;align-items: center;display: flex;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center" data-aos="fade-zoom-in" data-aos-delay="200">
-                    <h3 class="text-white">Cari Tau Apa Yang Menjadi <br> Kesulitan anda</h3>
+                    <h3 class="text-white">Cari Tau Apa Yang Menjadi <br> Kesulitan Anda</h3>
                     <div class="space-50"></div>
                     <form class="subscribe-form row m-0">
-                        <div class="col-lg-5 col-md-8 offset-md-3 text-left">
+                        <div class="col-lg-5 col-md-8 col-10 offset-md-3 pl-0 text-left">
                             <div class="form-group mb-3">
                                 <input type="text" class="form-control form-faq" placeholder="Ketik disini">
                             </div>
-                            <a href="#" class="btn w-auto font-size-12 btn-mytechanic">
-                                <img src="assets/img/my-techanic-logo-putih.png" class="white img-fluid" alt="">
-                            </a>
-                            <a href="#" class="btn font-size-12 btn-techanic-business active">TECHANIC Business</a>
+                            <div class="d-flex">
+                                <a href="#" class="btn w-auto font-size-12 btn-mytechanic">
+                                    <img src="assets/img/my-techanic-logo-putih.png" class="white img-fluid" alt="">
+                                </a>
+                                <a href="#" class="btn font-size-12 btn-techanic-business active">TECHANIC Business</a>
+                            </div>
                         </div>
-                        <div class="col-md-2 text-left pl-0">
+                        <div class="col-md-2 col-2 text-left pl-0">
                             <a href="#" class="btn btn-primary shadow">
                                 <i class="fa fa-search"></i>
                             </a>

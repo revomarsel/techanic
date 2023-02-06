@@ -55,7 +55,7 @@
             /* height: 790px; */
         }
     </style>
-    <link href="<?= base_url() ?>assets/css/main.css" rel="stylesheet">
+    <link href="<?= base_url() ?>assets/css/main_.css" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target="#main_menu" data-offset="70">

@@ -1503,7 +1503,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 }
 
 .produk-info a {
-    background: #042143;
+    background: #0a396f;
     backdrop-filter: blur(50px);
     border-radius: 15px;
     padding: 15px 35px;
@@ -3465,7 +3465,7 @@ aside.sidebar .tags ul li {
 }
 
 #main-bg > a{
-    position: absolute;right: 170px;bottom: 30px;
+    position: absolute;right: 140px;bottom: 30px;
 }
 .h-card{
     height: 430px;
@@ -3499,6 +3499,10 @@ aside.sidebar .tags ul li {
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .boxes .box:hover {
+        height: 750px;
+        padding: 10px;
+    }
     .watch-video.faq .video a {
         top: 40%;
         left: 50%;
@@ -3607,6 +3611,19 @@ aside.sidebar .tags ul li {
         font-size: 24px!important;
         line-height: 40px!important;
     }
+
+    #showBlog > div > div > div.modal-body > .close {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        font-size: 25px;
+        color: black;
+        opacity: 1;
+        background-color: white;
+        padding: 5px 7px;
+        border-radius: 50%;
+        z-index: 10;
+    }
     .modal-body > .close {
         position: absolute;
         right: -5px;
@@ -3692,7 +3709,7 @@ aside.sidebar .tags ul li {
     }
     .bg-primary-pengusaha {
         margin: 0px!important;
-        background: #042143!important;
+        background: #0a396f!important;
     }
     .badge-client {
         padding: 9px 14px;
@@ -3907,10 +3924,10 @@ aside.sidebar .tags ul li {
         display: none;
     }
     .h-card.mytechanic{
-        height: 210px;
+        height: 270px;
     }
     .h-card{
-        height: 235px;
+        height: 340px;
     }
     footer .footer-widgets .widget ul li {
         margin-bottom: 10px;
@@ -3966,7 +3983,7 @@ aside.sidebar .tags ul li {
         justify-content: center!important;
     }
     .produk-info a {
-        background: #042143;
+        background: #0a396f;
         backdrop-filter: blur(50px);
         border-radius: 35px;
         padding: 10px 15px;

@@ -1,4 +1,4 @@
-<?php $title_produk = $this->input->get('title',true); ?>
+<?php $title_produk = $this->input->get('title',true);$lang = $this->input->get('lang',true); ?>
 <p class="text-white"><?= trans('text_89') ?> </p>
 <a href="<?= site_url().'product?title=my-techanic'.($lang == 'en-id' ? '&lang=en-id'  : '') ?>" class="btn btn-switch-user customer <?= $this->input->get('title') == 'my-techanic' ? 'active' : '' ?>">
     <img src="assets/img/User.png" class="img-fluid" alt=""><?= trans('text_90') ?> 

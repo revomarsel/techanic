@@ -1158,7 +1158,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 ------------------------------*/
 
 .boxes .box {
-    padding: 40px 40px 70px 40px;
+    padding: 20px 20px 40px 20px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -1220,6 +1220,40 @@ footer .subscribe .subscribe-form-2 .form-group {
     .boxes .box {
         margin-bottom: 30px;
     }
+}
+
+.watch-video.faq .video {
+    padding: 0px!important;
+    z-index: 100;
+}
+
+.watch-video.faq .video img {
+    width: 350px;
+}
+
+.watch-video.faq .video a {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    left: 59%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    animation: ripple_shadow 2s linear infinite;
+}
+
+.watch-video.faq .video a:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-left: 18px solid #fff;
+    border-bottom: 12px solid transparent;
+    left: 55%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 /*------------------------------
@@ -1471,13 +1505,25 @@ footer .subscribe .subscribe-form-2 .form-group {
 .produk-info a {
     background: #042143;
     backdrop-filter: blur(50px);
-    border-radius: 35px;
-    padding: 15px 45px;
+    border-radius: 15px;
+    padding: 15px 35px;
     text-transform: capitalize;
     font-size: 13px;
     display: inline-block;
     border: 0;
     margin-top: 30px;
+}
+
+.produk-info a.mytechanic{
+    background: #1064BC!important;
+}
+
+.produk-info a.mytechanic > img{
+    width: 135px;
+}
+
+.produk-info a.techanicbusiness > img{
+    width: 100px;
 }
 
 .produk-info img.right{
@@ -1541,7 +1587,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 }
 
 .img-owner{
-    width: 250px;
+    width: 220px;
 }
 
 .img-download > img{
@@ -1558,7 +1604,7 @@ footer .subscribe .subscribe-form-2 .form-group {
     color: #FFFFFF;
     border-radius: 10px;
     padding: 15px 40px;
-    width: 400px;
+    width: 385px;
 }
 
 .btn-outline-light:hover{
@@ -2356,12 +2402,29 @@ h3.title {
     margin: 0;
 }
 
+.blog-secondary{
+    background-color: #F4F4F4;
+    padding: 40px 20px 0px 20px;
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+}
+.blog-secondary > div > h3{
+    color: white;
+    font-size: 20px;
+}
+
 .news-meta li {
     display: inline-block;
     font-size: 14px;
     color: #c2c2c2;
-    margin-right: 15px;
+    padding-right: 10px;
+    margin-right: 5px;
 }
+
+/* .news-meta li:nth-child(1) {
+    border-right: 1px solid #cacaca;
+} */
 
 .news-meta ul li span {
     margin-right: 5px;
@@ -3402,10 +3465,10 @@ aside.sidebar .tags ul li {
 }
 
 #main-bg > a{
-    position: absolute;right: 80px;bottom: 30px;
+    position: absolute;right: 170px;bottom: 30px;
 }
 .h-card{
-    height: 355px;
+    height: 430px;
 }
 
 .h-card-info{
@@ -3436,6 +3499,25 @@ aside.sidebar .tags ul li {
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .watch-video.faq .video a {
+        top: 40%;
+        left: 50%;
+    }
+    .news-meta {
+        display: flex;
+    }
+    .news-meta li {
+        display: inline-block;
+        font-size: 14px;
+        color: #c2c2c2;
+        padding-right: 10px;
+        margin-right: 10px;
+        font-size: 11px;
+        margin-bottom: 15px;
+    }
+    .blog-secondary {
+        height: 100%;
+    }
     .font-size-20 {
         font-size: 14px!important;
     }

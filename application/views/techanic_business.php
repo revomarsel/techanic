@@ -16,54 +16,53 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-10 mt-4 pl-0 slide-user">
                         <div id="pengusaha" class="row mx-0 active">
                             <div class="col-md-8 pl-0 section-title order-xs-last">
-                                <h3 class="text-white title-business">Kita Pionir ! Mengembangkan <br>
-                                    Industri Reparasi Indonesia</h3>
+                                <h3 class="text-white title-business"><?= trans('text_66') ?></h3>
                                 <div class="row mt-md-4 mt-3 potition-relative">
                                     <div class="col-md-12">
                                         <p class="text-white font-size-18">
-                                            Cek performa usaha tidak perlu datang ke toko setiap hari.
+                                        <?= trans('text_67') ?>
                                         </p>
                                     </div>
                                     <div class="col-md-5 col-6">
                                         <p data-aos="zoom-in" data-aos-delay="100" class="icon-pengusaha mb-3 line-height-0 d-flex text-white">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17 text-white">Kelola Banyak Cabang</span>
+                                            <span class="mt-11px d-block font-size-17 text-white"><?= trans('text_68') ?></span>
                                         </p>
                                         <p data-aos="zoom-in" data-aos-delay="200" class="icon-pengusaha mb-3 line-height-0 d-flex text-white">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17 text-white">Dashboard Owner</span>
+                                            <span class="mt-11px d-block font-size-17 text-white"><?= trans('text_69') ?></span>
                                         </p>
                                         <p data-aos="zoom-in" data-aos-delay="300" class="icon-pengusaha mb-3 line-height-0 d-flex text-white">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17 text-white">QR Smart System</span>
+                                            <span class="mt-11px d-block font-size-17 text-white"><?= trans('text_70') ?></span>
                                         </p>
                                     </div>
                                     <div class="col-md-5 col-6">
                                         <p data-aos="zoom-in" data-aos-delay="100" class="icon-pengusaha mb-3 line-height-0 d-flex text-white">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17 text-white">Kelola Karyawan</span>
+                                            <span class="mt-11px d-block font-size-17 text-white"><?= trans('text_71') ?></span>
                                         </p>
                                         <p data-aos="zoom-in" data-aos-delay="200" class="icon-pengusaha mb-3 line-height-0 d-flex text-white">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17 text-white">Cek Prestasi Karyawan</span>
+                                            <span class="mt-11px d-block font-size-17 text-white"><?= trans('text_72') ?></span>
                                         </p>
                                         <p data-aos="zoom-in" data-aos-delay="300" class="icon-pengusaha mb-3 line-height-0 d-flex text-white">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17 text-white">Analisa Performa Usaha</span>
+                                            <span class="mt-11px d-block font-size-17 text-white"><?= trans('text_73') ?></span>
                                         </p>
                                     </div>
                                 </div>
-                                <p data-aos="zoom-in" data-aos-delay="300" class="mb-2 mt-2 potition-relative text-white font-size-15">Dan puluhan fitur eksekutif lainnya...</p>
+                                <p data-aos="zoom-in" data-aos-delay="300" class="mb-2 mt-2 potition-relative text-white font-size-15"><?= trans('text_74') ?></p>
                                 <div data-aos="zoom-in" data-aos-delay="400" class="d-flex align-items-center mt-4 mb-2">
                                     <div class="icon-group">
                                         <img src="assets/img/UserGroups.png" class="img-fluid" style="width: 25px;">
                                     </div>
                                     <p class="mb-0 text-white font-size-15">
-                                        <b>1000+ Usaha Reparasi</b> <br>
-                                        Mudah Ditemukan Customer MyTechanic
+                                        <?= trans('text_75') ?>
                                     </p>
                                 </div>
-                                <a data-aos="zoom-in" data-aos-delay="400" href="#" class="btn btn-primary  mt-4 shadow font-size-13 btn-daftar"><span>Daftarkan Usaha Saya </span></a>
+                                <a data-aos="zoom-in" data-aos-delay="400" href="<?= wa_link() ?>" class="btn btn-primary  mt-4 shadow font-size-13 btn-daftar"><span>
+                                <?= trans('text__75') ?></span></a>
                             </div>
                             <div class="col-md-4 pr-0 order-xs-first border-bottom-mobile">
                                 <img data-aos="fade-right"  data-aos-delay="100" src="assets/img/user-techanic-business.png" class="img-fluid d-block ml-auto mx-md-auto img-pengusaha" alt="">
@@ -71,63 +70,61 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         <div id="teknisi" class="row mx-0">
                             <div class="col-md-8 pl-0">
-                                <h2>Pembaruan Platform Teknisi <br>
-                                    Kerja Tim Lebih Rapi & Solid</h2>
+                                <h2><?= trans('text_76') ?></h2>
                                 <div class="row mt-4">
                                     <div class="col-md-3">
                                         <p data-aos-delay="100" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17 text-white">Checklist QC</span>
+                                            <span class="mt-11px d-block font-size-17 text-white"><?= trans('text_77') ?></span>
                                         </p>
                                         <p data-aos-delay="200" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17 text-white">Service Order</span>
+                                            <span class="mt-11px d-block font-size-17 text-white"><?= trans('text_78') ?></span>
                                         </p>
                                         <p data-aos-delay="300" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17 text-white">Kolaborasi</span>
+                                            <span class="mt-11px d-block font-size-17 text-white"><?= trans('text_79') ?></span>
                                         </p>
                                     </div>
                                     <div class="col-md-4">
                                         <p data-aos-delay="300" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17 text-white">QR Invoice</span>
+                                            <span class="mt-11px d-block font-size-17 text-white"><?= trans('text_80') ?></span>
                                         </p>
                                         <p data-aos-delay="500" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17 text-white">Split Pembayaran</span>
+                                            <span class="mt-11px d-block font-size-17 text-white"><?= trans('text_81') ?></span>
                                         </p>
                                         <p data-aos-delay="700" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17 text-white">SSO (Single Sign On)</span>
+                                            <span class="mt-11px d-block font-size-17 text-white"><?= trans('text_82') ?></span>
                                         </p>
                                     </div>
                                     <div class="col-md-4">
                                         <p data-aos-delay="300" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17 text-white">Catat Garansi</span>
+                                            <span class="mt-11px d-block font-size-17 text-white"><?= trans('text_83') ?></span>
                                         </p>
                                         <p data-aos-delay="500" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17 text-white">Notifikasi By Wa</span>
+                                            <span class="mt-11px d-block font-size-17 text-white"><?= trans('text_84') ?></span>
                                         </p>
                                         <p data-aos-delay="700" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
                                             <span class="icon-check d-block"><i class="fa fa-check"></i></span> 
-                                            <span class="mt-11px d-block font-size-17 text-white">Notifikasi By Email</span>
+                                            <span class="mt-11px d-block font-size-17 text-white"><?= trans('text_85') ?></span>
                                         </p>
                                     </div>
                                 </div>
-                                <p class="mb-2 mt-2 potition-relative text-white">Dan fitur unggulan lainya...</p>
+                                <p class="mb-2 mt-2 potition-relative text-white"><?= trans('text_86') ?></p>
                                 <div class="d-flex align-items-center mt-5 mb-2">
                                     <div class="icon-group">
                                         <img src="assets/img/UserGroups.png" class="img-fluid" style="width: 25px;">
                                     </div>
                                     <p class="mb-0 text-white">
-                                        <b>1000+ Teknisi Sudah</b> <br>
-                                        Go digital bersama Techanic Business
+                                        <?= trans('text_87') ?>
                                     </p>
                                 </div>
-                                <a href="#" class="btn btn-primary  mt-4 shadow font-size-13"><span>Minta Demo Aplikasi </span></a>
+                                <a href="#" class="btn btn-primary  mt-4 shadow font-size-13"><span><?= trans('text_88') ?> </span></a>
                             </div>
                             <div class="col-md-4 pl-0 pr-0">
                                 <img data-aos="flip-right"  data-aos-anchor-placement="center-center" src="assets/img/ilustration-side-teknisi.png" class="remove-class img-fluid d-block img-teknisi mx-auto" alt="">
@@ -149,17 +146,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row">
                 <div class="col-md-12 pl-md-5 section-title aos-init aos-animate" data-aos="fade-zoom-in">
                     <h3 class="text-center">
-                        MyTechanic Platform Customer
+                        <?= trans('text_93') ?>
                     </h3>
                     <div class="space-25"></div>
                     <p class="text-center font-weight-normal">
-                        Buat customer lebih mudah mencari toko reparasi anda <br>
-                        dalam fitur <b>Marketplace MyTechanic.</b> <br> 
-                        fitur tracking order juga melengkapi aplikasi ini
+                    <?= trans('text_94') ?>
                     </p>
                     <div class="w-100 text-center">
                         <a href="#" class="btn btn-primary mt-3">
-                            Cek Marketplace Pelanggan
+                        <?= trans('text_95') ?>
                         </a>
                     </div>
                 </div>
@@ -178,12 +173,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 mt-4 section-title aos-init aos-animate" data-aos="fade-zoom-in">
-                        <span class="badge badge-light">Tingkatkan</span>
+                        <span class="badge badge-light"><?= trans('text_96') ?></span>
                         <h3 class="text-white mt-3">
-                            Techanic Business Pilihan Tepat Kembangkan <br>
-                            Bisnis Reparasi anda.
+                        <?= trans('text_97') ?>
                         </h3>
-                        <a class="btn btn-primary mt-5" href="">Daftarkan Usaha Saya</a>
+                        <a class="btn btn-primary mt-5" href="<?= wa_link() ?>"><?= trans('text_98') ?></a>
                     </div>
                     <div class="col-md-6 aos-init aos-animate" data-aos="fade-up">
                         
@@ -200,62 +194,62 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-md-12 section-title" data-aos="fade-zoom-in">
                     <div class="space-100"></div>
                     <h3 class="mt-3 text-left">
-                        Fitur Unggulan <br> dan Layanan
+                    <?= trans('text_99') ?>
                     </h3>
                     <div class="space-50"></div>
                     <div class="row mx-0 border-fitur">
                         <div class="col-md-4 px-0">
                             <div class="box-fitur d-flex">
                                 <img src="assets/img/icon-1.png" class="img-fluid" alt=""> 
-                                <p class="m-0">Dashboard dan Statistik <br> Performa Usaha</p>
+                                <p class="m-0"><?= trans('text_100') ?></p>
                             </div>
                         </div>
                         <div class="col-md-4 px-0">
                             <div class="box-fitur d-flex">
                                 <img src="assets/img/icon-2.png" class="img-fluid" alt=""> 
-                                <p class="m-0">Laporan Penjualan & <br> Cash Flow</p>
+                                <p class="m-0"><?= trans('101') ?></p>
                             </div>
                         </div>
                         <div class="col-md-4 px-0">
                             <div class="box-fitur d-flex">
                                 <img src="assets/img/icon-3.png" class="img-fluid" alt=""> 
-                                <p class="m-0">Notifikasi Ke <br> WhatsApp / Email</p>
+                                <p class="m-0"><?= trans('text_102') ?></p>
                             </div>
                         </div>
                         <div class="col-md-4 px-0">
                             <div class="box-fitur d-flex">
                                 <img src="assets/img/icon-4.png" class="img-fluid" alt=""> 
-                                <p class="m-0">Smart QR System /<br> Smart Action QR</p>
+                                <p class="m-0"><?= trans('text_103') ?></p>
                             </div>
                         </div>
                         <div class="col-md-4 px-0">
                             <div class="box-fitur d-flex">
                                 <img src="assets/img/icon-5.png" class="img-fluid" alt=""> 
-                                <p class="m-0">Quality Control</p>
+                                <p class="m-0"><?= trans('104') ?></p>
                             </div>
                         </div>
                         <div class="col-md-4 px-0">
                             <div class="box-fitur d-flex">
                                 <img src="assets/img/icon-6.png" class="img-fluid" alt=""> 
-                                <p class="m-0">Notifikasi Di Dalam <br> Aplikasi</p>
+                                <p class="m-0"><?= trans('text_105') ?></p>
                             </div>
                         </div>
                         <div class="col-md-4 px-0">
                             <div class="box-fitur d-flex">
                                 <img src="assets/img/icon-7.png" class="img-fluid" alt=""> 
-                                <p class="m-0">Service Tracking <br> Order</p>
+                                <p class="m-0"><?= trans('text_106') ?></p>
                             </div>
                         </div>
                         <div class="col-md-4 px-0">
                             <div class="box-fitur d-flex">
                                 <img src="assets/img/icon-8.png" class="img-fluid" alt=""> 
-                                <p class="m-0">Catat Garansi</p>
+                                <p class="m-0"><?= trans('text_107') ?></p>
                             </div>
                         </div>
                         <div class="col-md-4 px-0">
                             <div class="box-fitur d-flex">
                                 <img src="assets/img/icon-9.png" class="img-fluid" alt=""> 
-                                <p class="m-0">Export Laporan Ke <br> Microsoft Excel</p>
+                                <p class="m-0"><?= trans('text_108') ?></p>
                             </div>
                         </div>
                     </div>
@@ -277,72 +271,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section>
 
     <div class="space-50"></div>
-    <section id="testimoni" class="clients-testimonial padding-150">
-        <div class="container">
-            <div class="row">
-                <div class="text-center col-12 section-title-custom" data-aos="fade-zoom-in">
-                    <p class="font-size-20">APA YANG MEREKA KATAKAN</p>
-                    <h3>Client puas dengan layanan <br>
-                        MyTechanic & Techanic Business</h3>
-                    <div class="space-50"></div>
-                </div>
-                <div class="col-12">
-                    <div class="testimonial-slider" data-aos="fade-up">
-                        <div class="item">
-                                <div>
-                                    <span class="badge badge-client">Usaha Service</span>
-                                </div>
-                                <div class="px-md-5">
-                                    <p class="text-center font-size-20 font-weight-400 mb-0 mt-2">“Tim semakin solid setelah pakai aplikasi Techanic 👏”</p>
-                                </div>
-                                <div class="mt-4">
-                                    <p class="font-size-13 mb-0">
-                                        Catherine<br>
-                                        <b>PT. DR GADGET INDONESIA</b>
-                                    </p>
-                                    <p class="mb-0 col-md-13 text-techanicbusiness">
-                                        Pengguna sejak 2021
-                                    </p>
-                                </div>
-                        </div>
-                        <div class="item">
-                            <div>
-                                <span class="badge badge-customer">Customer</span>
-                            </div>
-                            <div class="px-md-5">
-                                <p class="text-center font-size-20 font-weight-400 mb-0 mt-2">“Jadi Mudah nyari tempat services! Pokoknya joss!”</p>
-                            </div>
-                            <div class="mt-4">
-                                <p class="font-size-15 mb-0 pt-3">
-                                    <b>Maya Reynold</b>
-                                </p>
-                                <p class="mb-0 col-md-13 text-mytehcanic">
-                                    Pengguna sejak 2021
-                                </p>
-                            </div>
-                    </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
+    
+    <?php $this->load->view('_testimoni'); ?>
 
     <div class="space-100"></div>
     <section id="download-techanic-business">
         <div class="bg-preview-apps" style="background: url('assets/img/bgdownload.png') no-repeat center center/cover!important;">
             <div class="row align-items-center mx-0">
                 <div class="col-md-5 pl-0 offset-md-1 text-white order-xs-last" data-aos="fade-zoom-in" data-aos-delay="300">
-                    <h3 class="text-white">Unduh Techanic Business Untuk Pelayanan Yang Lebih Profesional</h3>
-                        <p class="mt-md-5 mt-2">Aplikasi bisa didapatkan melalui :</p>
+                    <h3 class="text-white"><?= trans('text_109') ?></h3>
+                        <p class="mt-md-5 mt-2"><?= trans('text_110') ?></p>
                         <div class="row mx-0">
                             <div class="col-md-3 col-4 px-0">
-                                <a class="img-download" href="#">
+                                <a class="img-download" href="<?= link_ext('playstore') ?>">
                                     <img src="assets/img/playstore.png" class="img-fluid" alt="">
                                 </a>
                             </div>
                             <div class="col-md-4 col-5 pl-1 pr-0 mb-0">
-                                <a class="img-download-appstore" href="#">
+                                <a class="img-download-appstore" href="<?= link_ext('appstore') ?>">
                                     <img src="assets/img/appstore.png" class="img-fluid" alt="">
                                 </a>
                             </div>
@@ -355,6 +301,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </div>
         
-        <?php $this->load->view('_hubungkan_ke_tim',['text' => 'Jadwalkan Pelatihan <br>  Sekarang !']); ?>
+        <?php $this->load->view('_hubungkan_ke_tim',['text' => trans('text_111')]); ?>
         
     </section>

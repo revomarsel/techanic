@@ -50,12 +50,12 @@ aside.sidebar .tags ul li a,
 .faq .accordion .card .card-header h5 .btn.collapsed,
 nav .pagination .page-item.active .page-link,
 aside.sidebar .gray-panel h3:after {
-    background: #04264F;
+    background: #0e3c71;
 }
 
 /* @media (max-width: 992px) {
     .foxapp-header {
-        background: #04264F;
+        background: #0e3c71;
     }
 } */
 
@@ -68,7 +68,7 @@ aside.sidebar .gray-panel h3:after {
 }
 
 .text-gradient{
-    background: linear-gradient(180deg, #1773D1 8%, #04264F 100%);
+    background: linear-gradient(180deg, #1773D1 8%, #0e3c71 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -92,7 +92,7 @@ footer .subscribe .subscribe-form h4,
 .blog-page .blog-box:hover .blog-details h3 a,
 .single-blog-page .blog-box .post-tag-area ul li a:hover,
 .comments-container .comments-list li .reply:hover {
-    color: #04264F;
+    color: #0e3c71;
 }
 
 .main-features .features-circle:before,
@@ -104,7 +104,7 @@ footer .subscribe .subscribe-form .form-group .form-control,
 aside.sidebar .search .form-group .form-control,
 .single-blog-page .blog-box .blog-details blockquote,
 .comments-form .form-group .form-control {
-    border-color: #04264F;
+    border-color: #0e3c71;
 }
 
 .bg-go-green{
@@ -118,16 +118,16 @@ aside.sidebar .search .form-group .form-control,
 }
 
 .bg-techanic-business {
-    background-color: #04264F;
+    background-color: #0e3c71;
     padding: 100px;
 }
 
 .clients-testimonial .testimonial-slider .item .client-testimonial:after {
-    border-top-color: #04264F;
+    border-top-color: #0e3c71;
 }
 
 .features-circle svg circle {
-    stroke: #04264F;
+    stroke: #0e3c71;
 }
 
 .text-mytehcanic{
@@ -135,7 +135,7 @@ aside.sidebar .search .form-group .form-control,
 }
 
 .text-techanicbusiness{
-    color: #04264f;
+    color: #0e3c71;
 }
 
 .lity,

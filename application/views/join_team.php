@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="space-50"></div>
             <div class="row align-items-center" data-aos="fade-zoom-in" data-aos-delay="200">
                 <div class="col-md-11 offset-md-1">
-                    <h3 class="text-white">Bergabunglah bersama Kami ! <br> Kita Kembangkan Produk Yang Bermanfaat</h3>
+                    <h3 class="text-white"><?= trans('text_112') ?></h3>
                     <div class="space-25"></div>
                 </div>
                 <div class="col-md-5 offset-md-1">
@@ -18,9 +18,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <img src="assets/img/my-techanic-logo-blue.png" class="img-fluid mytechanic" alt="">
                         </div>
                         <div class="card-hover">
-                            <h3 class="text-white">Produk Unggulan Untuk Customer</h3>
+                            <h3 class="text-white"><?= trans('text_113') ?></h3>
                             <p class="text-white">
-                                Memudahkan pencarian tempat raparasi, Tracking Order, Hingga menyimpan histori transaksi. <br> untuk saat ini platform MyTechanic Hanya tersedia untuk web
+                            <?= trans('text_114') ?>
                             </p>
                         </div>
                     </div>
@@ -31,16 +31,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <img src="assets/img/techanic-business-logo-blue.png" class="img-fluid techanic-business" alt="">
                         </div>
                         <div class="card-hover">
-                            <h3 class="text-white">Membantu Pengusaha dan Teknisi dalam Pelayanan Profesional</h3>
+                            <h3 class="text-white"><?= trans('text_115') ?></h3>
                             <p class="text-white">
-                                Melalui Techanic Business, Kita berkomitmen menciptakan cara kerja yang effesien dan membantu dalam pengembangan usaha.
+                            <?= trans('text_116') ?>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <h3 class="text-white d-none-pc">Bergabunglah bersama Kami ! <br> Kita Kembangkan Produk Yang Bermanfaat</h3>
+        <h3 class="text-white d-none-pc"><?= trans('text_117') ?></h3>
     </section>
     <!-- End Why Us -->
 
@@ -51,8 +51,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <!--align-items-center-->
                 <div class="col-md-12 col-12" data-aos="fade-right">
                     <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                        <h3 class="text-blue-gradient mb-3">Posisi yang Tersedia</h3>
-                        <p>Kirim biodata beserta portofolio yang dibutuhkan sesuai posisi yang Anda inginkan.<br> Kami sudah tidak sabar menunggu kontribusimu di dunia start up !
+                        <h3 class="text-blue-gradient mb-3"><?= trans('text_118') ?></h3>
+                        <p><?= trans('text_119') ?>
                         </p>
                     </div>
                     <div class="space-50"></div>

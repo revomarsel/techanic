@@ -7,12 +7,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center" data-aos="fade-zoom-in" data-aos-delay="200">
-                    <h3 class="text-white">Cari Tau Apa Yang Menjadi <br> Kesulitan Anda</h3>
+                    <h3 class="text-white"><?= trans('text_120') ?></h3>
                     <div class="space-50"></div>
                     <form class="subscribe-form row m-0">
                         <div class="col-lg-5 col-md-8 col-10 offset-md-3 pl-0 text-left">
                             <div class="form-group mb-3">
-                                <input type="text" class="form-control form-faq" placeholder="Ketik disini">
+                                <input type="text" class="form-control form-faq" placeholder="<?= trans('text_121') ?>">
                             </div>
                             <div class="d-flex">
                                 <a href="#" class="btn w-auto font-size-12 btn-mytechanic">
@@ -37,7 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row align-items-center">
                 <!--align-items-center-->
                 <div class="col-md-12 col-12" data-aos="fade-right">
-                    <h3 class=" text-center title">Paling Sering Ditanya <br> Client Techanic Business</h3>
+                    <h3 class=" text-center title"><?= trans('text_123') ?></h3>
                     <div class="space-50"></div>
                     <div class="accordion" id="faqAccordion">
                         <div class="card shadow">
@@ -45,22 +45,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h5 class="mb-0">
                                     <button class="btn btn-link" type="button" data-toggle="collapse"
                                         data-target="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
-                                        Bagaimana cara mendaftar akun ke Techanic Business ?
+                                        <?= trans('text_125') ?>
                                     </button>
                                 </h5>
                             </div>
 
                             <div id="collapse_1" class="collapse show" aria-labelledby="heading_1"
                                 data-parent="#faqAccordion">
-                                <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
-                                    commodi, totam atque fugit ut magnam laboriosam
-                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
-                                    accusamus!
-                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
-                                    dicta
-                                    commodi,
-                                    totam atque fugit ut magnam.
+                                <div class="card-body row">
+                                    <div class="col-md-4">
+                                        <div class="watch-video faq">
+                                            <div class="video">
+                                                <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
+                                                <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
+                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8" style="align-self: center;">
+                                        <p>
+                                        <?= trans('text_126') ?>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -69,21 +75,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                         data-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">
-                                        Data apa saja yang perlu diisi di setting awal?
+                                        <?= trans('text__126') ?>
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapse_2" class="collapse" aria-labelledby="heading_2"
                                 data-parent="#faqAccordion">
-                                <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
-                                    commodi, totam atque fugit ut magnam laboriosam
-                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
-                                    accusamus!
-                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
-                                    dicta
-                                    commodi,
-                                    totam atque fugit ut magnam.
+                                <div class="card-body row">
+                                    <div class="col-md-4">
+                                        <div class="watch-video faq">
+                                            <div class="video">
+                                                <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
+                                                <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
+                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8" style="align-self: center;">
+                                        <p>
+                                        <?= trans('text_127') ?>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -92,25 +104,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                         data-target="#collapse_3" aria-expanded="false" aria-controls="collapse_3">
-                                        Bagaimana Cara Menambahkan Cabang Usaha ?
+                                        <?= trans('text_128') ?>
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapse_3" class="collapse" aria-labelledby="heading_3"
                                 data-parent="#faqAccordion">
-                                <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
-                                    commodi, totam atque fugit ut magnam laboriosam
-                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
-                                    accusamus!
-                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
-                                    dicta
-                                    commodi,
-                                    totam atque fugit ut magnam.
+                                <div class="card-body row">
+                                    <div class="col-md-4">
+                                        <div class="watch-video faq">
+                                            <div class="video">
+                                                <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
+                                                <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
+                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8" style="align-self: center;">
+                                        <p>
+                                        <?= trans('text_129') ?>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="card shadow">
+                        <!-- <div class="card shadow">
                             <div class="card-header" id="heading_4">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
@@ -121,38 +139,48 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div id="collapse_4" class="collapse" aria-labelledby="heading_4"
                                 data-parent="#faqAccordion">
-                                <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
-                                    commodi, totam atque fugit ut magnam laboriosam
-                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
-                                    accusamus!
-                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
-                                    dicta
-                                    commodi,
-                                    totam atque fugit ut magnam.
+                                <div class="card-body row">
+                                    <div class="col-md-4">
+                                        <div class="watch-video faq">
+                                            <div class="video">
+                                                <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
+                                                <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
+                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8" style="align-self: center;">
+                                        <p></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="card shadow">
                             <div class="card-header" id="heading_5">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                         data-target="#collapse_5" aria-expanded="false" aria-controls="collapse_5">
-                                        Bagaimana cara membuat transaksi ?
+                                        <?= trans('text_130') ?>
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapse_5" class="collapse" aria-labelledby="heading_5"
                                 data-parent="#faqAccordion">
-                                <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
-                                    commodi, totam atque fugit ut magnam laboriosam
-                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
-                                    accusamus!
-                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
-                                    dicta
-                                    commodi,
-                                    totam atque fugit ut magnam.
+                                <div class="card-body row">
+                                    <div class="col-md-4">
+                                        <div class="watch-video faq">
+                                            <div class="video">
+                                                <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
+                                                <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
+                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8" style="align-self: center;">
+                                        <p>
+                                        <?= trans('text_131') ?>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -161,25 +189,61 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                         data-target="#collapse_6" aria-expanded="false" aria-controls="collapse_6">
-                                        Bagaimana cara export laporan kedalam excel ?
+                                        <?= trans('text_132') ?>
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapse_6" class="collapse" aria-labelledby="heading_6"
                                 data-parent="#faqAccordion">
-                                <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
-                                    commodi, totam atque fugit ut magnam laboriosam
-                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
-                                    accusamus!
-                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
-                                    dicta
-                                    commodi,
-                                    totam atque fugit ut magnam.
+                                <div class="card-body row">
+                                    <div class="col-md-4">
+                                        <div class="watch-video faq">
+                                            <div class="video">
+                                                <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
+                                                <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
+                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8" style="align-self: center;">
+                                        <p>
+                                        <?= trans('text_133') ?>
+
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="card shadow">
+                            <div class="card-header" id="heading_10">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapse_10" aria-expanded="false" aria-controls="collapse_10">
+                                        <?= trans('text_134') ?> 
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapse_10" class="collapse" aria-labelledby="heading_10"
+                                data-parent="#faqAccordion">
+                                <div class="card-body row">
+                                    <div class="col-md-4">
+                                        <div class="watch-video faq">
+                                            <div class="video">
+                                                <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
+                                                <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
+                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8" style="align-self: center;">
+                                        <p>
+                                        <?= trans('text_135') ?>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="card shadow">
                             <div class="card-header" id="heading_7">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
@@ -190,15 +254,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div id="collapse_7" class="collapse" aria-labelledby="heading_7"
                                 data-parent="#faqAccordion">
-                                <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
-                                    commodi, totam atque fugit ut magnam laboriosam
-                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
-                                    accusamus!
-                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
-                                    dicta
-                                    commodi,
-                                    totam atque fugit ut magnam.
+                                <div class="card-body row">
+                                    <div class="col-md-4">
+                                        <div class="watch-video faq">
+                                            <div class="video">
+                                                <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
+                                                <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
+                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8" style="align-self: center;">
+                                        <p>
+                                            1. Pastikan sudah mendownload aplikasi <b>Techanic Business</b> dari app store ataupun play store <br>
+                                            2. Buka aplikasinya dan masukkan nomor hp anda, lalu klik lanjut <br>
+                                            3. Lalu masukkan kode otp yang yang telah dikirim di nomor whatsapp <br>
+                                            4. Lanjutkan pendaftaran dengan mengisi form identitas <br>
+                                            5. Buat PIN baru <br>
+                                            6. Konfirmasi PIN baru <br>
+                                            7. Selamat, anda telah berhasil mendaftar di <b>Techanic Business</b>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -213,18 +289,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div id="collapse_9" class="collapse" aria-labelledby="heading_8"
                                 data-parent="#faqAccordion">
-                                <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur dicta
-                                    commodi, totam atque fugit ut magnam laboriosam
-                                    dignissimos dolorum minus quia sed distinctio in mollitia laborum sint delectus
-                                    accusamus!
-                                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum tenetur
-                                    dicta
-                                    commodi,
-                                    totam atque fugit ut magnam.
+                                <div class="card-body row">
+                                    <div class="col-md-4">
+                                        <div class="watch-video faq">
+                                            <div class="video">
+                                                <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
+                                                <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
+                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8" style="align-self: center;">
+                                        <p>
+                                            1. Pastikan sudah mendownload aplikasi <b>Techanic Business</b> dari app store ataupun play store <br>
+                                            2. Buka aplikasinya dan masukkan nomor hp anda, lalu klik lanjut <br>
+                                            3. Lalu masukkan kode otp yang yang telah dikirim di nomor whatsapp <br>
+                                            4. Lanjutkan pendaftaran dengan mengisi form identitas <br>
+                                            5. Buat PIN baru <br>
+                                            6. Konfirmasi PIN baru <br>
+                                            7. Selamat, anda telah berhasil mendaftar di <b>Techanic Business</b>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

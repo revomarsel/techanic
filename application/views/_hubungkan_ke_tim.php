@@ -9,7 +9,7 @@
                 <?= $text ?>
             </h3>
             <div class="space-25"></div>
-            <a href="#" class="btn btn-primary font-weight-700">Hubungkan Ke Tim</a>
+            <a href="<?= wa_link() ?>" class="btn btn-primary font-weight-700"><?= trans('text_42') ?></a>
         </div>
     </div>
 </div>

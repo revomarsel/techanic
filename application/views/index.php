@@ -6,97 +6,98 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container video px-md-3">
             <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
             <div class="section-title text-white" data-aos="fade-zoom-in">
-                <div class="space-25"></div>
-                <span class="badge badge-light mb-2">Visi Kita</span>
+                <div class="space-100"></div>
+                <!-- <span class="badge badge-light mb-2">Visi Kita</span> -->
                 <h3 class="text-white">
-                    Membangun Pembiasaan Kecil <br>
-                    Berdampak Positif Untuk<br>
-                    Generasi Anak Cucu Kita 
+                    <?= trans('text_1') ?>
                 </h3>
                 <div class="space-25"></div>
-                <p><b>Techanic</b> berkomitmen memberikan solusi dan kontribusi <br>
-                    terhadap isu krisis sampah elektronik
+                <p>
+                    <?= trans('text_2') ?>
                 </p>
-                <p>Mari ambil bagian dalam proses pemulihan & pembaruan.</p>
+                <p class="mt-md-3">
+                    <?= trans('text_3') ?>
+                </p>
             </div>
         </div>
-        <img src="assets/img/right-slider.png" class="img-fluid" style="width: 650px;height: 100%;object-fit: cover;position: absolute;right: 0;top: 0;">
-        <a class="text-white" data-toggle="modal" data-target="#showBlog" href="#">CARI TAU APA YANG TERJADI PADA BUMI KITA ? <img src="assets/img/right.png" class="img-fluid small-icon ml-2"></a>
+        <img id="slider-right" src="assets/img/right-slider-0.png" class="img-fluid" style="width: 650px;height: 100%;object-fit: cover;position: absolute;right: 0;top: 0;">
+        <a class="text-white" data-toggle="modal" data-target="#showBlog" href="#"><?= trans('text_4') ?> <img src="assets/img/right.png" class="img-fluid small-icon ml-2"></a>
     </section>
 
     <div class="space-50"></div>
     <section id="cara-kerja" class="boxes padding-100">
         <div class="container">
             <div class="text-center section-title">
-                <h3>Bersama Techanic <br>
-                    Membangun Solusi Jangka Panjang</h3>
-                    <div class="space-25"></div>
+                <h3 class="mb-3">
+                    <?= trans('text_5') ?></h3>
                 <img src="assets/img/icon-r3.png" class="img-fluid" alt="">
             </div>
-            <div class="space-100"></div>
+            <div class="space-50"></div>
             <div class="row">
-                <div class="col-md-2"></div>
+                <div class="col-md-2 col-12"> </div>
                 <div class="col-md-4 col-12">
-                    <div class="box" data-aos="fade-up">
+                    <div class="box active" data-aos="fade-up">
+                        <h5>01</h5>
                         <div class="space-20"></div>
                         <img src="assets/img/ilustrasi-edukasi.png" class="img-fluid width-img-md" alt="">
                         <div class="space-20"></div>
-                        <h3>Edukasi Pengguna <br> Teknologi</h3>
+                        <h3><?= trans('text_6') ?></h3>
                         <p>
-                            Pentingnya Sustainability. membeli perangkat sesuai kebutuhan sesuai masa pakai yang dianjurkan. <br><br>
-                            jika bermasalah prioritaskan memperbaiki dari pada beli perangkat baru
+                            <?= trans('text_7') ?>
                         </p>
                     </div>
                 </div>
                 <div class="col-md-4 col-12">
                     <div class="box" data-aos="fade-up">
+                        <h5>02</h5>
+                        <div class="space-20"></div>
+                        <img src="assets/img/my-techanic-ilustration.png" class="img-fluid width-img-md" alt="">
+                        <div class="space-20"></div>
+                        <h3><?= trans('text_8') ?></h3>
+                        <p>
+                            <?= trans('text_9') ?>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-12"> </div>
+                <div class="col-md-2 col-12"> </div>
+                <div class="col-md-4 col-12">
+                    <div class="box" data-aos="fade-up">
+                        <h5>03</h5>
                         <div class="space-20"></div>
                         <img src="assets/img/ilustrasi-traking-order.png" class="img-fluid width-img-md" alt="">
                         <div class="space-20"></div>
-                        <h3>Cari Tempat Service di MyTechanic</h3>
+                        <h3><?= trans('text_10') ?></h3>
                         <p>
-                            Platform ini memudahkan customer dalam menemukan tempat service terpercaya. <br><br> serta menyediakan dashbord eksklusif untuk tracking order, claim garansi & histori transaksi
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-2"></div>
-                <div class="col-md-4 col-12">
-                    <div class="box" data-aos="fade-up">
-                        <div class="space-20"></div>
-                        <img src="assets/img/ilustrasi-smart-qr.png" class="img-fluid width-img-md" alt="">
-                        <div class="space-20"></div>
-                        <h3>Transaksi Masa Depan <br> dengan SmartQR</h3>
-                        <p>
-                            Rekanan usaha reparasi <br> yang sudah terdaftar dalam <br> <b>Techanic Business.</b> <br>  menjalankan proses transaksi tanpa menggunakan kertas, <br> dan 
-                            melayani dengan metode terbaru
+                            <?= trans('text_11') ?>
                         </p>
                     </div>
                 </div>
                 <div class="col-md-4 col-12">
                     <div class="box" data-aos="fade-up">
+                        <h5>04</h5>
                         <div class="space-20"></div>
                         <img src="assets/img/ilustrasi-win.png" class="img-fluid width-img-md" alt="">
                         <div class="space-20"></div>
-                        <h3>Yess, Kita Berhasil !</h3>
+                        <h3> <?= trans('text_12') ?></h3>
                         <p>
-                            Anda, teknisi & toko reparasi <br> sudah melalui transaksi masa depan. <br> mengurangi penggunaan kertas sebagai <br> dukungan program <b class="text-green">GO Green.</b> <br> serta efesiensi dalam melakukan transaksi offline
+                            <?= trans('text_13') ?>
                         </p>
                     </div>
                 </div>
-                <div class="col-md-2"></div>
+                <div class="col-md-2 col-12"> </div>
             </div>
         </div>
     </section>
     
-    <section id="manfaat-mytechanic" class="padding-150 background-fullwidth background-fixed bg-blue" >
+    <section id="manfaat-mytechanic" class="padding-100 background-fullwidth background-fixed bg-blue" >
         <div class="container">
-            <div class="row">
+            <div class="row mx-0">
                 <div class="col-md-5 aos-init aos-animate" data-aos="fade-up">
                     <div class="section-title stiky-left mb-3">
-                        <span class="badge badge-light">Produk</span>
+                        <span class="badge badge-light"><?= trans('text_14') ?></span>
                         <h3 class="text-white mt-3">
-                            Membagikan manfaat <br> dalam platform unggulan.
+                            <?= trans('text_15') ?>
                         </h3>
                     </div>
                 </div>
@@ -106,12 +107,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="d-flex align-items-start flex-column h-card mytechanic">
                                 <div class="mb-auto">
                                     <img src="assets/img/my-techanic-logo-blue.png" class="logo img-fluid mt-3" alt="">
-                                    <p class="font-weight-normal">
-                                        Produk Unggulan Untuk Customer
-                                        Memudahkan pencarian tempat raparasi, Tracking Order, Hingga menyimpan histori transaksi.untuk saat ini platform MyTechanic Hanya tersedia untuk web
+                                    <p class="font-weight-normal mt-md-2">
+                                        <?= trans('text_16') ?>
                                     </p>
                                 </div>
-                                <a href="#" class="btn btn-primary">Kunjungi Halaman</a>
+                                <a href="<?= site_url().'product?title=my-techanic' ?>" class="btn btn-primary mytechanic">
+                                    <?= trans('text_17') ?> <i class="fa fa-chevron-circle-right ml-2"></i>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -124,16 +126,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="mb-auto">
                                     <img src="assets/img/techanic-business-logo-blue.png" class="logo techanic-business img-fluid mt-3" alt="">
                                     <p class="font-weight-normal">
-                                        Membantu Pengusaha dan Teknisi dalam Pelayanan Profesional
-                                        Melalui Techanic Business, Kita berkomitmen menciptakan cara kerja yang effesien dan membantu dalam pengembangan usaha.
+                                        <?= trans('text_18') ?>
                                     </p>
                                 </div>
-                                <a href="#" class="btn btn-primary">Kunjungi Halaman</a>
+                                <a href="<?= site_url().'product?title=techanic-business' ?>" class="btn btn-primary techanicbusiness">
+                                    <?= trans('text_17') ?> <i class="fa fa-chevron-circle-right ml-2"></i>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <img src="assets/img/techanic-business-home.png" class="right img-fluid" alt="">
-
                         </div>
                     </div>
                 </div>

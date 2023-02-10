@@ -7,8 +7,7 @@
                         <div class="widget">
                             <img src="<?= base_url() ?>assets/img/logo-techanic-general-white.png" class="img-fluid" alt="">
                             <p class="font-size-16 mt-2 lh-30">
-                                Techanic adalah start-up dari Indonesia yang mengembangkan platform <b>MyTechanic & Techanic Business</b> guna 
-                                mengembangkan ekosistem perbaikan yang lebih baik
+                                <?= trans('text_19') ?>
                             </p>
                         </div>
                     </div>
@@ -101,12 +100,32 @@
         $('#Whatsapp').floatingWhatsApp({
             phone: '+6281233236569',
             position: "right",
+            popupMessage: '',
+            message: "Hallo Techanic, saya ingin menanyakan perihal",
+            showPopup: false,
+            showOnIE: false,
+            headerTitle: '',
+            headerColor: '#25d366',
+            backgroundColor: '#25d366',
         });
       });
         $( document ).ready(function() {
             setTimeout(function() { 
                 $('#showInformation').modal('show');
             }, 5000);
+            var numSlide= 0;
+            setInterval(function() { 
+                if(numSlide < 3){
+                    numSlide += 1;
+                }else{
+                    numSlide = 0;
+                }
+                var image = $("#slider-right");
+                image.fadeOut('slow', function () {
+                    image.attr('src', 'assets/img/right-slider-'+numSlide+'.png');
+                    image.fadeIn('slow');
+                });
+            }, 4000);
         });
         $(document).scroll(function() {
             var y = $(this).scrollTop();

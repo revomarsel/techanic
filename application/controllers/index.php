@@ -20,6 +20,18 @@ class Index extends CI_Controller {
 	}
 
 	public function product(){
+		// for($x=53; $x <= 111; $x++ ){
+		// 	echo '
+		// 		if($type == "text_'.$x.'"){<br>
+		// 			if($lang == "en-id"){<br>
+		// 				return "Connect to Team";<br>
+		// 			}else{<br>
+		// 				return "Peralatan Rumah Tangga";<br>
+		// 			}<br>
+		// 		}<br><br>
+		// 	';
+		// }
+		// die;
 		$get = $this->input->get('title',true);
 		
 		$data['title'] = $this->title;

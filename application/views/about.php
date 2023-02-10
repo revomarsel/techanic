@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-md-12 text-center">
                     <a href="#latar-belakang" id="#latar-belakang" class="anchor potition-relative">
                         <h3 class="text-white">
-                            Banyak Hal Yang Tidak Kita Sadari <br> Sebagai Pengguna Teknologi
+                            <?= trans('text_20') ?>
                         </h3>
                         <img src="assets/img/arrows-down.png" class="icon img-fluid arrow-animation ml_-2" alt="">
                         <div class="space-25"></div>
@@ -29,7 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="section-title stiky-left">
                         <span class="badge badge-light">Latar Belakang</span>
                         <h3 class="text-white mt-3 mb-3">
-                        Siklus Konsumtif <br> Pengguna Teknologi
+                            <?= trans('text_21') ?>
                         </h3>
                     </div>
                 </div>
@@ -39,12 +39,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="d-flex align-items-start flex-column h-card-info">
                                 <div class="mb-auto p-2">
                                     <h3>
-                                        Teknologi Berkembang Pesat
+                                        <?= trans('text_22') ?>
                                     </h3>
                                 </div>
                                 <div class="p-2">
                                     <p class="font-weight-normal mb-0">
-                                        Permintaan & Kebutuhan akan upgrade teknologi terus meningkat dalam 20 tahun terakhir
+                                        <?= trans('text_23') ?>
                                     </p>
                                 </div>
                             </div>
@@ -58,12 +58,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="d-flex align-items-start flex-column h-card-info">
                                 <div class="mb-auto p-2">
                                     <h3>
-                                        Trend Impulsif <br> Dari Mayarakat
+                                        <?= trans('text_24') ?>
                                     </h3>
                                 </div>
                                 <div class="p-2">
                                     <p class="font-weight-normal mb-0">
-                                    Masyarakat Cenderung membeli  perangkat baru hanya untuk mengikuti trend tanpa mempedulikan masa usia pakai yang dianjurkan
+                                        <?= trans('text_25') ?>
                                     </p>
                                 </div>
                             </div>
@@ -77,12 +77,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="d-flex align-items-start flex-column h-card-info">
                                 <div class="mb-auto p-2">
                                     <h3>
-                                    Akibat Lonjakan <br> Limbah elektronik
+                                        <?= trans('text_26') ?>
                                     </h3>
                                 </div>
                                 <div class="p-2">
                                     <p class="font-weight-normal mb-0">
-                                        Riset Global E-Waste Monitor yang dirilis oleh Perserikatan Bangsa-Bangsa (PBB), Jumlah limbah elektronik meningkat rata rata 4,4 juta ton setiap tahunnya
+                                        <?= trans('text_27') ?>
                                     </p>
                                 </div>
                             </div>
@@ -96,13 +96,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="d-flex align-items-start flex-column h-card-info">
                                 <div class="mb-auto p-2">
                                     <h3>
-                                    Sustainability <br> Adalah Solusi Cerdas
+                                        <?= trans('text_28') ?>
                                     </h3>
                                 </div>
                                 <div class="p-2">
                                     <p class="font-weight-normal mb-0">
-                                    Banyak Brand teknologi menunjang upgrade software & sparepart untuk mendukung sustainability, 
-                                    Serta dampak & solusi lainnya terkait sampah elektronik Menjadi Pembahasan dalam word economic forum
+                                        <?= trans('text_29') ?>
                                     </p>
                                 </div>
                             </div>
@@ -118,7 +117,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="space-100"></div>
             <div class="row">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                    <h3 class="text-white">Yang Coba Kami <br> Bangun di TECHANIC</h3>
+                    <h3 class="text-white"><?= trans('text_30') ?></h3>
                 </div>
             </div>
             <div class="space-50"></div>
@@ -127,31 +126,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <img src="assets/img/my-techanic-logo-white.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-7 text-white border-left-white" data-aos="fade-zoom-in" data-aos-delay="200">
-                    <h3 class="text-white">Melalui Platform MyTechanic </h3>
+                    <h3 class="text-white"><?= trans('text_31') ?> </h3>
                     <div class="space-25"></div>
                     <div class="row">
                         <div class="col-md-12" data-aos="zoom-in" data-aos-delay="400">
                             <div class="why-us-icon">
-                                <p>Kita ingin mengurangi dampak impulsif akibat teknologi berkembang pesat.
-                                    memberikan edukasi terhadap pengguna elektronik seberapa pentingnya 
-                                    tidak menciptakan limbah elektronik secara berlebihan
-                                </p>
-                            </div>
-                            <div class="space-15"></div>
-                        </div>
-                        <div class="col-md-12" data-aos="zoom-in" data-aos-delay="600">
-                            <div class="why-us-icon">
-                                <p>Prioritaskan perbaiki dari pada beli baru sesuai masa anjuran pakai, adalah salah satu langkah nyata dalam 
-                                    mengurangi limbah elektronik.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="space-15"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12" data-aos="zoom-in" data-aos-delay="800">
-                            <div class="why-us-icon">
-                                <p>lakukan sekarang untuk dampak yang lebih baik di generasi selanjutnya 
+                                <p>
+                                    <?= trans('text_32') ?>
                                 </p>
                             </div>
                             <div class="space-15"></div>
@@ -165,34 +146,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="col-md-7 text-white border-left-white" data-aos="fade-zoom-in" data-aos-delay="200">
                     <h3 class="text-white">
-                        Go Digital untuk Industri Reparasi Indonesia</h3>
+                        <?= trans('text_33') ?></h3>
                         <div class="space-25"></div>
                     <div class="row">
                         <div class="col-md-12" data-aos="zoom-in" data-aos-delay="400">
                             <div class="why-us-icon">
-                                <p>Banyak usaha reparasi masih menggunakan cara konvensional
-                                    saat melayani customer, menggunakan kertas nota sebagai tanda transaksi
-                                    dan pembukuan keuangan secara manual.
+                                <p>
+                                    <?= trans('text_34') ?>
                                 </p>
                             </div>
-                            <div class="space-15"></div>
-                        </div>
-                        <div class="col-md-12" data-aos="zoom-in" data-aos-delay="600">
-                            <div class="why-us-icon">
-                                <p>Kita berharap dengan teknologi <b>Smart QR</b> bisa membangun industri ini 
-                                    ke arah profesional dan bekerja secara efisien.
-                                </p>
-                            </div>
-                            <div class="space-15"></div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12" data-aos="zoom-in" data-aos-delay="800">
-                            <div class="why-us-icon">
-                                <p>Lakukan sekarang untuk dampak yang lebih baik di generasi selanjutnya 
-                                </p>
-                            </div>
-                            <div class="space-15"></div>
                         </div>
                     </div>
                 </div>
@@ -210,19 +172,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-12" data-aos="zoom-in" data-aos-delay="400">
                         <div class="why-us-icon">
                             <p>
-                                Ekosistem platform digital Techanic untuk bisnis perbaikan elektronik SME dirancang untuk meningkatkan keberlanjutan dan efisiensi operasional.
+                                <?= trans('text_35') ?>
                             </p>
                         </div>
                     </div>
                     <div class="col-md-12" data-aos="zoom-in" data-aos-delay="600">
                         <div class="why-us-icon">
-                            <p>Dengan menggunakan teknologi terkini, platform kami mempermudah pemantauan dan pengelolaan perbaikan untuk teknisi, sehingga meminimalkan dampak lingkungan.</p>
+                            <p><?= trans('text_36') ?></p>
                         </div>
                     </div>
                     <div class="space-25"></div>
                     <div class="col-md-12" data-aos="zoom-in" data-aos-delay="800">
                         <div class="why-us-icon">
-                            <p>Solusi kami memampukan bisnis perbaikan untuk menerapkan praktik-praktik yang lebih bertanggung jawab dan membuat perbedaan positif bagi lingkungan. Bersama kami dalam misi memacu perubahan positif di industri ini.</p>
+                            <p><?= trans('text_37') ?></p>
                         </div>
                         <div class="space-25"></div>
                     </div>
@@ -244,25 +206,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="container">
                 <div class="row mx-0 align-items-center mx-0">
                     <div class="col-md-6 text-white" data-aos="fade-zoom-in" data-aos-delay="200">
-                        <h3 class="text-white">Jadilah Bagian Dari TECHANIC 
-                            Membangun <span class="red-indonesia">Indonesia</span> Lebih
-                            Bersih Dari Limbah Elektronik
-                            </h3>
+                            <h3 class="text-white"><?= trans('text_38') ?></h3>
                             <h3 class="text-white Sustainability">#SustainabilityIsImportant</h3>
-                            <p class="font-size-18">Aplikasi bisa didapatkan melalui :</p>
+                            <p class="font-size-18"><?= trans('text_39') ?></p>
                             <div class="row mx-0">
                                 <div class="col-md-4 col-4 px-0">
-                                    <a class="img-download" href="#">
+                                    <a class="img-download" href="<?= link_ext('playstore') ?>">
                                         <img src="assets/img/playstore.png" class="img-fluid" alt="">
                                     </a>
                                 </div>
                                 <div class="col-md-5 col-5 pl-1 pr-0 mb-0">
-                                    <a class="img-download-appstore" href="#">
+                                    <a class="img-download-appstore" href="<?= link_ext('appstore') ?>">
                                         <img src="assets/img/appstore.png" class="img-fluid" alt="" style="width:73%">
                                     </a>
                                 </div>
                                 <div class="col-md-12 px-0 mt-2">
-                                    <a href="#" class="btn btn-outline-light">Buka Aplikasi Web</a>
+                                    <a href="<?= link_ext('web') ?>" class="btn btn-outline-light"><?= trans('text_40') ?></a>
                                 </div>
                             </div>
                         <div class="space-50"></div>
@@ -275,4 +234,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
     </section>
 
-    <?php $this->load->view('_hubungkan_ke_tim',['text' => 'Tim TECHANIC <br> Siap Memberikan Anda Solusi']); ?>
+    <?php $this->load->view('_hubungkan_ke_tim',['text' => trans('text_41')]); ?>

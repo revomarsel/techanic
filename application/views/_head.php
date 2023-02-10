@@ -76,6 +76,7 @@
                     $logoBlack = 'logo-techanic-general-blue.png';
                     $logoWhite = 'logo-techanic-general-white.png';
                     $url = $this->uri->segment(1);
+                    $lang = $this->input->get('lang',true);
                     $title_produk = $this->input->get('title',true);
                     $class = "";
                     if($title_produk == 'my-techanic'){
@@ -100,7 +101,7 @@
                 <div class="collapse navbar-collapse" id="main_menu">
                     <ul class="navbar-nav ml-auto navbar-nav col-md-10 justify-content-end" id="main_menu">
                         <li class="nav-item">
-                            <a class="nav-link anchor <?= $url == '' ? 'active': '' ?>" href="<?= site_url() ?>">Home
+                            <a class="nav-link anchor <?= $url == '' ? 'active': '' ?>" href="<?= site_url().($lang == 'en-id' ? '?lang=en-id'  : '') ?>">Home
                             </a>
                         </li>
                         <li class="nav-item dropdown">
@@ -109,26 +110,26 @@
                                 Product
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item anchor" href="<?= site_url().'product?title=my-techanic' ?>">MyTechanic</a>
-                                <a class="dropdown-item anchor" href="<?= site_url().'product?title=techanic-business' ?>">Techanic Business</a>
+                                <a class="dropdown-item anchor" href="<?= site_url().'product?title=my-techanic'.($lang == 'en-id' ? '&lang=en-id'  : '') ?>">MyTechanic</a>
+                                <a class="dropdown-item anchor" href="<?= site_url().'product?title=techanic-business'.($lang == 'en-id' ? '&lang=en-id'  : '') ?>">Techanic Business</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link anchor <?= $url == 'about-us' ? 'active': '' ?>" href="<?= site_url().'about-us' ?>">About Us</a>
+                            <a class="nav-link anchor <?= $url == 'about-us' ? 'active': '' ?>" href="<?= site_url().'about-us'.($lang == 'en-id' ? '?lang=en-id'  : '') ?>">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link anchor <?= $url == 'join-a-team' ? 'active': '' ?>" href="<?= site_url().'join-a-team' ?>">Join a Team</a>
+                            <a class="nav-link anchor <?= $url == 'join-a-team' ? 'active': '' ?>" href="<?= site_url().'join-a-team'.($lang == 'en-id' ? '?lang=en-id'  : '') ?>">Join a Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link anchor <?= $url == 'faq' ? 'active': '' ?>" href="<?= site_url().'faq' ?>">FAQ ?</a>
+                            <a class="nav-link anchor <?= $url == 'faq' ? 'active': '' ?>" href="<?= site_url().'faq'.($lang == 'en-id' ? '?lang=en-id'  : '') ?>">FAQ ?</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-globe mr-2"></i>ID
+                                <i class="fa fa-globe mr-2"></i><?php echo $lang == 'en-id' ? 'EN'  : 'ID' ?>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item anchor" href="<?= site_url().'?lang=id-id' ?>">Bahasa Indonesia</a>
+                                <a class="dropdown-item anchor" href="<?= site_url() ?>">Bahasa Indonesia</a>
                                 <a class="dropdown-item anchor" href="<?= site_url().'?lang=en-id' ?>">English</a>
                             </div>
                         </li>

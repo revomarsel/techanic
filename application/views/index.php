@@ -101,6 +101,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </h3>
                     </div>
                 </div>
+                <?php $lang = $this->input->get('lang',true); ?>
                 <div class="col-md-7 section-title aos-init aos-animate" data-aos="fade-zoom-in">
                     <div class="mx-0 row produk-info bg-white mb-4">
                         <div class="col-md-6">
@@ -111,7 +112,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         <?= trans('text_16') ?>
                                     </p>
                                 </div>
-                                <a href="<?= site_url().'product?title=my-techanic' ?>" class="btn btn-primary mytechanic">
+                                <a href="<?= site_url().'product?title=my-techanic'.($lang == 'en-id' ? '&lang=en-id'  : '') ?>" class="btn btn-primary mytechanic">
                                     <?= trans('text_17') ?> <i class="fa fa-chevron-circle-right ml-2"></i>
                                 </a>
                             </div>
@@ -129,7 +130,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         <?= trans('text_18') ?>
                                     </p>
                                 </div>
-                                <a href="<?= site_url().'product?title=techanic-business' ?>" class="btn btn-primary techanicbusiness">
+                                <a href="<?= site_url().'product?title=techanic-business'.($lang == 'en-id' ? '&lang=en-id'  : '') ?>" class="btn btn-primary techanicbusiness">
                                     <?= trans('text_17') ?> <i class="fa fa-chevron-circle-right ml-2"></i>
                                 </a>
                             </div>

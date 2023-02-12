@@ -121,9 +121,7 @@ if (!function_exists('trans')) {
         $lang = $ci->input->get('lang',true);
         if($type == 'text_1'){
             if($lang == 'en-id'){
-                return 'Building Small Habits <br>
-                Positive Impacts in<br>
-                Next Generation';
+                return 'Building Small Habits <br> to Bring Positive Impact <br> for The Next Generation';
             }else{
                 return 'Membangun Pembiasaan Kecil <br>
                 Memberi Dampak Positif di<br>
@@ -133,8 +131,7 @@ if (!function_exists('trans')) {
 
         if($type == 'text_2'){
             if($lang == 'en-id'){
-                return '<b>Techanic</b> is committed to delivering solutions and contributions <br>
-against the issue of electronic waste crisis';
+                return '<b>Techanic</b> is committed to giving solutions and contributing <br> to the issue of the electronic waste crisis';
             }else{
                 return '<b>Techanic</b> berkomitmen memberikan solusi dan kontribusi <br>
                 terhadap isu krisis sampah elektronik';
@@ -143,7 +140,7 @@ against the issue of electronic waste crisis';
         
         if($type == 'text_3'){
             if($lang == 'en-id'){
-                return 'Let’s take part in the recovery & update process.' ;
+                return 'Let’s be part of the recovery & renewal process' ;
             }else{
                 return 'Mari ambil bagian dalam proses pemulihan & pembaruan.';
             }
@@ -167,9 +164,9 @@ against the issue of electronic waste crisis';
         
         if($type == 'text_6'){
             if($lang == 'en-id'){
-                return 'Education Importance of Sustainability';
+                return 'Education on the Importance of Sustainability';
             }else{
-                return 'Edukasi Pentingnya Sustainability';
+                return 'Membagikan Edukasi Pentingnya Sustainability';
             }
         }
         
@@ -191,7 +188,7 @@ against the issue of electronic waste crisis';
         
         if($type == 'text_9'){
             if($lang == 'en-id'){
-                return 'This app makes it easy for customers to find <b> trusted service place.</b> <br><br> History of transactions stored digitally for warranty claims needs, it is expected that users can use the device with long duration';
+                return 'This application allows customers to find <b>trusted service places.</b> <br><br> Transaction history is digitally stored for warranty claim needs so that users can hopefully use the device for a long-term duration.';
             }else{
                 return 'Aplikasi ini memudahkan customer dalam menemukan <b>tempat service terpercaya.</b>  <br><br> Histori transaksi tersimpan secara digital untuk kebutuhan klaim garansi, diharapkan pengguna bisa menggunakan perangkat dengan durasi panjang ';
             }
@@ -199,7 +196,7 @@ against the issue of electronic waste crisis';
         
         if($type == 'text_10'){
             if($lang == 'en-id'){
-                return 'Improve the Quality of Reparation Industry';
+                return 'Improve the Quality of the Reparation Industry';
             }else{
                 return 'Meningkatkan Kualitas Industri Reparasi';
             }
@@ -207,7 +204,7 @@ against the issue of electronic waste crisis';
         
         if($type == 'text_11'){
             if($lang == 'en-id'){
-                return 'Platform <b>Techanic Business</b> helps technicians and business owners repair in the habit of serving efficiently and professionally. <br> <br> It is expected that trust increases in the eyes of customers keep the business growing according to target';
+                return 'The <b>Techanic Business</b> platform helps technicians and repair business owners to serve efficiently and professionally. <br> <br> It is expected that trust increases in the eyes of customers keep the business growing according to target';
             }else{
                 return 'Platform <b>Techanic Business</b> membantu teknisi dan pemilik usaha reparasi dalam pembiasaan melayani secara efesien dan profesional. <br> <br> Diharapkan kepercayaan meningkat dimata customer membuat usaha terus berkembang sesuai target';
             }
@@ -215,7 +212,7 @@ against the issue of electronic waste crisis';
 
         if($type == 'text_12'){
             if($lang == 'en-id'){
-                return 'Yess, we succeed !';
+                return 'Yes, we did it!';
             }else{
                 return 'Yess, Kita Berhasil !';
             }
@@ -223,7 +220,7 @@ against the issue of electronic waste crisis';
 
         if($type == 'text_13'){
             if($lang == 'en-id'){
-                return 'Building sustainable long-term solutions to address <br><b> electronic waste problem</b> <br> in an effort to maintain the environment, <br><br> as well as advance small and medium enterprises in the field of reparation.' ;
+                return 'We succeeded in building a long-term, sustainable solution <br> <b>to the electronic waste problem</b> <br> in an effort to protect the environment, as well as advancing small and medium-sized repair businesses.' ;
             }else{
                 return 'Membangun solusi jangka panjang yang berkelanjutan untuk mengatasi <br><b>masalah limbah elektronik</b> <br> dalam upaya menjaga lingkungan, <br><br> serta memajukan usaha kecil dan menengah di bidang reparasi.';
             }
@@ -239,16 +236,16 @@ against the issue of electronic waste crisis';
 
         if($type == 'text_15'){
             if($lang == 'en-id'){
-                return 'Latest Repair Ecosystem, Transactions Walk Easier & Efficient';
+                return 'Newest Repair Ecosystem !  Make Transactions Run Easier & More Efficiently';
             }else{
-                return 'Ekosistem Perbaikan Masa Kini, Transaksi Berjalan Lebih Mudah & Efisien';
+                return 'Ekosistem Perbaikan Masa Kini ! <br><br> Transaksi Berjalan Lebih Mudah & Efisien';
             }
         }
 
         if($type == 'text_16'){
             if($lang == 'en-id'){
-                return' MyTechanic is a marketplace service service platform intended
-                easy search for repair places and equipped also <br><b> feature tracking order</b>, to save transaction history for <br> <b> warranty claims</b>';
+                return 'MyTechanic is a repair service marketplace platform designed to easily find a repair place and equipped with an <br><b>order tracking feature</b>, to keep transaction history for <br> <b>warranty claim purposes</b>.
+                ';
             }else{
                 return 'MyTechanic sebuah marketplace platform jasa service reparasi bertujuan
                 memudahkan pencarian tempat reparasi dan dilengkapi juga  <br><b>fitur tracking order</b>, hingga menyimpan histori transaksi untuk keperluan <br> <b>klaim garansi</b>';
@@ -265,7 +262,7 @@ against the issue of electronic waste crisis';
 
         if($type == 'text_18'){
             if($lang == 'en-id'){
-                return 'Mobile-based repair business management application, business owners and technicians can manage the work more efficiently and regularly. <br><br> Equipped with progress monitoring feature serves to ensure the work is completed on time and in accordance with customer‘s expectations';
+                return 'A mobile-based repair business management application, business owners and technicians can manage work more efficiently and regularly. <br><br> Equipped with a progress monitoring feature to ensure work is completed on time and in accordance with customer expectations.';
             }else{
                 return 'Aplikasi manajemen usaha reparasi berbasis mobile, pemilik usaha dan teknisi dapat mengelola pekerjaan lebih efisien dan teratur. <br><br> Dilengkapi fitur pemantauan progress berfungsi memastikan pekerjaan selesai tepat waktu dan sesuai dengan harapan pelanggan';
             }
@@ -273,7 +270,7 @@ against the issue of electronic waste crisis';
         
         if($type == 'text_19'){
             if($lang == 'en-id'){
-                return 'Building sustainable long-term solutions to address electronic waste problems and advance small and medium-sized businesses in the field of reparation, <br> and maintaining the environment for future generations';
+                return 'Building a long-term sustainable solution to the electronic waste problem and advancing small and medium-sized repair businesses as well <br> as protecting the environment for future generations.';
             }else{
                 return 'Membangun solusi jangka panjang yang berkelanjutan untuk mengatasi masalah limbah elektronik dan memajukan  usaha kecil dan menengah di bidang reparasi,<br> serta menjaga lingkungan untuk generasi mendatang';
             }
@@ -281,7 +278,7 @@ against the issue of electronic waste crisis';
         
         if($type == 'text_20'){
             if($lang == 'en-id'){
-                return 'Many Things We Don’t Know <br> As Technology Users';
+                return 'Many Things We Don’t Realize <br> as Technology Users';
             }else{
                 return 'Banyak Hal Yang Tidak Kita Sadari <br> Sebagai Pengguna Teknologi';
             }
@@ -289,7 +286,7 @@ against the issue of electronic waste crisis';
 
         if($type == 'text_21'){
             if($lang == 'en-id'){
-                return 'Consumption Cycle <br> Technology Users';
+                return 'Consumptive Cycle of <br> Technology Userss';
             }else{
                 return 'Siklus Konsumtif <br> Pengguna Teknologi';
             }
@@ -305,7 +302,7 @@ against the issue of electronic waste crisis';
         
         if($type == 'text_23'){
             if($lang == 'en-id'){
-                return 'Demand & need for technology upgrades has been increasing in the last 20 years';
+                return 'Demands & needs for technology upgrades have been steadily increasing in the last 20 years';
             }else{
                 return 'Permintaan & kebutuhan akan upgrade teknologi terus meningkat dalam 20 tahun terakhir';
             }
@@ -313,7 +310,7 @@ against the issue of electronic waste crisis';
         
         if($type == 'text_24'){
             if($lang == 'en-id'){
-                return 'Impulsive Trend <br> From Society';
+                return 'The impulsive trend <br> in society';
             }else{
                 return 'Sifat Impulsif <br> Dari Masyarakat';
             }
@@ -321,7 +318,7 @@ against the issue of electronic waste crisis';
 
         if($type == 'text_25'){
             if($lang == 'en-id'){
-                return 'People tend to buy new devices only to follow trends regardless of the recommended lifespan';
+                return 'People tend to buy new devices just to follow the trend regardless of the recommended lifespan';
             }else{
                 return 'Masyarakat Cenderung membeli  perangkat baru hanya untuk mengikuti trend tanpa mempedulikan masa usia pakai yang dianjurkan';
             }
@@ -329,7 +326,7 @@ against the issue of electronic waste crisis';
 
         if($type == 'text_26'){
             if($lang == 'en-id'){
-                return 'Cause of the Surge <br> Electronic waste';
+                return 'Consequences of Surge <br> in Electronic Waste';
             }else{
                 return 'Akibat Lonjakan <br> Limbah elektronik';
             }
@@ -345,7 +342,7 @@ against the issue of electronic waste crisis';
         
         if($type == 'text_28'){
             if($lang == 'en-id'){
-                return 'Sustainability <br> Is Smart Solutions';
+                return 'Sustainability <br> is the Smart Solutions';
             }else{
                 return 'Sustainability <br> Adalah Solusi Cerdas';
             }
@@ -353,8 +350,7 @@ against the issue of electronic waste crisis';
 
         if($type == 'text_29'){
             if($lang == 'en-id'){
-                return' Many Brand Technology supports software upgrades & spareparts to support sustainability,
-As well as other impacts & solutions related to electronic waste into discussion in word economic forum';
+                return' Many technology brands provide software upgrades & spare parts to support sustainability and other impacts & solutions regarding electronic waste which were discussed at the world economic forum.';
             }else{
                 return 'Banyak Brand teknologi menunjang upgrade software & sparepart untuk mendukung sustainability, 
                 Serta dampak & solusi lainnya terkait sampah elektronik Menjadi Pembahasan dalam word economic forum';
@@ -363,7 +359,7 @@ As well as other impacts & solutions related to electronic waste into discussion
         
         if($type == 'text_30'){
             if($lang == 'en-id'){
-                return 'Which Try Us <br> Build In TECHANIC';
+                return 'Here’s what we’re trying to build in Techanic';
             }else{
                 return 'Yang Coba Kami <br> Bangun Dalam TECHANIC';
             }
@@ -379,10 +375,14 @@ As well as other impacts & solutions related to electronic waste into discussion
         
         if($type == 'text_32'){
             if($lang == 'en-id'){
-                return' A marketplace service platform that bridges between customers who need service services with professionals who provide services. <br> <br> <br>
-                It offers practical solutions for customers to find and order the services they need, without having to bother looking for one by one. Using the latest technology and intuitive design, the platform makes it easier for search and booking services so customers can find what they need quickly and easily.
-                On the other hand, service marketplaces also help professionals reach more customers and improve their visibility. This allows them to promote their services and acquire new orders easily, thus helping to expand their business and achieve greater success. <br><br>
-                By combining convenience for customers and professionals, the service marketplace helps to build a profitable ecosystem for all parties involved <br><br>';
+                return'A marketplace repair service platform that connects customers who need services with professionals who provide the services. <br> <br>
+
+                We offer a practical solution for customers to find and book the services they need, without the hassle of searching one by one. Using the most updated technology and intuitive design, this platform simplifies the process of searching and booking services, so that customers can find what they need in no time.<br><br>
+                
+                On the other hand, this service marketplace also helps professionals to reach more customers and increase their visibility. It allows them to promote their services and obtain new orders easily, thus helping to expand their business and achieve greater success.<br><br>
+                
+                By combining convenience for both customers and professionals, this service marketplace helps to build an ecosystem that is beneficial for all parties involved.
+                ';
             }else{
                 return 'Sebuah marketplace platform Jasa Service Reparasi yang menjembatani antara pelanggan yang membutuhkan jasa service dengan para profesional yang menyediakan jasa tersebut. <br> <br>
                 Ini menawarkan solusi praktis bagi pelanggan untuk menemukan dan memesan jasa yang mereka butuhkan, tanpa harus repot mencari satu per satu. Dengan menggunakan teknologi terkini dan desain yang intuitif, platform ini mempermudah proses pencarian dan pemesanan jasa, supaya pelanggan dapat menemukan apa yang mereka butuhkan dengan cepat dan mudah. <br> <br>
@@ -393,7 +393,7 @@ As well as other impacts & solutions related to electronic waste into discussion
         
         if($type == 'text_33'){
             if($lang == 'en-id'){
-                return 'Go Digital for Indonesia Reparation Industry';
+                return 'Go Digital for Indonesia’s Repair Industry';
             }else{
                 return 'Go Digital untuk Industri Reparasi Indonesia';
             }
@@ -401,14 +401,13 @@ As well as other impacts & solutions related to electronic waste into discussion
         
         if($type == 'text_34'){
             if($lang == 'en-id'){
-                return 'Techanic Business is a business owner management application engaged in repair business. Available for android and ios, business owners and technicians can manage their work more efficiently and regularly. <br><br>
+                return 'Techanic Business is a business owner management app for repair businesses. Available for android and ios, business owners and technicians can manage their work more efficiently and organized. <br> <br>
 
-                The app provides progress monitoring features, and job reports, which help technicians to achieve better job results. This feature also facilitates communication between technician and customer, thus ensuring that the work is completed on time and in accordance with customer expectations. <br><br>
-
-                Features like digital invoicing are another very important feature. This feature allows technicians to manage invoices and payments digitally, making the payment process easier, it helps to reduce the risk of errors and ensure that payments are timely and according to the amount they should. <br><br>
-                By combining mobile application and digital invoicing,
-                ensure their business run smoothly and business owners can implement <b> system no invoice, free service
-                </b>';
+                The app features progress monitoring and job reports, which help technicians to achieve better job results. This feature also facilitates communication between technicians and customers, ensuring that work is completed on time and in line with customer expectations. <br> <br>
+                
+                Features like digital invoicing are another very important feature. This feature allows technicians to manage invoices and payments digitally, making the payment process easier, helping to reduce the risk of errors, and ensuring that payments are made on time and for the right amount. <br> <br>
+                
+                By combining mobile applications and digital invoicing, we ensure that businesses run smoothly and business owners can implement a <br> <b>no-invoice system and free service system.</b>';
             }else{
                 return 'Techanic Business adalah aplikasi manajemen pemilik usaha yang bergerak dalam usaha reparasi. Tersedia untuk android dan ios, pemilik usaha dan teknisi dapat mengelola pekerjaan mereka dengan lebih efisien dan teratur. <br><br>
 
@@ -423,7 +422,7 @@ As well as other impacts & solutions related to electronic waste into discussion
 
         if($type == 'text_35'){
             if($lang == 'en-id'){
-                return 'Techanic digital platform ecosystem for SME electronic repair business is designed to improve sustainability and operational efficiency.' ;
+                return 'The Techanic digital platform ecosystem for SME electronics repair businesses is designed to improve sustainability and operational efficiency.' ;
             }else{
                 return 'Ekosistem platform digital Techanic untuk bisnis perbaikan elektronik SME dirancang untuk meningkatkan keberlanjutan dan efisiensi operasional.';   
             }
@@ -431,7 +430,7 @@ As well as other impacts & solutions related to electronic waste into discussion
         
         if($type == 'text_36'){
             if($lang == 'en-id'){
-                return "Using the latest technology, our platform makes it easier to monitor and manage repairs for technicians, thus minimizing environmental impact." ;
+                return "Using the most updated technology, our platform makes monitoring and managing repairs easier for technicians so they can minimize environmental impact." ;
             }else{
                 return 'Dengan menggunakan teknologi terkini, platform kami mempermudah pemantauan dan pengelolaan perbaikan untuk teknisi, sehingga meminimalkan dampak lingkungan.';   
             }
@@ -439,7 +438,7 @@ As well as other impacts & solutions related to electronic waste into discussion
 
         if($type == 'text_37'){
             if($lang == 'en-id'){
-                "our Return Solutions enables improvement businesses to implement more responsible practices and make a positive difference to the environment. With us on our mission to drive positive changes in the industry." ;
+                "Our solution is to allow repair businesses to implement more responsible practices and make a positive difference in the environment with us in our mission to spur positive change in the industry." ;
             }else{
                 return 'Solusi kami memampukan bisnis perbaikan untuk menerapkan praktik-praktik yang lebih bertanggung jawab dan membuat perbedaan positif bagi lingkungan. Bersama kami dalam misi memacu perubahan positif di industri ini.';   
             }
@@ -447,9 +446,7 @@ As well as other impacts & solutions related to electronic waste into discussion
         
         if($type == 'text_38'){
             if($lang == 'en-id'){
-                return 'Be Part of TECHANIC
-                    Building <span class=Memred-indonesia >Indonesia</span> More
-                    Clean From Electronic Waste';
+                return 'Be Part of TECHANIC <br>to Make <span class="red-indonesia">Indonesia</span> <br> Electronic Waste-Free';
             }else{
                 return 'Jadilah Bagian Dari TECHANIC 
                 Membangun <span class="red-indonesia">Indonesia</span> Lebih
@@ -475,15 +472,15 @@ As well as other impacts & solutions related to electronic waste into discussion
         
         if($type == 'text_41'){
             if($lang == 'en-id'){
-                return "TECHANIC Team <br> Ready to Provide You Solution";
+                return "TECHANIC Team <br> Ready to Give You <br> Solutions";
             }else{
-                return 'Tim TECHANIC <br> Siap Memberikan Anda Solusi';   
+                return 'Tim TECHANIC <br> Siap Memberi <br> Anda Solusi';   
             }
         }
         
         if($type == 'text_42'){
             if($lang == 'en-id'){
-                return "Connect to Team";
+                return "Connect to the Team";
             }else{
                 return 'Hubungkan Ke Tim';   
             }
@@ -575,7 +572,7 @@ As well as other impacts & solutions related to electronic waste into discussion
             
             if($type == "text__52"){
             if($lang == "en-id"){
-            return "Do Not hesitate To <br> Maintain Old Devices";
+            return "Don't hesitate <br> to keep Your Old Device";
             }else{
             return "Jangan Ragu Untuk <br>  Mempertahankan Perangkat Lama";
             }
@@ -583,7 +580,7 @@ As well as other impacts & solutions related to electronic waste into discussion
             
             if($type == "text_53"){
                 if($lang == "en-id"){
-                    return "Any type of repair can be found in the application <br> <b>MyTechanic</b>. must be done by experts and experienced.";
+                    return "All types of repair places can be found in the  <b>MyTechanic</b> app. <br> Guaranteed to be done by experts and experienced workers.";
                     }else{
                     return "Segala jenis tempat reparasi dapat di cari di aplikasi <br> <b>MyTechanic</b>. pasti dikerjakan tenaga ahli dan berpengalaman.";
                 }
@@ -608,7 +605,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                 if($type == "text_56"){
                     if($num === 1){
                         if($lang == "en-id"){
-                        return "Service Centers and Customer <br> Documentation service that has been using Techanic services";
+                        return "Documentation of service centers and customers <br> that have been using the Techanic service";
                         }else{
                         return "Dokumentasi service center dan customer <br> yang telah menggunakan layanan Techanic";
                         }
@@ -625,8 +622,8 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_57"){
                     if($lang == "en-id"){
-                    return "Client Satisfied With Service <br>
-                    MyTechanic & Techanic Business";
+                    return "Clients are satisfied with <br> MyTechanic & Techanic Business services
+                    ";
                     }else{
                     return "Client puas dengan layanan <br>
                             MyTechanic & Techanic Business";
@@ -701,8 +698,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_66"){
                 if($lang == "en-id"){
-                return "We Pioneer! Developing <br>
-                Indonesia Reparation Industry";
+                return " Pioneer in developing the <br> repair industry in Indonesia!";
                 }else{
                 return "Kita Pionir ! Mengembangkan <br>
                 Industri Reparasi Indonesia";
@@ -711,7 +707,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_67"){
                 if($lang == "en-id"){
-                return "Business performance checks do not need to come to the store every day.";
+                return "You no longer need to come to the store every day <br> to check your business performance.";
                 }else{
                 return "Cek performa usaha tidak perlu datang ke toko setiap hari.";
                 }
@@ -719,7 +715,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_68"){
                 if($lang == "en-id"){
-                return "Manage Many Shop";
+                return "Manage multiple branches";
                 }else{
                 return "Kelola Banyak Cabang";
                 }
@@ -727,7 +723,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_69"){
                 if($lang == "en-id"){
-                return "Dashboard Owner";
+                return "Owner Dashboard";
                 }else{
                 return "Dashboard Owner";
                 }
@@ -751,7 +747,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_72"){
                 if($lang == "en-id"){
-                return "Employee Performance Check";
+                return "Check Employee Performance";
                 }else{
                 return "Cek Prestasi Karyawan";
                 }
@@ -759,7 +755,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_73"){
                 if($lang == "en-id"){
-                return "Business Performance Analysis";
+                return "Analyze Business Performance";
                 }else{
                 return "Analisa Performa Usaha";
                 }
@@ -767,7 +763,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_74"){
                 if($lang == "en-id"){
-                return "And dozens of other executive features...";
+                return "And many other executive features…";
                 }else{
                 return "Dan puluhan fitur eksekutif lainnya...";
                 }
@@ -775,8 +771,8 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_75"){
                 if($lang == "en-id"){
-                return "<b>1000+ Reparation Business</b> <br>
-                Easy to find MyTechanic Customer";
+                return "<b>1000+ Repair Businesses</b> <br>
+                Easy to find by MyThecanic customers";
                 }else{
                 return "<b>1000+ Usaha Reparasi</b> <br>
                 Mudah Ditemukan Customer MyTechanic";
@@ -941,9 +937,9 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_94"){
                 if($lang == "en-id"){
-                return "Make Customers Easier Find Your Repair Store <br>
-                in the feature <b>Marketplace MyTechanic.</b> <br>
-                the tracking order feature also complements this application";
+                return "Allow customers to easily find repair businesses <br>
+                using <b> MyTechanic's Marketplace feature.</b> <br>
+                This application is also equipped with an order-tracking feature";
                 }else{
                 return "Buat customer lebih mudah mencari toko reparasi anda <br>
                 dalam fitur <b>Marketplace MyTechanic.</b> <br> 
@@ -969,8 +965,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_97"){
                 if($lang == "en-id"){
-                return "Techanic Business Precise Choice Develop <br>
-                Your Reparation Business.";
+                return "Techanic Business is an excellent choice <br> to grow your business.";
                 }else{
                 return "Techanic Business Pilihan Tepat Kembangkan <br>
                 Bisnis Reparasi anda.";
@@ -987,7 +982,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_99"){
                 if($lang == "en-id"){
-                return "Features <br> and Services";
+                return "Service Features";
                 }else{
                 return "Fitur Unggulan <br> dan Layanan";
                 }
@@ -995,7 +990,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_100"){
                 if($lang == "en-id"){
-                return "Dashboard and Statistics <br> Business Performance";
+                return "Dashboard and Business <br> Performance Statistics";
                 }else{
                 return "Dashboard dan Statistik <br> Performa Usaha";
                 }
@@ -1035,7 +1030,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_105"){
                 if($lang == "en-id"){
-                return "Push Notification";
+                return "In-App Notification";
                 }else{
                 return "Notifikasi Di Dalam <br> Aplikasi";
                 }
@@ -1051,7 +1046,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_107"){
                 if($lang == "en-id"){
-                return "Record Warranty";
+                return "Warranty Record";
                 }else{
                 return "Catat Garansi";
                 }
@@ -1059,7 +1054,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                 
                 if($type == "text_108"){
                 if($lang == "en-id"){
-                return "Export Report To <br> Microsoft Excel";
+                return "Export Report to <br> Microsoft Excel";
                 }else{
                 return "Export Laporan Ke <br> Microsoft Excel";
                 }
@@ -1091,7 +1086,7 @@ As well as other impacts & solutions related to electronic waste into discussion
 
                 if($type == "text_112"){
                 if($lang == "en-id"){
-                return "Join us! <br> We Develop Helpful Products";
+                return "Join Us ! <br> To Develop Useful Products";
                 }else{
                 return "Bergabunglah bersama Kami ! <br> Kita Kembangkan Produk Yang Bermanfaat";
                 }
@@ -1131,20 +1126,21 @@ As well as other impacts & solutions related to electronic waste into discussion
                     }     
                     if($type == "text_117"){
                         if($lang == "en-id"){
-                        return "Join us! <br> We Develop Helpful Products";
+                            return "Join Us ! <br> To Develop Useful Products";
                         }else{
                         return "Bergabunglah bersama Kami ! <br> Kita Kembangkan Produk Yang Bermanfaat";
                         }
                         }     
                         if($type == "text_118"){
                             if($lang == "en-id"){
-                            return "Available position";
+                            return "Available Position";
                             }else{
                             return "Posisi yang Tersedia";
                             }
                             }     if($type == "text_119"){
                                 if($lang == "en-id"){
-                                return "Send the biodata and the portfolio you need as you want.<br> We can’t wait for your contribution to the world of start up!";
+                                return "Send your resume along with the required portfolio according to the position you want. <br> We are excited to see your contribution to the start-up world!
+                                ";
                                 }else{
                                 return "Kirim biodata beserta portofolio yang dibutuhkan sesuai posisi yang Anda inginkan.<br> Kami sudah tidak sabar menunggu kontribusimu di dunia start up !";
                                 }
@@ -1165,14 +1161,14 @@ As well as other impacts & solutions related to electronic waste into discussion
                                 }
                                 if($type == "text_123"){
                                     if($lang == "en-id"){
-                                    return "Most Often Asked <br> Client Techanic Business";
+                                    return "Most Frequently Asked <br> by Client Techanic Business";
                                     }else{
                                     return "Paling Sering Ditanya <br> Client Techanic Business";
                                     }
                                 }
                                 if($type == "text_125"){
                                     if($lang == "en-id"){
-                                    return "How to register an account to Techanic Business?";
+                                    return "How to register an account with Techanic Business";
                                     }else{
                                     return "Bagaimana cara mendaftar akun ke Techanic Business ?";
                                     }
@@ -1198,7 +1194,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                                 }
                                 if($type == "text__126"){
                                     if($lang == "en-id"){
-                                    return "What data should be filled in the initial setting?";
+                                    return "What data needs to be filled in the initial settings";
                                     }else{
                                     return "Data apa saja yang perlu diisi di setting awal?";
                                     }
@@ -1245,7 +1241,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                                 }
                                 if($type == "text_128"){
                                     if($lang == "en-id"){
-                                    return "How to Add Business Branch?";
+                                    return "How to add a business branch in the app";
                                     }else{
                                     return "Bagaimana Cara Menambahkan Cabang Usaha ?";
                                     }
@@ -1281,7 +1277,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                                 }
                                 if($type == "text_130"){
                                     if($lang == "en-id"){
-                                    return "How to make a transaction?";
+                                    return "How to create a transaction ? ";
                                     }else{
                                     return "Bagaimana cara membuat transaksi ?";
                                     }
@@ -1487,7 +1483,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                                 }
                                 if($type == "text_132"){
                                     if($lang == "en-id"){
-                                    return "How to export reports into excel?";
+                                    return "How to export reports into excel ?";
                                     }else{
                                     return "Bagaimana cara export laporan kedalam excel ?";
                                     }
@@ -1521,7 +1517,7 @@ As well as other impacts & solutions related to electronic waste into discussion
                                 }
                                 if($type == "text_134"){
                                     if($lang == "en-id"){
-                                    return "How to Add Payment Methods For Each Shop ?";
+                                    return "How to add a payment method for each branch ?";
                                     }else{
                                     return "Bagaimana Cara Menambah Metode Pembayaran Untuk Setiap Cabang ?";
                                     }

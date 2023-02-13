@@ -344,6 +344,7 @@ footer .subscribe .subscribe-form-2 .form-group {
     font-size: 40px;
     font-weight: 900;
     margin: 0;
+    text-transform:capitalize;
 }
 
 .section-title h3 span.white {

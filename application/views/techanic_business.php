@@ -207,7 +207,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="col-md-4 px-0">
                             <div class="box-fitur d-flex">
                                 <img src="assets/img/icon-2.png" class="img-fluid" alt=""> 
-                                <p class="m-0"><?= trans('101') ?></p>
+                                <p class="m-0"><?= trans('text_101') ?></p>
                             </div>
                         </div>
                         <div class="col-md-4 px-0">
@@ -225,7 +225,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="col-md-4 px-0">
                             <div class="box-fitur d-flex">
                                 <img src="assets/img/icon-5.png" class="img-fluid" alt=""> 
-                                <p class="m-0"><?= trans('104') ?></p>
+                                <p class="m-0"><?= trans('text_104') ?></p>
                             </div>
                         </div>
                         <div class="col-md-4 px-0">

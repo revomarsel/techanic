@@ -165,7 +165,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section class="padding-100 container">
         <div class="row mx-0 align-items-center">
             <div class="col-md-5 text-center" data-aos="fade-right">
-                <img src="assets/img/logo-techanic-general-blue.png" class="img-fluid img-owner" alt="">
+                <img src="assets/img/Techanic - No Tagline.png.png" class="img-fluid img-owner" alt="">
             </div>
             <div class="col-md-6" data-aos="fade-zoom-in" data-aos-delay="200">
                 <div class="row">

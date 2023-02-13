@@ -1731,6 +1731,7 @@ footer .subscribe .subscribe-form-2 .form-group {
     font-weight: 900;
     margin: 0;
     color: #202327;
+    text-transform: capitalize;
 }
 
 .clients-testimonial .testimonial-slider .item {
@@ -4057,6 +4058,7 @@ aside.sidebar .tags ul li {
     .section-title h3 {
         font-size: 22px;
         line-height: 30px;
+        text-transform:capitalize;
     }
     .navbar-collapse {
         visibility: visible;

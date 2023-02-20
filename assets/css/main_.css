@@ -355,6 +355,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 .section-title p {
     font-size: 18px;
     font-weight: normal;
+    text-transform: capitalize;
     /* max-width: 750px;
     margin: 0 auto; */
 }

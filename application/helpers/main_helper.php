@@ -605,7 +605,7 @@ if (!function_exists('trans')) {
                 if($lang == "en-id"){
                     return "By using the MyTechanic apps, you can easily find the nearest repair shop that provides services with experts and experienced personnel.";
                     }else{
-                    return "Dengan menggunakan aplikasi MyTechanic, Anda dapat dengan mudah <br> menemukan tempat reparasi terdekat yang memberikan layanan dengan tenaga ahli dan berpengalaman.";
+                    return "Dengan menggunakan aplikasi <b>MyTechanic</b>, <br> Anda dapat dengan mudah  menemukan tempat reparasi terdekat <br> yang memberikan layanan dengan tenaga ahli dan berpengalaman.";
                 }
             }
                 

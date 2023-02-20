@@ -9,12 +9,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-10 mt-2 pl-0 slide-user">
                         <div id="customer" class="row mx-0 active">
                             <div class="col-md-6 pl-0">
-                                <h2 class="remove-class text-white mt-5" data-aos="fade-right" data-aos-delay="100">
+                                <h2 class="remove-class text-white mt-0" data-aos="fade-right" data-aos-delay="100">
                                     <?= trans('text_43') ?>
                                 </h2>
-                                <p data-aos="fade-right" data-aos-delay="200" class="font-size-17 text-white remove-class">
+                                <p data-aos="fade-right mt-2" data-aos-delay="200" class="font-size-17 text-white remove-class">
                                     <?= trans('text_44') ?>
                                 </p>
+                                <div class="row mt-4" data-aos-delay="300">
+                                    <div class="col-md-12">
+                                        <p data-aos-delay="100" class="icon-teknisi text-capitalize mb-3 d-flex remove-class">
+                                            <span style="padding: 5px 7px;height: 23px;width: 23px;" class="font-size-10 icon-check d-block"><i class="fa fa-check"></i></span> 
+                                            <span class="d-block font-size-17 text-white"><?= trans('text__44') ?></span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <p data-aos-delay="300" class="icon-teknisi text-capitalize mb-3 d-flex remove-class">
+                                            <span style="padding: 5px 7px;height: 23px;width: 23px;" class="font-size-10 icon-check d-block"><i class="fa fa-check"></i></span> 
+                                            <span class="d-block font-size-17 text-white"><?= trans('text___44') ?></span>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-md-6 pr-0 position-relative">
                                 <div data-aos="zoom-in-up" data-aos-delay="1000" class="img-slide-customer">
@@ -132,14 +146,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="col-md-6 aos-init " data-aos="fade-zoom-in" data-aos-delay="200">
                 <div class="row">
                     <div class="col-lg-6 px-2  aos-init text-right" data-aos="zoom-in" data-aos-delay="400">
-                        <img src="assets/img/gallery-0.png" class="img-fluid">
+                        <div class="blog-secondary gallery _1 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-0.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
+                            <div class="mb-md-3 mb-1">
+                                <h3 class="mb-1">Proses Service Kamera Iphone 8</h3>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-6 px-2  aos-init " data-aos="zoom-in" data-aos-delay="600">
                         <div class="w-100 mb-3">
-                            <img src="assets/img/gallery-2.png" class="img-fluid">
+                            <div class="blog-secondary gallery _2 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-2.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
+                                <div class="mb-md-3 mb-1">
+                                    <h3 class="mb-1">Proses Ganti Fan Laptop</h3>
+                                </div>
+                            </div>
                         </div>
                         <div class="w-100">
-                            <img src="assets/img/gallery-3.png" class="img-fluid">
+                        <div class="blog-secondary gallery _3 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-3.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
+                                <div class="mb-md-3 mb-1">
+                                    <h3 class="mb-1">Upgrade Ram & SSD PC</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="space-25"></div>
@@ -148,27 +174,56 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <div class="mb-3 row">
             <div class="col-lg-3 px-2 aos-init " data-aos="zoom-in" data-aos-delay="100">
-                <img src="assets/img/gallery-5.png" class="img-fluid">
+                <div class="blog-secondary gallery _3 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-5.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
+                    <div class="mb-md-3 mb-1">
+                        <h3 class="mb-1">Ganti Tali Smartwatch</h3>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-3 px-2 aos-init " data-aos="zoom-in" data-aos-delay="100">
-                <img src="assets/img/gallery-6.png" class="img-fluid">
+                    <div class="blog-secondary gallery _3 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-6.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
+                    <div class="mb-md-3 mb-1">
+                        <h3 class="mb-1">Ganti LCD Iphone 6</h3>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-3 px-2 aos-init " data-aos="zoom-in" data-aos-delay="100">
-                <img src="assets/img/gallery-7.png" class="img-fluid">
+                    <div class="blog-secondary gallery _3 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-7.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
+                    <div class="mb-md-3 mb-1">
+                        <h3 class="mb-1">Service Camera Iphone 8</h3>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-3 px-2 aos-init " data-aos="zoom-in" data-aos-delay="100">
-                <img src="assets/img/gallery-8.png" class="img-fluid">
+                    <div class="blog-secondary gallery _3 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-8.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
+                    <div class="mb-md-3 mb-1">
+                        <h3 class="mb-1">Service Camera Iphone 8</h3>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="mb-3 row">
             <div class="col-lg-3 px-2 aos-init " data-aos="zoom-in" data-aos-delay="100">
-                <img src="assets/img/gallery-9.png" class="img-fluid">
+                    <div class="blog-secondary gallery _3 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-9.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
+                    <div class="mb-md-3 mb-1">
+                        <h3 class="mb-1">Service Iphone 6</h3>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-6 px-2 aos-init " data-aos="zoom-in" data-aos-delay="100">
-                <img src="assets/img/gallery-10.png" class="img-fluid">
+                    <div class="blog-secondary gallery _3 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-10.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
+                    <div class="mb-md-3 mb-1">
+                        <h3 class="mb-1">Pemasangan Fan Laptop</h3>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-3 px-2 aos-init d-none-mobile" data-aos="zoom-in" data-aos-delay="100">
-              <div class="bg-blue"></div>  
+              <!-- <div class="bg-blue"></div>   -->
+                <div class="blog-secondary gallery _3 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-11.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
+                    <div class="mb-md-3 mb-1">
+                        <h3 class="mb-1"></h3>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

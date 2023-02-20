@@ -6,7 +6,7 @@ class Index extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();		
-		$this->title = 'Techanic | Recycle - Repair - Reuse';
+		$this->title = 'Techanic';
 		$this->titleMyTechanic = 'MyTechanic Platform pencarian tempat reparasi / service mudah & terpercaya';
 		$this->titleTechanicBusiness = 'Techanic Business Platform manajemen transaksi jasa reparasi berbasis mobile';
 	}

@@ -341,7 +341,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 }
 
 .section-title h3 {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 900;
     margin: 0;
     text-transform:capitalize;
@@ -1120,6 +1120,10 @@ footer .subscribe .subscribe-form-2 .form-group {
     }
 }
 
+footer .footer-widgets .widget.main {
+    margin-top: -90px;
+}
+
 .slide .content-bottom h2 {
     font-size: 40px;
     font-weight: 700;
@@ -1274,6 +1278,7 @@ footer .subscribe .subscribe-form-2 .form-group {
 .why-us p {
     font-weight: 400;
     margin: 0;
+    text-transform: capitalize;
 }
 
 .why-us .why-us-icon {
@@ -2416,6 +2421,22 @@ h3.title {
     font-size: 20px;
 }
 
+.blog-secondary.gallery {
+    height: 100%;
+}
+
+.blog-secondary.gallery._1 {
+    height: 520px;
+}
+
+.blog-secondary.gallery._2 {
+    height: 250px;
+}
+
+.blog-secondary.gallery._3 {
+    height: 250px;
+}
+
 .news-meta li {
     display: inline-block;
     font-size: 14px;
@@ -3492,7 +3513,7 @@ aside.sidebar .tags ul li {
     position: absolute!important;right: 0;top: -2px;
 }
 .business-right-img > img{
-    width: 650px;height: 622px;object-fit: cover;border-radius: 0px 30px 30px 0px;
+    width: 650px;height: 615px;object-fit: cover;border-radius: 0px 30px 30px 0px;
 }
 
 .floating-wpp .floating-wpp-button {
@@ -3501,6 +3522,9 @@ aside.sidebar .tags ul li {
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    footer .footer-widgets .widget.main {
+        margin-top: 0px;
+    }
     .boxes .box:hover {
         height: 750px;
         padding: 10px;
@@ -3934,6 +3958,7 @@ aside.sidebar .tags ul li {
     footer .footer-widgets .widget ul li {
         margin-bottom: 10px;
         line-height: 25px;
+        margin-right: 15px;
     }
     .foxapp-header.sticky .navbar .navbar-nav .nav-item>.nav-link:before {
         content: '';

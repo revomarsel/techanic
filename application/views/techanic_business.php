@@ -53,15 +53,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </div>
                                 </div>
                                 <p data-aos="zoom-in" data-aos-delay="300" class="mb-2 mt-2 potition-relative text-white font-size-15"><?= trans('text_74') ?></p>
-                                <div data-aos="zoom-in" data-aos-delay="400" class="d-flex align-items-center mt-4 mb-2">
+                                <!-- <div data-aos="zoom-in" data-aos-delay="400" class="d-flex align-items-center mt-4 mb-2">
                                     <div class="icon-group">
                                         <img src="assets/img/UserGroups.png" class="img-fluid" style="width: 25px;">
                                     </div>
                                     <p class="mb-0 text-white font-size-15">
                                         <?= trans('text_75') ?>
                                     </p>
-                                </div>
-                                <a data-aos="zoom-in" data-aos-delay="400" href="<?= wa_link() ?>" class="btn btn-primary  mt-4 shadow font-size-13 btn-daftar"><span>
+                                </div> -->
+                                <a data-aos="zoom-in" data-aos-delay="400" href="<?= wa_link() ?>" class="btn btn-primary  mt-5 shadow font-size-13 btn-daftar"><span>
                                 <?= trans('text__75') ?></span></a>
                             </div>
                             <div class="col-md-4 pr-0 order-xs-first border-bottom-mobile">
@@ -69,8 +69,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                         </div>
                         <div id="teknisi" class="row mx-0">
-                            <div class="col-md-8 pl-0">
-                                <h2><?= trans('text_76') ?></h2>
+                            <div class="col-md-8 pl-0 section-title">
+                                <h3 class="text-white title-business"><?= trans('text_76') ?></h3>
                                 <div class="row mt-4">
                                     <div class="col-md-3">
                                         <p data-aos-delay="100" class="icon-teknisi mb-3 line-height-0 d-flex remove-class">
@@ -116,15 +116,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </div>
                                 </div>
                                 <p class="mb-2 mt-2 potition-relative text-white"><?= trans('text_86') ?></p>
-                                <div class="d-flex align-items-center mt-5 mb-2">
+                                <!-- <div class="d-flex align-items-center mt-5 mb-2">
                                     <div class="icon-group">
                                         <img src="assets/img/UserGroups.png" class="img-fluid" style="width: 25px;">
                                     </div>
                                     <p class="mb-0 text-white">
                                         <?= trans('text_87') ?>
                                     </p>
-                                </div>
-                                <a href="#" class="btn btn-primary  mt-4 shadow font-size-13"><span><?= trans('text_88') ?> </span></a>
+                                </div> -->
+                                <a href="#" class="btn btn-primary  mt-5 shadow font-size-13"><span><?= trans('text_88') ?> </span></a>
                             </div>
                             <div class="col-md-4 pl-0 pr-0">
                                 <img data-aos="flip-right"  data-aos-anchor-placement="center-center" src="assets/img/ilustration-side-teknisi.png" class="remove-class img-fluid d-block img-teknisi mx-auto" alt="">

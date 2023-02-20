@@ -236,9 +236,17 @@ if (!function_exists('trans')) {
 
         if($type == 'text_15'){
             if($lang == 'en-id'){
-                return 'Newest Repair Ecosystem !  Make Transactions Run Easier & More Efficiently';
+                return 'Newest Repair Ecosystem !';
             }else{
-                return 'Ekosistem Perbaikan Masa Kini ! <br><br> Transaksi Berjalan Lebih Mudah & Efisien';
+                return 'Ekosistem Perbaikan <br> Masa Kini !';
+            }
+        }
+        
+        if($type == 'text__15'){
+            if($lang == 'en-id'){
+                return 'Make Transactions Run Easier & More Efficiently';
+            }else{
+                return 'Transaksi Berjalan Lebih Mudah & Efisien';
             }
         }
 
@@ -272,7 +280,7 @@ if (!function_exists('trans')) {
             if($lang == 'en-id'){
                 return 'Building a long-term sustainable solution to the electronic waste problem and advancing small and medium-sized repair businesses as well <br> as protecting the environment for future generations.';
             }else{
-                return 'Membangun solusi jangka panjang yang berkelanjutan untuk mengatasi masalah limbah elektronik dan memajukan  usaha kecil dan menengah di bidang reparasi,<br> serta menjaga lingkungan untuk generasi mendatang';
+                return 'Bertumbuh bersama dengan Efisien <br> dan Transparan melalui Ekosistem Inovatif Kami';
             }
         }
         
@@ -501,8 +509,23 @@ if (!function_exists('trans')) {
                 return "MyTechanic, Platform easy to find location <br> repair place with job standard <br>
                 professional and Warranty 👍";
             }else{
-                return 'MyTechanic, Platform mudah mencari lokasi <br> tempat reparasi dengan standar pekerjaan <br>
-                profesional dan bergaransi 👍';   
+                return 'MyTechanic, Membantu Anda Temukan Lokasi <br> Tempat Reparasi Profesional & Terpercaya 👍';   
+            }
+        }
+        
+        if($type == 'text__44'){
+            if($lang == 'en-id'){
+                return 'Monitor the Repair Technician Process <br> With the <b>QC Form</b> feature';
+            }else{
+                return 'Pantau Proses Teknisi Memperbaiki <br> Dengan fitur <b>QC Form</b>';   
+            }
+        }
+        
+        if($type == 'text___44'){
+            if($lang == 'en-id'){
+                return '<b>Digital Invoice</b>, <br> shipping process & invoice payment can be from anywhere';
+            }else{
+                return '<b>Digital Invoice</b>, Proses pengiriman <br> & pembayaran faktur bisa dari mana saja';   
             }
         }
 
@@ -572,17 +595,17 @@ if (!function_exists('trans')) {
             
             if($type == "text__52"){
             if($lang == "en-id"){
-            return "Don't hesitate <br> to keep Your Old Device";
+            return "Don't Waste Your Old Device <br> Just Fix It !";
             }else{
-            return "Jangan Ragu Untuk <br>  Mempertahankan Perangkat Lama";
+            return "Jangan Buang Perangkat Lama Anda <br> Perbaiki Saja !";
             }
             }
             
             if($type == "text_53"){
                 if($lang == "en-id"){
-                    return "All types of repair places can be found in the  <b>MyTechanic</b> app. <br> Guaranteed to be done by experts and experienced workers.";
+                    return "By using the MyTechanic apps, you can easily find the nearest repair shop that provides services with experts and experienced personnel.";
                     }else{
-                    return "Segala jenis tempat reparasi dapat di cari di aplikasi <br> <b>MyTechanic</b>. pasti dikerjakan tenaga ahli dan berpengalaman.";
+                    return "Dengan menggunakan aplikasi MyTechanic, Anda dapat dengan mudah <br> menemukan tempat reparasi terdekat yang memberikan layanan dengan tenaga ahli dan berpengalaman.";
                 }
             }
                 
@@ -598,7 +621,7 @@ if (!function_exists('trans')) {
                 if($lang == "en-id"){
                 return "Gallery";
                 }else{
-                return "Gallery Bersama";
+                return "Dokumentasi Proses";
                 }
                 }
                 
@@ -607,7 +630,7 @@ if (!function_exists('trans')) {
                         if($lang == "en-id"){
                         return "Documentation of service centers and customers <br> that have been using the Techanic service";
                         }else{
-                        return "Dokumentasi service center dan customer <br> yang telah menggunakan layanan Techanic";
+                        return "Service Center Dan Customer <br> Yang Telah Menggunakan Layanan Techanic";
                         }
                     }
 
@@ -700,8 +723,8 @@ if (!function_exists('trans')) {
                 if($lang == "en-id"){
                 return " Pioneer in developing the <br> repair industry in Indonesia!";
                 }else{
-                return "Kita Pionir ! Mengembangkan <br>
-                Industri Reparasi Indonesia";
+                return "Digitalisasi Proses Transaksi<br>
+                Usaha Reparasi Kecil & Menenangah";
                 }
                 }
                 
@@ -792,8 +815,8 @@ if (!function_exists('trans')) {
                 return "Technician Platform Update <br>
                 Team Working Neat & Solid";
                 }else{
-                return "Pembaruan Platform Teknisi <br>
-                Kerja Tim Lebih Rapi & Solid";
+                return "Membantu Teknisi Bekerja Lebih  <br>
+                Efisien dan Transparan";
                 }
                 }
                 
@@ -802,6 +825,22 @@ if (!function_exists('trans')) {
                 return "QC checklist";
                 }else{
                 return "Checklist QC";
+                }
+                }
+                
+                if($type == "text__77"){
+                if($lang == "en-id"){
+                return "Digital Invoice";
+                }else{
+                return "Digital Invoice";
+                }
+                }
+
+                if($type == "text___77"){
+                if($lang == "en-id"){
+                return "QC Form";
+                }else{
+                return "QC Form";
                 }
                 }
                 
@@ -959,7 +998,7 @@ if (!function_exists('trans')) {
                 if($lang == "en-id"){
                 return "Increase";
                 }else{
-                return "Tingkatkan";
+                return "Perbarui Cara Kerja";
                 }
                 }
                 
@@ -967,8 +1006,7 @@ if (!function_exists('trans')) {
                 if($lang == "en-id"){
                 return "Techanic Business is an excellent choice <br> to grow your business.";
                 }else{
-                return "Techanic Business Pilihan Tepat Kembangkan <br>
-                Bisnis Reparasi anda.";
+                return "Techanic Business Pilihan Tepat <br> Digitalisasi & Mengembangkan Bisnis Reparasi Anda.";
                 }
                 }
                 
@@ -1088,7 +1126,14 @@ if (!function_exists('trans')) {
                 if($lang == "en-id"){
                 return "Join Us ! <br> To Develop Useful Products";
                 }else{
-                return "Bergabunglah bersama Kami ! <br> Kita Kembangkan Produk Yang Bermanfaat";
+                return "Jadilah bagian dari revolusi teknologi !";
+                }
+                }     
+                if($type == "text__112"){
+                if($lang == "en-id"){
+                return "Join Us ! <br> To Develop Useful Products";
+                }else{
+                return "Bersama kita akan membawa perubahan positif bagi pelaku usaha dan pelanggan dalam Industri Reparasi";
                 }
                 }     
                 
@@ -1142,7 +1187,7 @@ if (!function_exists('trans')) {
                                 return "Send your resume along with the required portfolio according to the position you want. <br> We are excited to see your contribution to the start-up world!
                                 ";
                                 }else{
-                                return "Kirim biodata beserta portofolio yang dibutuhkan sesuai posisi yang Anda inginkan.<br> Kami sudah tidak sabar menunggu kontribusimu di dunia start up !";
+                                return "Kirim biodata beserta portofolio yang dibutuhkan sesuai posisi yang Anda inginkan.<br> Kami sudah tidak sabar menunggu kontribusimu di Ekosistem Reparasi !";
                                 }
                                 }     
                                 if($type == "text_120"){

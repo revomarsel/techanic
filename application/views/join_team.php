@@ -6,10 +6,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <section id="about" class="potition-relative why-us padding-100 background-fullwidth h-bg join-us"
         style="background-image: url(assets/img/join-us-2.png);height: 500px;">
         <div class="container d-none-mobile">
-            <div class="space-50"></div>
+            <div class="space-100"></div>
             <div class="row align-items-center" data-aos="fade-zoom-in" data-aos-delay="200">
-                <div class="col-md-11 offset-md-1">
+                <div class="col-md-11 offset-md-1 section-title">
                     <h3 class="text-white"><?= trans('text_112') ?></h3>
+                    <p class="text-white"><?= trans('text__112') ?></p>
                     <div class="space-25"></div>
                 </div>
                 <div class="col-md-5 offset-md-1">

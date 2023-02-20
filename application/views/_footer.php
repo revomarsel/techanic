@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-12 pr-0">
-                        <div class="widget">
+                        <div class="widget main">
                             <img src="<?= base_url() ?>assets/img/logo-techanic-general-white.png" class="img-fluid" alt="">
                             <p class="font-size-16 mt-2 lh-30">
                                 <?= trans('text_19') ?>
@@ -133,6 +133,11 @@
                 $('#Whatsapp').fadeIn();
             } else {
                 $('#Whatsapp').fadeOut();
+            }
+            if( y > 3120){
+                $('.title-2').fadeIn('slow');
+            }else{
+                $('.title-2').fadeOut('fast');
             }
         });
     </script>

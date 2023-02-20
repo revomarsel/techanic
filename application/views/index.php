@@ -96,8 +96,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-md-5 aos-init aos-animate" data-aos="fade-up">
                     <div class="section-title stiky-left mb-3">
                         <span class="badge badge-light"><?= trans('text_14') ?></span>
-                        <h3 class="text-white mt-3">
+                        <h3 class="text-white mt-3 title-1">
                             <?= trans('text_15') ?>
+                        </h3>
+                        <h3 class="text-white mt-3 title-2">
+                            <?= trans('text__15') ?>
                         </h3>
                     </div>
                 </div>

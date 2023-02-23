@@ -625,6 +625,55 @@ if (!function_exists('trans')) {
                 }
                 }
                 
+                if($type == "text__55"){
+                if($lang == "en-id"){
+                return "Iphone 8 camera service process";
+                }else{
+                return "Proses Service Kamera Iphone 8";
+                }
+                }
+                
+                if($type == "text___55"){
+                if($lang == "en-id"){
+                return "Laptop Fan Change Process";
+                }else{
+                return "Proses Ganti Fan Laptop";
+                }
+                }
+                
+                if($type == "text__1_55"){
+                if($lang == "en-id"){
+                return "Upgrading PC Ram & SSD";
+                }else{
+                return "Upgrade Ram & SSD PC";
+                }
+                }
+                
+                
+                if($type == "text__2_55"){
+                if($lang == "en-id"){
+                return "Replace Smartwatch Strap";
+                }else{
+                return "Ganti Tali Smartwatch";
+                }
+                }
+
+                if($type == "text__3_55"){
+                    if($lang == "en-id"){
+                    return "Replace LCD Iphone 6";
+                    }else{
+                    return "Ganti LCD Iphone 6";
+                    }
+                    }
+
+                    if($type == "text__4_55"){
+                        if($lang == "en-id"){
+                        return "Service Iphone 6";
+                        }else{
+                        return "Service Iphone 6";
+                        }
+                        }
+                
                 if($type == "text_56"){
                     if($num === 1){
                         if($lang == "en-id"){
@@ -1206,9 +1255,9 @@ if (!function_exists('trans')) {
                                 }
                                 if($type == "text_123"){
                                     if($lang == "en-id"){
-                                    return "Most Frequently Asked <br> by Client Techanic Business";
+                                    return "Most Frequently Asked <br> by Client <span id='produk-title'>Techanic Business</span>";
                                     }else{
-                                    return "Paling Sering Ditanya <br> Client Techanic Business";
+                                    return "Paling Sering Ditanya <br> Client <span id='produk-title'>Techanic Business</span>";
                                     }
                                 }
                                 if($type == "text_125"){

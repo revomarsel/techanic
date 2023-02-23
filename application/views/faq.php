@@ -15,14 +15,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <input type="text" class="form-control form-faq" placeholder="<?= trans('text_121') ?>">
                             </div>
                             <div class="d-flex">
-                                <a href="#" class="btn w-auto font-size-12 btn-mytechanic">
+                                <a type="mytechanic" href="#faq" class="filter-faq anchor btn w-auto font-size-12 btn-mytechanic">
                                     <img src="assets/img/my-techanic-logo-white.png" class="white img-fluid" alt="">
                                 </a>
-                                <a href="#" class="btn font-size-12 btn-techanic-business active">Techanic Business</a>
+                                <a type="techanic-business" href="#faq" class="filter-faq anchor btn font-size-12 btn-techanic-business active">Techanic Business</a>
                             </div>
                         </div>
                         <div class="col-md-2 col-2 text-left pl-0">
-                            <a href="#" class="btn btn-primary shadow">
+                            <a href="#faq" class="anchor btn btn-primary shadow">
                                 <i class="fa fa-search"></i>
                             </a>
                         </div>
@@ -314,7 +314,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                         </div> -->
                     </div>
+                    <div class="img-empty" style="display:none">
+                        <img src="assets/img/empty-folder.png" alt="kosong">
+                        <h4>Data Yang Dicari Tidak Ditemukan</h4>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    

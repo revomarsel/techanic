@@ -126,8 +126,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 </div> -->
                                 <a href="#" class="btn btn-primary  mt-5 shadow font-size-13"><span><?= trans('text_88') ?> </span></a>
                             </div>
-                            <div class="col-md-4 pl-0 pr-0">
-                                <img data-aos="flip-right"  data-aos-anchor-placement="center-center" src="assets/img/ilustration-side-teknisi.png" class="remove-class img-fluid d-block img-teknisi mx-auto" alt="">
+                            <div class="col-md-4 pl-0 pr-0 potition-relative">
+                                <!-- <img data-aos="flip-right"  data-aos-anchor-placement="center-center" src="assets/img/ilustration-side-teknisi.png" class="remove-class img-fluid d-block img-teknisi mx-auto" alt=""> -->
+                                <img data-aos="flip-right" data-aos-anchor-placement="center-center" src="assets/img/ilustration-side-teknisi-frame.png" class="remove-class img-fluid d-block img-teknisi mx-auto" alt="">
+                                <video data-v-25a36ee8="" src="assets/img/transaksi.mp4" muted="muted" autoplay="autoplay" controls loop playsinline="" class="player__video"></video>
                             </div>
                         </div>
                     </div>

@@ -53,6 +53,23 @@
             // }, 2000);
         });
 
+        $(".filter-faq").on('click', function(){
+            var type = $(this).attr('type');
+            if(type === 'mytechanic'){
+                $('.btn-techanic-business').removeClass('active');
+                $('.btn-mytechanic').addClass('active');;
+                $("#faqAccordion").css("display", "none");
+                $(".img-empty").css("display", "block");
+                $("#produk-title").text("MyTechanic");
+            }else{
+                $('.btn-mytechanic').removeClass('active');
+                $('.btn-techanic-business').addClass('active');
+                $("#faqAccordion").css("display", "block");
+                $(".img-empty").css("display", "none");
+                $("#produk-title").text("Techanic Business");
+            }
+        });
+
         $(".btn-switch-user").on('click', function(){
             $('#customer').removeClass('active');
             $('#pengusaha').removeClass('active');

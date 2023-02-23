@@ -148,7 +148,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-lg-6 px-2  aos-init text-right" data-aos="zoom-in" data-aos-delay="400">
                         <div class="blog-secondary gallery _1 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-0.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
                             <div class="mb-md-3 mb-1">
-                                <h3 class="mb-1">Proses Service Kamera Iphone 8</h3>
+                                <h3 class="mb-1 text-left"><?= trans('text__55') ?></h3>
                             </div>
                         </div>
                     </div>
@@ -156,14 +156,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="w-100 mb-3">
                             <div class="blog-secondary gallery _2 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-2.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
                                 <div class="mb-md-3 mb-1">
-                                    <h3 class="mb-1">Proses Ganti Fan Laptop</h3>
+                                    <h3 class="mb-1"><?= trans('text___55') ?></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="w-100">
                         <div class="blog-secondary gallery _3 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-3.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
                                 <div class="mb-md-3 mb-1">
-                                    <h3 class="mb-1">Upgrade Ram & SSD PC</h3>
+                                    <h3 class="mb-1"><?= trans('text__1_55') ?></h3>
                                 </div>
                             </div>
                         </div>
@@ -176,28 +176,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="col-lg-3 px-2 aos-init " data-aos="zoom-in" data-aos-delay="100">
                 <div class="blog-secondary gallery _3 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-5.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
                     <div class="mb-md-3 mb-1">
-                        <h3 class="mb-1">Ganti Tali Smartwatch</h3>
+                    <h3 class="mb-1"><?= trans('text__2_55') ?></h3>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 px-2 aos-init " data-aos="zoom-in" data-aos-delay="100">
                     <div class="blog-secondary gallery _3 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-6.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
                     <div class="mb-md-3 mb-1">
-                        <h3 class="mb-1">Ganti LCD Iphone 6</h3>
+                    <h3 class="mb-1"><?= trans('text__3_55') ?></h3>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 px-2 aos-init " data-aos="zoom-in" data-aos-delay="100">
                     <div class="blog-secondary gallery _3 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-7.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
                     <div class="mb-md-3 mb-1">
-                        <h3 class="mb-1">Service Camera Iphone 8</h3>
+                        <h3 class="mb-1"><?= trans('text__55') ?></h3>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 px-2 aos-init " data-aos="zoom-in" data-aos-delay="100">
                     <div class="blog-secondary gallery _3 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-8.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
                     <div class="mb-md-3 mb-1">
-                        <h3 class="mb-1">Service Camera Iphone 8</h3>
+                        <h3 class="mb-1"><?= trans('text__55') ?></h3>
                     </div>
                 </div>
             </div>
@@ -206,14 +206,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="col-lg-3 px-2 aos-init " data-aos="zoom-in" data-aos-delay="100">
                     <div class="blog-secondary gallery _3 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-9.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
                     <div class="mb-md-3 mb-1">
-                        <h3 class="mb-1">Service Iphone 6</h3>
+                    <h3 class="mb-1"><?= trans('text__4_55') ?></h3>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 px-2 aos-init " data-aos="zoom-in" data-aos-delay="100">
                     <div class="blog-secondary gallery _3 rounded d-flex align-items-end" style="background: linear-gradient( 1deg,#062b4ba1 0%,#00000054 80%),url(assets/img/gallery-10.png) no-repeat center center/cover!important;background-size: 100% 100%!important;">
                     <div class="mb-md-3 mb-1">
-                        <h3 class="mb-1">Pemasangan Fan Laptop</h3>
+                    <h3 class="mb-1"><?= trans('text___55') ?></h3>
                     </div>
                 </div>
             </div>

@@ -110,6 +110,38 @@
         });
       });
         $( document ).ready(function() {
+            
+            $('.form-faq').change( function(e) {
+                var val = $(this).val();
+                $.ajax({
+                    type: "POST",
+                    url: "<?= site_url('search') ?>",
+                    data: {'search':val.toString()},
+                    dataType: "json",
+                    success: function(resultData){
+                        if(resultData.length > 0){
+                            var suggestion = '';
+                            e.preventDefault();
+                            for (var i = 0; i < resultData.length; i++){
+                                suggestion += '<li class="list-group-item"><a class="faq-suggestion anchor" href="#collapse_'+resultData[i].id+'" id="'+resultData[i].id+'">'+resultData[i].title+'</a></li>';
+                            }
+                            if(suggestion !== ''){
+                                $('.list-group').html(suggestion);
+                            }
+                        }else{
+                            $('.list-group').html('');
+                        }
+                    }
+                });
+            });
+
+
+            $("body").on("click", ".faq-suggestion", function() {
+                var id = $(this).attr('id');
+                
+                $("#collapse_"+id).collapse({toggle: true});
+            });
+
             setTimeout(function() { 
                 $('#showInformation').modal('show');
             }, 5000);

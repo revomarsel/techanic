@@ -12,6 +12,15 @@ if (!function_exists('wa_link')) {
     }
 }
 
+if (!function_exists('get_thubnail')) {
+    function get_thubnail($url){
+        $parts = parse_url($url);
+        parse_str($parts['query'], $query);
+        $id = '';
+        return 'https://img.youtube.com/vi/'.$query['v'].'/0.jpg';
+    }
+}
+
 if (!function_exists('formatted_date_indo')) {
     function formatted_date_indo($date){
     	$date = formatted_date($date,"Y-m-d");

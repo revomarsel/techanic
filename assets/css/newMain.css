@@ -1151,6 +1151,16 @@ footer .footer-widgets .widget.main {
     color: #fff;
 } */
 
+.suggestion {
+    position: absolute;
+    margin-left: auto;
+    margin-right: 17px;
+    left: 0;
+    margin-top: 5px;
+    right: 0;
+    z-index: 999;
+}
+
 @media (max-width: 1366px) {
     .slide .content-bottom {
         padding-top: 170px;

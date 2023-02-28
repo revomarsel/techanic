@@ -119,7 +119,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         <div class="video bg-none p-0 pr-3">
                             <img src="assets/img/laptop.png" class="img-fluid d-block mx-auto" alt="">
-                            <a href="http://www.youtube.com/watch?v=XSGBVzeBUbk" data-lity=""></a>
+                            <a href="https://www.youtube.com/watch?v=UTGmM4J0gVY" data-lity=""></a>
                         </div>
                     </div>
                 </div>

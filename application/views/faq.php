@@ -9,10 +9,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-md-12 text-center" data-aos="fade-zoom-in" data-aos-delay="200">
                     <h3 class="text-white"><?= trans('text_120') ?></h3>
                     <div class="space-50"></div>
-                    <form class="subscribe-form row m-0">
+                    <div class="subscribe-form row m-0 potition-relative">
                         <div class="col-lg-5 col-md-8 col-10 offset-md-3 pl-0 text-left">
                             <div class="form-group mb-3">
                                 <input type="text" class="form-control form-faq" placeholder="<?= trans('text_121') ?>">
+                                <div class="suggestion">
+                                    <ul class="list-group"></ul>
+                                </div>
                             </div>
                             <div class="d-flex">
                                 <a type="mytechanic" href="#faq" class="filter-faq anchor btn w-auto font-size-12 btn-mytechanic">
@@ -26,7 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <i class="fa fa-search"></i>
                             </a>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,7 +61,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="video">
                                                 <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
                                                 <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
-                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                                <a href="https://www.youtube.com/watch?v=ny0oJ43qIGI" data-lity></a>
                                             </div>
                                         </div>
                                     </div>
@@ -87,7 +90,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="video">
                                                 <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
                                                 <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
-                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                                <a href="https://www.youtube.com/watch?v=ny0oJ43qIGI" data-lity></a>
                                             </div>
                                         </div>
                                     </div>
@@ -116,7 +119,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="video">
                                                 <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
                                                 <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
-                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                                <a href="https://www.youtube.com/watch?v=PQAbjjl_f5M" data-lity></a>
                                             </div>
                                         </div>
                                     </div>
@@ -145,7 +148,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="video">
                                                 <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
                                                 <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
-                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                                <a href="https://www.youtube.com/watch?v=NtFyX2d59bo" data-lity></a>
                                             </div>
                                         </div>
                                     </div>
@@ -159,12 +162,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="card-header" id="heading_5">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapse_5" aria-expanded="false" aria-controls="collapse_5">
+                                        data-target="#collapse_4" aria-expanded="false" aria-controls="collapse_4">
                                         <?= trans('text_130') ?>
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapse_5" class="collapse" aria-labelledby="heading_5"
+                            <div id="collapse_4" class="collapse" aria-labelledby="heading_5"
                                 data-parent="#faqAccordion">
                                 <div class="card-body row">
                                     <div class="col-md-4">
@@ -172,7 +175,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="video">
                                                 <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
                                                 <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
-                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                                <a href="https://www.youtube.com/watch?v=Ada3PdA7sb4" data-lity></a>
                                             </div>
                                         </div>
                                     </div>
@@ -188,12 +191,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="card-header" id="heading_6">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapse_6" aria-expanded="false" aria-controls="collapse_6">
+                                        data-target="#collapse_5" aria-expanded="false" aria-controls="collapse_5">
                                         <?= trans('text_132') ?>
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapse_6" class="collapse" aria-labelledby="heading_6"
+                            <div id="collapse_5" class="collapse" aria-labelledby="heading_6"
                                 data-parent="#faqAccordion">
                                 <div class="card-body row">
                                     <div class="col-md-4">
@@ -201,7 +204,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="video">
                                                 <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
                                                 <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
-                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                                <a href="https://www.youtube.com/watch?v=k_bNZm87uGw" data-lity></a>
                                             </div>
                                         </div>
                                     </div>
@@ -218,12 +221,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="card-header" id="heading_10">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapse_10" aria-expanded="false" aria-controls="collapse_10">
+                                        data-target="#collapse_6" aria-expanded="false" aria-controls="collapse_6">
                                         <?= trans('text_134') ?> 
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapse_10" class="collapse" aria-labelledby="heading_10"
+                            <div id="collapse_6" class="collapse" aria-labelledby="heading_10"
                                 data-parent="#faqAccordion">
                                 <div class="card-body row">
                                     <div class="col-md-4">
@@ -231,7 +234,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="video">
                                                 <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
                                                 <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
-                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                                <a href="https://www.youtube.com/watch?v=cej31gCuJI0" data-lity></a>
                                             </div>
                                         </div>
                                     </div>
@@ -260,7 +263,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="video">
                                                 <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
                                                 <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
-                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                                <a href="https://www.youtube.com/watch?v=NtFyX2d59bo" data-lity></a>
                                             </div>
                                         </div>
                                     </div>
@@ -295,7 +298,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="video">
                                                 <img src="assets/img/mobile.png" class="d-none-mobile img-fluid mx-auto" alt="">
                                                 <img src="assets/img/mobile-landscape.png" class=" d-none-pc img-fluid mx-auto" alt="">
-                                                <a href="https://www.youtube.com/watch?v=2PtGxaaCApg" data-lity></a>
+                                                <a href="https://www.youtube.com/watch?v=NtFyX2d59bo" data-lity></a>
                                             </div>
                                         </div>
                                     </div>
@@ -322,4 +325,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </div>
     </section>
-    

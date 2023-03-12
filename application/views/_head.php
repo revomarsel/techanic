@@ -123,7 +123,7 @@
                         <li class="nav-item">
                             <a class="nav-link anchor <?= $url == 'faq' ? 'active': '' ?>" href="<?= site_url().'faq'.($lang == 'en-id' ? '?lang=en-id'  : '') ?>">FAQ ?</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fa fa-globe mr-2"></i><?php echo $lang == 'en-id' ? 'EN'  : 'ID' ?>
@@ -132,7 +132,7 @@
                                 <a class="dropdown-item anchor" href="<?= site_url() ?>">Bahasa Indonesia</a>
                                 <a class="dropdown-item anchor" href="<?= site_url().'?lang=en-id' ?>">English</a>
                             </div>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>

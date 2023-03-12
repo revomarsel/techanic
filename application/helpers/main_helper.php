@@ -264,8 +264,8 @@ if (!function_exists('trans')) {
                 return 'MyTechanic is a repair service marketplace platform designed to easily find a repair place and equipped with an <br><b>order tracking feature</b>, to keep transaction history for <br> <b>warranty claim purposes</b>.
                 ';
             }else{
-                return 'MyTechanic sebuah marketplace platform jasa service reparasi bertujuan
-                memudahkan pencarian tempat reparasi dan dilengkapi juga  <br><b>fitur tracking order</b>, hingga menyimpan histori transaksi untuk keperluan <br> <b>klaim garansi</b>';
+                return 'MyTechanic marketplace jasa service reparasi bertujuan
+                Memudahkan Customer Mencari Mitra Reparasi & dilengkapi juga <b>fitur tracking order</b>, hingga menyimpan histori transaksi untuk keperluan klaim garansi';
             }
         }
 
@@ -1120,7 +1120,7 @@ if (!function_exists('trans')) {
                 if($lang == "en-id"){
                 return "Quality Control";
                 }else{
-                return "Quality Control";
+                return "Quality Control <br> Check List System ";
                 }
                 }
                 
@@ -1144,7 +1144,7 @@ if (!function_exists('trans')) {
                 if($lang == "en-id"){
                 return "Warranty Record";
                 }else{
-                return "Catat Garansi";
+                return "Pencatatan Terhadap Garansi Secara Transaparan";
                 }
                 }
                 

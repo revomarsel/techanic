@@ -233,4 +233,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <?php $this->load->view('_testimoni'); ?>
 
+    <div class="space-100"></div>
+    <?php $this->load->view('_blog_item'); ?>
+
     <div class="space-100 d-none-mobile"></div>

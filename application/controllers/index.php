@@ -70,6 +70,23 @@ class Index extends CI_Controller {
 		$this->load->view('faq');
 		$this->load->view('_footer');
 	}
+	
+	
+	public function blog(){
+		$data['title'] = $this->title;
+		$data['type_head'] = 'active';
+		$this->load->view('_head',$data);
+		$this->load->view('blog');
+		$this->load->view('_footer');
+	}
+	
+	public function blog_detail(){
+		$data['title'] = $this->title;
+		$data['type_head'] = 'active';
+		$this->load->view('_head',$data);
+		$this->load->view('blog_detail');
+		$this->load->view('_footer');
+	}
 
 	public function search_faq(){
 		$search = $this->input->post('search');

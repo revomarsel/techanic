@@ -540,9 +540,9 @@ if (!function_exists('trans')) {
 
         if($type == 'text_45'){
             if($lang == 'en-id'){
-                return "1000+ Reparation Places";
+                return "Find Nearby";
             }else{
-                return '1000+ Tempat Reparasi';   
+                return 'Temukan Lokasi Terdekat';
             }
         }
         

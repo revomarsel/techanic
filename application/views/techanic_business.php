@@ -275,6 +275,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="space-50"></div>
     
     <?php $this->load->view('_testimoni'); ?>
+    <div class="space-100"></div>
+    <?php $this->load->view('_blog_item'); ?>
 
     <div class="space-100"></div>
     <section id="download-techanic-business">

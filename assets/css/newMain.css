@@ -1573,9 +1573,45 @@ footer .footer-widgets .widget.main {
     height: 65px;
 }
 
+.box.article > h3 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    height: 55px;
+}
+
+.foxapp-header.active {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    border-radius: 0;
+    border: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background: #0e3c71;
+    padding: 10px 0px;
+}
+
+.boxes .box.article p {
+    color: #3f3f3f;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
 .box > p{
     text-align: left;
     font-size: 17px;
+}
+
+.box.article > .width-img-md {
+    width: 450px;
+    height: 180px;
+    object-fit: cover;
 }
 
 .text-blue-gradient{
@@ -2473,7 +2509,7 @@ h3.title {
 .news-meta li {
     display: inline-block;
     font-size: 14px;
-    color: #c2c2c2;
+    color: #7b7b7b;
     padding-right: 10px;
     margin-right: 5px;
 }

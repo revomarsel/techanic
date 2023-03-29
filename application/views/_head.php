@@ -69,7 +69,7 @@
     <!-- End Preloader -->
 
     <!-- Start Header -->
-    <header class="foxapp-header">
+    <header class="foxapp-header <?= @$type_head === 'active'  ? "active" : "" ?>">
         <nav class="navbar navbar-expand-lg navbar-light" id="foxapp_menu">
             <div class="container">
                 <?php
@@ -91,8 +91,8 @@
                     }
                 ?>
                 <a class="navbar-brand" href="<?= site_url() ?>">
-                    <img src="assets/img/<?= $logoWhite ?>" class="white img-fluid <?= $class ?>" alt="">
-                    <img src="assets/img/<?= $logoBlack ?>" class="black img-fluid <?= $class ?>" alt="">
+                    <img src="<?= base_url() ?>assets/img/<?= $logoWhite ?>" class="white img-fluid <?= $class ?>" alt="">
+                    <img src="<?= base_url() ?>assets/img/<?= $logoBlack ?>" class="black img-fluid <?= $class ?>" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_menu"
                     aria-controls="main_menu" aria-expanded="false" aria-label="Toggle navigation">

@@ -10,11 +10,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="mb-0 border-bottom pb-4 row">
                         <div class="col-md-6">
                             <h4 class=" text-left mt-3 title text-capitalize">
-                                <b>Artikel dan informasi terbaru seputar Reparasi.</b> <br> <span class="font-weight-normal font-size-20">Temukan informasi terpercaya dengan cepat dan mudah</span>
+                                <b>Artikel dan informasi terbaru seputar Reparasi.</b> <br> <span class="font-weight-normal font-size-20 d-none-mobile">Temukan informasi terpercaya dengan cepat dan mudah</span>
                             </h4>
                         </div>
                         <div class="col-md-6">
-                            <div class="subscribe-form row m-0 potition-relative" style="justify-content: end;align-items: flex-end;height: 100%;">
+                            <div class="subscribe-form row m-0 potition-relative blog">
                                 <div class="col-lg-5 col-md-8 col-10 offset-md-3 pl-0 text-left">
                                     <div class="form-group mb-0">
                                         <input type="text" class="form-control form-faq" placeholder="Cari Kategori Tertentu ?">

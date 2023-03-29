@@ -1,7 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-    
+    <style>
+        .floating-wpp {
+            display: none!important;
+        }
+    </style>
     <section class="single-blog-with-sidebar single-blog-page padding-100">
         <div class="container">
             <div class="row">

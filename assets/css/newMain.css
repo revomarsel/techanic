@@ -1594,7 +1594,7 @@ footer .footer-widgets .widget.main {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     background: #0e3c71;
-    padding: 10px 0px;
+    padding: 10px 10px;
 }
 
 .boxes .box.article p {

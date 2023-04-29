@@ -21,6 +21,47 @@ if (!function_exists('get_thubnail')) {
     }
 }
 
+
+if (!function_exists('limit_str')) {
+    function limit_str($str,$limit){
+        if (strlen($str) > $limit){
+            $str = substr($str, 0, $limit) . '...';
+        }
+        return $str;
+    }
+}
+
+if (!function_exists('clean_str')) {
+    function clean_str($str)
+    {
+        $ci = &get_instance();
+        $str = $ci->security->xss_clean($str);
+        $str = remove_special_characters($str, false);
+        return $str;
+    }
+}
+
+if (!function_exists('share_link')) {
+    function share_link($slug,$type = 'fb')
+    {
+        $return = '';
+        if($type == 'fb'){
+            $return = 'https://www.facebook.com/sharer/sharer.php?u='.$slug;
+        }
+        
+        if($type == 'twiter'){
+            $return = 'https://twitter.com/share?url='.$slug;
+        }
+        
+        
+        if($type == 'wa'){
+            $return = 'https://api.whatsapp.com/send?text='.$slug;
+        }
+
+        return $return;
+    }
+}
+
 if (!function_exists('formatted_date_indo')) {
     function formatted_date_indo($date){
     	$date = formatted_date($date,"Y-m-d");

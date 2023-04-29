@@ -188,7 +188,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="video bg-none p-0 business-right-img">
                 <img src="assets/img/gallery-1.png" class="img-fluid d-block mx-auto" alt="">
-                <a href="https://www.youtube.com/watch?v=qMRjqCrCfu0" data-lity=""></a>
+                <a href="https://www.youtube.com/watch?v=iLXzRCXahz0&ab_channel=PIKALERCREATIVESTUDIO" data-lity=""></a>
             </div>
         </div>
         <div class="container">

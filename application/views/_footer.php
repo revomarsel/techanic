@@ -92,7 +92,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="<?= base_url() ?>assets/js/jquery-3.3.1.min.js"></script>
     
-    <link rel="stylesheet" href="assets/floating-whatsapp-master/floating-wpp.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/floating-whatsapp-master/floating-wpp.min.css">
     <script type="text/javascript" src="<?= base_url() ?>assets/floating-whatsapp-master/floating-wpp.min.js"></script>
 
     <script type="text/javascript">
@@ -116,7 +116,7 @@
                 $.ajax({
                     type: "POST",
                     url: "<?= site_url('search') ?>",
-                    data: {'search':val.toString()},
+                    data: {'search':val.toString(),'type':'faq'},
                     dataType: "json",
                     success: function(resultData){
                         if(resultData.length > 0){
@@ -124,6 +124,58 @@
                             e.preventDefault();
                             for (var i = 0; i < resultData.length; i++){
                                 suggestion += '<li class="list-group-item"><a class="faq-suggestion anchor" href="#collapse_'+resultData[i].id+'" id="'+resultData[i].id+'">'+resultData[i].title+'</a></li>';
+                            }
+                            if(suggestion !== ''){
+                                $('.list-group').html(suggestion);
+                            }
+                        }else{
+                            $('.list-group').html('');
+                        }
+                    }
+                });
+            });
+            
+            $('.form-blog').keyup( function(e) {
+                var val = $(this).val();
+                if(val.length > 3){
+                    $.ajax({
+                        type: "POST",
+                        url: "<?= site_url('search') ?>",
+                        data: {'search':val.toString(),'type':'blog'},
+                        dataType: "json",
+                        success: function(resultData){
+                            if(resultData.length > 0){
+                                var suggestion = '';
+                                e.preventDefault();
+                                for (var i = 0; i < resultData.length; i++){
+                                    suggestion += '<li class="list-group-item"><a class="faq-suggestion anchor" href="<?= site_url('blog')?>/'+resultData[i].slug+'">'+resultData[i].title+'</a></li>';
+                                }
+                                if(suggestion !== ''){
+                                    $('.list-group').html(suggestion);
+                                }
+                            }else{
+                                $('.list-group').html('');
+                            }
+                        }
+                    });
+                }else{
+                    $('.list-group').html('');
+                }
+            });
+            
+            $('.submit-blog').click( function(e) {
+                var val = $('.form-blog').val();
+                $.ajax({
+                    type: "POST",
+                    url: "<?= site_url('search') ?>",
+                    data: {'search':val.toString(),'type':'blog'},
+                    dataType: "json",
+                    success: function(resultData){
+                        if(resultData.length > 0){
+                            var suggestion = '';
+                            e.preventDefault();
+                            for (var i = 0; i < resultData.length; i++){
+                                suggestion += '<li class="list-group-item"><a class="faq-suggestion anchor" href="<?= site_url('blog')?>/'+resultData[i].slug+'">'+resultData[i].title+'</a></li>';
                             }
                             if(suggestion !== ''){
                                 $('.list-group').html(suggestion);

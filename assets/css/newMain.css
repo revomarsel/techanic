@@ -2342,7 +2342,7 @@ h3.title {
     background-color: #04264F;
 }
 
-.form-faq{
+.form-faq , .form-blog{
     height: 50px;
     border-radius: 11px;
     font-size: 15px;

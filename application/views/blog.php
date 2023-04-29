@@ -17,11 +17,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="subscribe-form row m-0 potition-relative blog">
                                 <div class="col-lg-5 col-md-8 col-10 offset-md-3 pl-0 text-left">
                                     <div class="form-group mb-0">
-                                        <input type="text" class="form-control form-faq" placeholder="Cari Kategori Tertentu ?">
+                                        <input type="text" value="<?= @$kategori['title'] ?>" class="form-control form-blog" placeholder="Cari Kategori Tertentu ?">
+                                        <div class="suggestion">
+                                            <ul class="list-group"></ul>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-md-1 col-1 text-left pl-0">
-                                    <a href="#faq" class="anchor btn btn-primary shadow px-4">
+                                    <a href="#" class="anchor submit-blog btn btn-primary shadow px-4">
                                         <i class="fa fa-search"></i>
                                     </a>
                                 </div>
@@ -29,66 +32,51 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>
                     <div class="space-25"></div>
-                    <div class="row mb-3 mx-0">
-                        <div class="col-md-4">
-                            <a href="<?= site_url('blog')?>/Bagaimana Cara Menangani Kerusakan Karena Air atau Cairan?"> <img src="uploads/art_waterdamaged.jpg" class="img-fluid width-img-md" alt=""> </a>
+                    <?php if(!empty($blog)){ ?>
+                        <div class="row">
+                            <?php foreach($blog as $u => $t){ ?>
+                                <?php if($u === 0){ ?>
+                                    <div class="col-md-12">
+                                        <div class="row mb-3">
+                                            <div class="col-md-4">
+                                                <a href="<?= site_url('blog')?>/<?= $t['kategori_slug'] ?>/<?= $t['slug'] ?>"> <img src="<?= base_url($t['main_image']) ?>" style="height: 220px;object-fit: cover;width: 100%;" class="img-fluid width-img-md" alt=""> </a>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <a href="<?= site_url('blog')?>/<?= $t['kategori_slug'] ?>"><b><?= $t['kategori_title'] ?></b></a>
+                                                <h3><a href="<?= site_url('blog')?>/<?= $t['kategori_slug'] ?>/<?= $t['slug'] ?>"> <?= $t['title'] ?></a></h3>
+                                                <div class="mb-3">
+                                                    <ul class="news-meta">
+                                                        <li><span class="lnr lnr-user"></span> By Admin</li>
+                                                        <li><span class="lnr lnr-clock"></span>  <?= formatted_date_indo($t['created_at']) ?></li>
+                                                    </ul>
+                                                </div>
+                                                <p>
+                                                <?= limit_str($t['short_content'],500) ?>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <?php }else{ ?>
+                                    <div class="col-md-4 col-12">
+                                        <div class="box article">
+                                            <img src="<?= base_url($t['main_image']) ?>" class="img-fluid width-img-md" alt="">
+                                            <div class="space-20"></div>
+                                            <a class="font-size-14" href="<?= site_url('blog')?>/<?= $t['kategori_slug'] ?>"><b><?= $t['kategori_title'] ?></b></a>
+                                            <h3 class="font-size-18" style="height:auto"><a href="<?= site_url('blog')?>/<?= $t['kategori_slug'] ?>/<?= $t['slug'] ?>"> <?= $t['title'] ?></a></h3>
+                                            <p>
+                                                <?= limit_str($t['short_content'],200) ?>
+                                            </p>
+                                        </div>
+                                    </div>
+                                <?php } ?>
+                            <?php } ?>
                         </div>
-                        <div class="col-md-8">
-                            <a href="#" class="font-weight-bold">Panduan Customer</a>
-                            <h3><a href="<?= site_url('blog')?>/Bagaimana Cara Menangani Kerusakan Karena Air atau Cairan?">Bagaimana Cara Menangani Kerusakan Karena Air atau Cairan?</a></h3>
-                            <div class="mb-3">
-                                <ul class="news-meta">
-                                    <li><span class="lnr lnr-user"></span> By Admin</li>
-                                    <li><span class="lnr lnr-clock"></span> 26 Feb 2023</li>
-                                </ul>
-                            </div>
-                            <p>
-                            Apa yang harus dilakukan jika iPhone atau iPad Anda jatuh dalam air, kena tumpahan, dll...?
-                            • Matikan segera iPhone/iPad Anda
-                            • Jangan mencoba untuk mengisi daya baterai iPhone/iPad Anda untuk mengetahui apakah kondisinya hidup atau mati. Tindakan ini dapat menyebabkan arus pendek ke motherboard iPhone/iPad Anda.
-                            • Bawa segera perangkat Anda ke Dr. Gadget untuk mendapatkan hasil terbaik.
-                            </p>
+                    <?php }else{ ?>
+                        <div class="img-empty">
+                            <img src="<?= base_url() ?>assets/img/empty-folder.png" alt="kosong">
+                            <h4>Data Yang Dicari Tidak Ditemukan</h4>
                         </div>
-                    </div>
-                    <div class="img-empty" style="display:none">
-                        <img src="assets/img/empty-folder.png" alt="kosong">
-                        <h4>Data Yang Dicari Tidak Ditemukan</h4>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-12">
-                            <div class="px-2 box article">
-                                <img src="uploads/header_artikel__300_300.jpg" class="img-fluid width-img-md" alt="">
-                                <div class="space-20"></div>
-                                <a href="#" class="font-weight-bold">Panduan Teknisi</a>
-                                <h3><a>Masalah IC dan Motherboard?</a></h3>
-                                <p>
-                                    Jenis masalah apa sajakah yang mungkin timbul pada motherboard atau IC? • Layar sentuh tidak berfungsi• Fungsi kamera rusak• Tombol abu-abu muncul di ikon Wi-Fi - Wi-Fi tidak terdeteksi• iPhone/iPad tiba-tiba…
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-12">
-                            <div class="px-2 box article">
-                                <img src="uploads/IC__300_300.jpg" class="img-fluid width-img-md" alt="">
-                                <div class="space-20"></div>
-                                <a href="#" class="font-weight-bold">Panduan Customer</a>
-                                <h3><a>Tips untuk Merawat Battery iPhone/iPad/Macbook</a></h3>
-                                <p>
-                                    Lakukan Pengisian battery saat INDIKATOR menunjukkan tanda merah, dan Lepas Pengisian saat battery sudah Full atau 100%. Dalam hal ini bagi kita pengguna device sering mengalami kehabisan battery yang menyebabkan device…
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-12">
-                            <div class="px-2 box article">
-                                <img src="uploads/Anda_Punya_iPhone_Baru_Anda_Harus_Mulai_Merawatnya,_Ini_Caranya__300_300.jpg" class="img-fluid width-img-md" alt="">
-                                <div class="space-20"></div>
-                                <a href="#" class="font-weight-bold">Panduan Customer</a>
-                                <h3><a>Anda Punya iPhone Baru? Anda Harus Mulai Merawatnya, Ini Caranya</a></h3>
-                                <p>
-                                Service Iphone Terdekat - Adalah umum bahwa pada tanggal-tanggal tertentu, seseorang menghadiahkan iPhone baru yang mereka berikan pada orang tersayang saat merayakan sesuatu, atau mereka membeli sendiri untuk "memanjakan…
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    <?php } ?>
                 </div>
             </div>
         </div>

@@ -55,9 +55,10 @@ $route['about-us'] = 'Index/about_us';
 $route['faq'] = 'Index/faq';
 $route['join-a-team'] = 'Index/join_team';
 $route['blog'] = 'Index/blog';
-$route['blog/(:any)'] = 'Index/blog_detail';
+$route['blog/(:any)'] = 'Index/blog';
+$route['blog/(:any)/(:any)'] = 'Index/blog_detail';
 
-$route['search']['POST'] = 'Index/search_faq';
+$route['search']['POST'] = 'Index/search';
 
 $route['en/product'] = 'Index/product';
 $route['en/about-us'] = 'Index/about_us';
